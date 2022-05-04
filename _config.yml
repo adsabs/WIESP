@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Workshop on Information Extraction from Scientific Publications
 baseurl: /WIESP # the subpath of your site, e.g. /blog
 url: https://ui.adsabs.harvard.edu/ # the base hostname & protocol for your site, e.g. http://example.com
-domain: ui.adsabs.harvard.edu
+#domain: ui.adsabs.harvard.edu # Forces HTTPS if no http:// or https:// is specified
 #twitter_username: adsabs
 #github_username: adsabs
 #permalink: /:categories/:title
