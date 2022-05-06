@@ -6,7 +6,7 @@ permalink: /2022/
 
 ### WIESP @ AACL-IJCNLP 2022 
 
-The first Workshop on Information Extraction from Scientific Publications will be held at the [AACL-ICNLP 2022](https://www.aacl2022.org/) and it will have:
+The first Workshop on Information Extraction from Scientific Publications will be held at the [AACL-ICNLP 2022](https://www.aacl2022.org/) and it will feature:
 
 - Paper Presentations
 - Keynote talks
