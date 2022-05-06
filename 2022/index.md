@@ -15,7 +15,9 @@ The first Workshop on Information Extraction from Scientific Publications will b
 - Invited paper presentations
 - A virtual social cum poster presentation
 
-### Submission Site
+# Submission Site
+
+TBA shortly
 
 # Shared Tasks
 
