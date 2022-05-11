@@ -70,4 +70,4 @@ We follow the same policies as [AACL-IJCNLP 2022](https://www.aacl2022.org/) reg
 
 # Contact
 
-You can contact us at `adshelp [at] cfa.harvard.edu`.
+You can contact us at `WIESP_AACL2022 [at] softconf.com`.

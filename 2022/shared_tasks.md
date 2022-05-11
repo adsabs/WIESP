@@ -22,7 +22,7 @@ We provide a dataset with acknowledgements and full-text fragments from the [NAS
 - `ner_tags`: The list of NER tags (in IOB2 format)
 - `ner_ids`: The pre-computed list of ids corresponding ner_tags, as given by the dictionary in [JSON Tags list](./data/NER-Tags.json)
 
-The predictions to be provided by the participants must be given in the same JSON Lines format, and they must include the same `unique_id` and `tokens` keys from the dataset, as well as the list of predicted NER tags under a `pred_ner_tags` key (see [example](./NER-Sample-Predictions.jsonl)).
+The predictions to be provided by the participants must be given in the same JSON Lines format, and they must include the same `unique_id` and `tokens` keys from the dataset, as well as the list of predicted NER tags under a `pred_ner_tags` key (see [example](./data/NER-Sample-Predictions.jsonl)).
 
 # Evaluation & Baseline
 
@@ -40,5 +40,5 @@ The training dataset and baseline will be released in the coming weeks.
 
 # Contact
 
-You can contact us at `adshelp [at] cfa.harvard.edu`.
+You can contact us at `WIESP_AACL2022 [at] softconf.com`.
 
