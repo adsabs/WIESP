@@ -26,7 +26,7 @@ The predictions to be provided by the participants must be given in the same JSO
 
 # Evaluation & Baseline
 
-In this shared task, the [Matthews Correlation coefficient](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.matthews_corrcoef.html) will be used to evaluate the predictions against the ground truth. The baseline will be computed using the [astroBERT](https://ui.adsabs.harvard.edu/abs/2021arXiv211200590G/abstract) trained for this NER task.
+Submissions will be scored using both the CoNLL-2000 shared task seqeval F1-Score at the entity level and [scikit-learn's Matthews correlation coefficient method](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.matthews_corrcoef.html) at the token level. We also encourage authors to propose their own evaluation metrics. The baseline will be computed using the [astroBERT](https://ui.adsabs.harvard.edu/abs/2021arXiv211200590G/abstract) trained for this NER task.
 
 # Challenge
 
