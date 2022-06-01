@@ -22,7 +22,7 @@ We provide a dataset with acknowledgements and full-text fragments from the [NAS
 - `ner_tags`: The list of NER tags (in IOB2 format)
 - `ner_ids`: The pre-computed list of ids corresponding ner_tags, as given by the dictionary in [JSON Tags list](./data/NER-Tags.json)
 
-The predictions to be provided by the participants must be given in the same JSON Lines format, and they must include the same `unique_id` and `tokens` keys from the dataset, as well as the list of predicted NER tags under a `pred_ner_tags` key (see [example](./data/NER-Sample-Predictions.jsonl)).
+The predictions to be provided by the participants must be given in the same JSON Lines format, and they must include the same `unique_id` and `tokens` keys from the dataset, as well as the list of predicted NER tags under a `pred_ner_tags` key (see [example](https://huggingface.co/datasets/fgrezes/WIESP2022-NER/blob/main/WIESP2022-NER-DEV-sample-predictions.jsonl)).
 
 # Evaluation & Baseline
 
