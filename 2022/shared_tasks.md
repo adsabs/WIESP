@@ -35,14 +35,20 @@ Participants should create accounts on [Huggingface](https://huggingface.co/data
 
 Participants should also create accounts on [Codalab](https://codalab.lisn.upsaclay.fr/competitions/5062) and follow the instructions on how to submit their predictions for scoring. 
 
+# Registration
+
+***Please fill in this form to report your intention to participate in the shared task*** 
+
+https://forms.office.com/r/KKpeKJBLy3 
+
 # Timeline
 
 - Training+Validation Data Release: June 1, 2022
 - Validation Phase: June 1 - July 31, 2022
 - Test Data Release: August 1, 2022
-- Final Scoring Period: August 1 - August 8, 2022
-- Paper Submission Deadline: August 25, 2022
-- Notification of Paper Acceptance: September 25, 2022
+- Final Scoring Period: August 1 - August 10, 2022
+- System Report Submission: August 25, 2022
+- Notification: September 25, 2022
 - Camera-ready Submission Deadline: October 10, 2022
 - Event Date: November 20, 2022 (online)
 
