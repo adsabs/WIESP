@@ -15,14 +15,12 @@ The task consists on building a system (any strategy is valid as long as it is a
 
 # Dataset
 
-We provide a dataset with acknowledgements and full-text fragments from the [NASA ADS](https://ui.adsabs.harvard.edu/) with manually tagged astronomical facilities and other entities of interest (e.g., celestial objects), as well as a baseline metric obtained with the [astroBERT model](https://ui.adsabs.harvard.edu/abs/2021arXiv211200590G/abstract). 
-
-Dataset with full description [here](https://huggingface.co/datasets/fgrezes/WIESP2022-NER).
+We provide a [dataset with acknowledgements and full-text fragments](https://huggingface.co/datasets/fgrezes/WIESP2022-NER) from the [NASA ADS](https://ui.adsabs.harvard.edu/) with manually tagged astronomical facilities and other entities of interest (e.g., celestial objects), as well as a baseline metric obtained with the [astroBERT model](https://ui.adsabs.harvard.edu/abs/2021arXiv211200590G/abstract).
 
 # Evaluation & Baseline
 
-Submissions will be scored using both the CoNLL-2000 shared task [seqeval](https://github.com/chakki-works/seqeval) F1-Score at the entity level and [scikit-learn's Matthews correlation coefficient method](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.matthews_corrcoef.html) at the token level. We also encourage authors to propose their own evaluation metrics. The baseline will be computed using the [astroBERT](https://ui.adsabs.harvard.edu/abs/2021arXiv211200590G/abstract) trained for this NER task. The submissions will be scored on [Codalab](https://codalab.lisn.upsaclay.fr/competitions/5062).  
-Detailed baseline scores [here](https://ui.adsabs.harvard.edu/WIESP/baseline-scores/).
+Submissions will be scored using both the CoNLL-2000 shared task [seqeval](https://github.com/chakki-works/seqeval) F1-Score at the entity level and [scikit-learn's Matthews correlation coefficient method](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.matthews_corrcoef.html) at the token level. We also encourage authors to propose their own evaluation metrics. The baseline is computed using the [astroBERT](https://ui.adsabs.harvard.edu/abs/2021arXiv211200590G/abstract) trained for this NER task (see [the detailed baseline scores](SharedTask_BaselineScores)). The submissions will be scored on [Codalab](https://codalab.lisn.upsaclay.fr/competitions/5062).  
+
 
 # Challenge
 
@@ -40,7 +38,7 @@ Participants should also create accounts on [Codalab](https://codalab.lisn.upsac
 
 ***Please fill in this form to report your intention to participate in the shared task*** 
 
-https://forms.office.com/r/KKpeKJBLy3 
+[https://forms.office.com/r/KKpeKJBLy3](https://forms.office.com/r/KKpeKJBLy3)
 
 # Timeline
 
