@@ -17,12 +17,12 @@ The task consists on building a system (any strategy is valid as long as it is a
 
 We provide a dataset with acknowledgements and full-text fragments from the [NASA ADS](https://ui.adsabs.harvard.edu/) with manually tagged astronomical facilities and other entities of interest (e.g., celestial objects), as well as a baseline metric obtained with the [astroBERT model](https://ui.adsabs.harvard.edu/abs/2021arXiv211200590G/abstract). 
 
-Dataset with full description here: https://huggingface.co/datasets/fgrezes/WIESP2022-NER)
+Dataset with full description [here](https://huggingface.co/datasets/fgrezes/WIESP2022-NER).
 
 # Evaluation & Baseline
 
-Submissions will be scored using both the CoNLL-2000 shared task [seqeval](https://github.com/chakki-works/seqeval) F1-Score at the entity level and [scikit-learn's Matthews correlation coefficient method](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.matthews_corrcoef.html) at the token level. We also encourage authors to propose their own evaluation metrics. The baseline will be computed using the [astroBERT](https://ui.adsabs.harvard.edu/abs/2021arXiv211200590G/abstract) trained for this NER task. The submissions will be scored on [Codalab](https://codalab.lisn.upsaclay.fr/competitions/5062)  
-Detailed scores [here]([/2022/baseline-scores](https://ui.adsabs.harvard.edu/WIESP/baseline-scores/).
+Submissions will be scored using both the CoNLL-2000 shared task [seqeval](https://github.com/chakki-works/seqeval) F1-Score at the entity level and [scikit-learn's Matthews correlation coefficient method](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.matthews_corrcoef.html) at the token level. We also encourage authors to propose their own evaluation metrics. The baseline will be computed using the [astroBERT](https://ui.adsabs.harvard.edu/abs/2021arXiv211200590G/abstract) trained for this NER task. The submissions will be scored on [Codalab](https://codalab.lisn.upsaclay.fr/competitions/5062).  
+Detailed baseline scores [here](https://ui.adsabs.harvard.edu/WIESP/baseline-scores/).
 
 # Challenge
 
