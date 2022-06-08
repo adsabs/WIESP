@@ -22,5 +22,5 @@ SciBERT: AllenAI's SciBERT model finetuned to the task ([arXiv](https://arxiv.or
 
 ## In depth comparison
 Absolute precision and recall improvement per label class, from the astroBERT model over SciBERT.
-<img src="/assets/astroBERT_vs_SciBERT.png" width="550"/>
-<!-- ![precision / recall improvement for astroBERT over SciBERT](/assets/astroBERT_vs_SciBERT.png){:width="100px"} -->
+<!-- <img src="/assets/astroBERT_vs_SciBERT.png" width="550"/> -->
+![precision / recall improvement for astroBERT over SciBERT](/assets/astroBERT_vs_SciBERT.png)
