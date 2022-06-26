@@ -17,7 +17,7 @@ The first Workshop on Information Extraction from Scientific Publications will b
 
 # Submission Site
 
-TBA shortly
+Submission Link: https://softconf.com/aacl2022/WIESP/
 
 # Shared Tasks
 
@@ -43,7 +43,7 @@ We invite regular and work-in-progress papers of the following categories:
 - Paper/Abstract Submission Deadline: August 25, 2022
 - Notification of workshop paper/abstract acceptance: September 25, 2022
 - Camera-ready Submission Deadline: October 10, 2022
-- Workshop: November 24, 2021 (online)
+- Workshop: November 20, 2021 (online)
 
 *All submission deadlines are 11.59 pm UTC -12h (“Anywhere on Earth”)*
 
@@ -54,7 +54,11 @@ Please follow the instructions for conference registration provided on the [AACL
 
 # Submissions
 
-Submission will be via softconf (link to be updated shortly), they should follow the [ACLPUB formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html) and [template files](https://github.com/acl-org/acl-style-files/tree/master). Submissions (Long and Short Papers) will be subject to a double-blind peer-review process. Position papers, Demo papers, and Extended Abstracts need not to be anonymized. Accepted papers will be presented by the authors at the workshop either as a talk or a poster. All accepted papers will be published in the workshop proceedings.
+Submission will be via softconf, they should follow the [ACLPUB formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html) and [template files](https://github.com/acl-org/acl-style-files/tree/master). 
+
+Submission Link: https://softconf.com/aacl2022/WIESP/
+
+Submissions (Long and Short Papers) will be subject to a double-blind peer-review process. Position papers, Demo papers, and Extended Abstracts need not to be anonymized. Accepted papers will be presented by the authors at the workshop either as a talk or a poster. All accepted papers will be published in the workshop proceedings.
 
 We follow the same policies as [AACL-IJCNLP 2022](https://www.aacl2022.org/) regarding preprints and double-submissions. The anonymity period for WIESP 2022 is from July 15 to September 25.  
 
