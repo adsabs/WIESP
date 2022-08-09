@@ -45,8 +45,8 @@ Participants should also create accounts on [Codalab](https://codalab.lisn.upsac
 - Training+Validation Data Release: June 1, 2022
 - Validation Phase: June 1 - July 31, 2022
 - Test Data Release: August 1, 2022
-- Final Scoring Period: August 1 - August 10, 2022
-- System Report Submission: August 25, 2022
+- Final Scoring Period: August 1 - August 26, 2022
+- System Report Submission: September 2, 2022
 - Notification: September 25, 2022
 - Camera-ready Submission Deadline: October 10, 2022
 - Event Date: November 20, 2022 (online)
