@@ -6,7 +6,7 @@ permalink: /2022/
 
 ### WIESP @ AACL-IJCNLP 2022 
 
-The first Workshop on Information Extraction from Scientific Publications will be held at the [AACL-ICNLP 2022](https://www.aacl2022.org/) and it will feature:
+The first Workshop on Information Extraction from Scientific Publications will be held at the [AACL-IJCNLP 2022](https://www.aacl2022.org/) and it will feature:
 
 - Paper Presentations
 - Keynote talks
@@ -56,7 +56,7 @@ Please follow the instructions for conference registration provided on the [AACL
 
 Submission will be via softconf, they should follow the [ACLPUB formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html) and [template files](https://github.com/acl-org/acl-style-files/tree/master). 
 
-Submission Link: https://softconf.com/aacl2022/WIESP/
+Submission Link: [https://softconf.com/aacl2022/WIESP/](https://softconf.com/aacl2022/WIESP/)
 
 Submissions (Long and Short Papers) will be subject to a double-blind peer-review process. Position papers, Demo papers, and Extended Abstracts need not to be anonymized. Accepted papers will be presented by the authors at the workshop either as a talk or a poster. All accepted papers will be published in the workshop proceedings.
 
