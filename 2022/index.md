@@ -40,7 +40,7 @@ We invite regular and work-in-progress papers of the following categories:
 
 # Important Dates
 
-- Paper/Abstract Submission Deadline: September 12, 2022
+- Paper/Abstract Submission Deadline: September 12, 2022 (Final and Firm)
 - Notification of workshop paper/abstract acceptance: October 7, 2022
 - Camera-ready Submission Deadline: October 24, 2022
 - Workshop: November 20, 2021 (online)
