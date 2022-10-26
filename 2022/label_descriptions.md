@@ -1,3 +1,14 @@
+---
+layout: simple-page
+title: Label Definitions for the DEAL Shared Task
+permalink: /2022/LabelDefinitions
+---
+
+## Definitions of the Labels used in the DEAL Shared Task
+Below you will find the full list of labels used in the DEAL shared task, along with their definitions and some examples.  
+In the dataset, tokens are labeled using the [IOB2 format](https://en.wikipedia.org/wiki/Inside%E2%80%93outside%E2%80%93beginning_(tagging)) (ex: B-Archive, I-Archive).
+
+
 |   **Label** (abbreviation)    |   **Definition**   |   **Example**   |
 |:---:|:---:|:---:|
 | Archive (Arc) | A curated collection of the literature or data. Very similar to Database | NASA ADS, MAST |
