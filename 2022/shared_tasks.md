@@ -15,7 +15,7 @@ The task consists on building a system (any strategy is valid as long as it is a
 
 # Dataset
 
-We provide a [dataset with acknowledgements and full-text fragments](https://huggingface.co/datasets/fgrezes/WIESP2022-NER) from the [NASA ADS](https://ui.adsabs.harvard.edu/) with manually tagged astronomical facilities and other entities of interest (e.g., celestial objects), as well as a baseline metric obtained with the [astroBERT model](https://ui.adsabs.harvard.edu/abs/2021arXiv211200590G/abstract).
+We provide a [dataset with acknowledgements and full-text fragments](https://huggingface.co/datasets/fgrezes/WIESP2022-NER) from the [NASA ADS](https://ui.adsabs.harvard.edu/) with manually tagged astronomical facilities and other entities of interest e.g. archive, celestial objects. See [here](LabelDefinitions) for full list, definitions and examples. We also provide baseline metrics obtained with an early version of the [astroBERT model](https://ui.adsabs.harvard.edu/abs/2021arXiv211200590G/abstract).
 
 # Evaluation & Baseline
 
