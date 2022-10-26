@@ -17,7 +17,7 @@ In the dataset, tokens are labeled using the [IOB2 format](https://en.wikipedia.
 | CelestialRegion (CeR) | A defined region projected onto the sky, or celestial coordinates | GOODS field, l=2, b=15 | 
 | Citation (Cit) | A reference to previous work in the literature |  Allen et al. 2012 |
 | Collaboration (Col) | An organizational entity containing multiple organizations, observatories, and/or countries | the Plank Collaboration| 
-| ComputingFacility (CoF) | | |
+| ComputingFacility (CoF) | A facility whose primary purpose is to operate computational resources. | Example: Australian National Computational Infrastructure high-performance computing centre, CINECA supercomputing Centre |
 | Database (DaB) | A curated and searchable set of related data tables (very similar to Archive) | Simbad |
 | Dataset (DaS) | A curated set of data (essentially a single data table) | Gaia EDR3 |
 | EntityOfFutureInterest (EFI) | A general catch all for things that we think may be worth thinking about in the future (often terms related to gravitational waves) | |
@@ -29,13 +29,13 @@ In the dataset, tokens are labeled using the [IOB2 format](https://en.wikipedia.
 | Instrument (Ins) | A device, often, but not always, placed on a telescope, to make a measurement | Infrared Array Camera, NIRCam |
 | Location (Loc) | A named location on Earth | Canada |
 | Mission (Mis) | A spacecraft that is not a telescope or observatory that carries multiple instruments | WIND |
-| Model (Mod) | | |
-| ObservationalTechniques (ObT) | | |
+| Model (Mod) | A named scientific or computational model. | TNG100, Salpeter IMF |
+| ObservationalTechniques (ObT) | A method used to observe celestial objects | Resolved Long-slit Spectroscopy, adaptive optics imaging |
 | Observatory (Obs) | A, often similarly located, group of telescopes | Keck Observatory, Fermi |
 | Organization (Org) | A named organization that is not an observatory |  NASA, University of Toledo|
 | Person (Per) | A named person or their initials | A. Einstein |
-| Proposal (Pro) | | |
-| Software (Sof) | | |
+| Proposal (Pro) | A request for telescope time or funding | 74.C-0209(A), GN-2014B-Q-26 |
+| Software (Sof) | Named computer code or language | Python, Numpy, ClumpFind |
 | Survey (Sur) | An organized search of the sky often dedicated to large scale science projects | 2MASS, SDSS|
 | Tag (Tag) | A HTML tag | <bold><\bold> |
 | Telescope (Tel) | A "bucket" to catch light | Hubble Space Telescope, Discovery Channel Telescope |
