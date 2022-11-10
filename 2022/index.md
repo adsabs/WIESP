@@ -15,6 +15,9 @@ The first Workshop on Information Extraction from Scientific Publications will b
 - Invited paper presentations
 - A virtual social cum poster presentation
 
+## Schedule
+The schedule for the talks can be found [here](Schedule).
+
 # Submission Site
 
 Submission Link: https://softconf.com/aacl2022/WIESP/
