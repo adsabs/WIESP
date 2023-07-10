@@ -33,3 +33,4 @@ The Workshop on Information Extraction from Scientific Publications (WIESP) is a
 ## Editions
 
 - [WIESP @ AACL-IJCNLP 2022](2022)
+- [WIESP @ AACL-IJCNLP 2023](2023)
