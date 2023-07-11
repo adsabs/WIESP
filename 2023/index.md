@@ -69,7 +69,7 @@ We follow the same policies as [AACL-IJCNLP 2022](https://www.aacl2022.org/) reg
 
 # Organizers
 
-- [Tirthankar Ghosal](https://elitr.eu/tirthankar-ghosal), Oak Ridge National Laboratory, USA
+- [Tirthankar Ghosal](https://elitr.eu/tirthankar-ghosal), National Center for Computational Sciences, Oak Ridge National Laboratory, USA
 - [Felix Grezes](https://ui.adsabs.harvard.edu/about/team/team/fgrezes.html), Center for Astrophysics \| Harvard & Smithsonian, USA
 - [Thomas Allen](https://ui.adsabs.harvard.edu/about/team/team/tallen.html), Center for Astrophysics \| Harvard & Smithsonian, USA
 - [Kelly Lockhart](https://ui.adsabs.harvard.edu/about/team/team/klockhart.html) , Center for Astrophysics \| Harvard & Smithsonian, USA
