@@ -36,7 +36,7 @@ theme: minima
 
 header_pages:
   - index.md
-  - 2022/index.md
+  - 2023/index.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
