@@ -1,7 +1,8 @@
 ---
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
-title: "2022 Call for papers"
+title: "2022 Front Page"
+permanlink: /2022/Front_Page
 ---
 
 
