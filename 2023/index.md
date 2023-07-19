@@ -69,6 +69,8 @@ Submissions (Long and Short Papers) will be subject to a double-blind peer-revie
 - [Thomas Allen](https://ui.adsabs.harvard.edu/about/team/team/tallen.html), Center for Astrophysics \| Harvard & Smithsonian, USA
 - [Kelly Lockhart](https://ui.adsabs.harvard.edu/about/team/team/klockhart.html) , Center for Astrophysics \| Harvard & Smithsonian, USA
 - [Alberto Accomazzi](https://ui.adsabs.harvard.edu/about/team/team/aaccomazzi.html), Center for Astrophysics \| Harvard & Smithsonian, USA
+- [Sergi Blanco-Cuaresma](https://blancocuaresma.com/s/), Center for Astrophysics \| Harvard & Smithsonian, USA
+
 
 ## Contact
 
