@@ -25,11 +25,30 @@ We invite papers of the following categories:
 
 In addition to papers, WIESP will also host shared tasks. More details on the WIESP shared tasks would be available on our website shortly. Also, we will publish separate CfPs on the shared tasks. Shared task authors would be invited to write their system descriptions and those would be subjected to peer review.
 
+All accepted papers would be published in the WIESP proceedings as part of IJCNLP-AACL 2023 and indexed in the ACL Anthology.
+
 ***First Shared Task: Function of Citation in Astrophysics Literature (FOCAL)***
 
-The citation graph is an essential tool for helping researchers find relevant literature. To further empower discovery, we aim to label the edges of the graph with the function of the citation: e.g. is the cited work necessary background knowledge, or is it used as a comparison, to the citing work? To start this process, we propose a shared task of automatically labeling citations with a function based on the  textual context of the citation. A sample dataset and more instructions can be found [here](shared_task_1)
+The citation graph is an essential tool for helping researchers find relevant literature. To further empower discovery, we aim to label the edges of the graph with the function of the citation: e.g. is the cited work necessary background knowledge, or is it used as a comparison, to the citing work? To start this process, we propose a shared task of automatically labeling citations with a function based on the textual context of the citation. 
 
-All accepted papers would be published in the WIESP proceedings as part of IJCNLP-AACL 2023 and indexed in the ACL Anthology.
+More precisely, given a paragraph of text from the astrophysics literature, and the start and end position of a citation in the paragraph, can the competitors build a model that outputs why it was cited (the function) and the associated span of text in the paragraph . 
+
+For example, given the following paragraph:  
+```
+In some cases, when the pulse broadening time is a significant fraction of the pulse period (30 per cent or more) one can see a
+relatively sharp pulse, but at the same time the extended scattering tail may obscure the real baseline level, which leads to an
+underestimation of the pulsar flux. For pulsars with DMs in 200–300 pc cm−3 range this usually happens between 300 and 600 MHz
+(Lewandowski et al. 2013, 2015a). This leads to a somewhat pseudo-correlation between high DM and GPS pulsars (Kijak et al. 2007,
+2011b) where serious underestimation of the flux at lower frequencies for high DM pulsars may give rise to an inverted spectra. The
+interferometric imaging technique provide a more robust measurement of the pulsar flux owing to the baseline lying at zero level
+thereby reducing errors made during the baseline subtraction. 
+```
+and the following citation `Kijak et al. 2007` with `start = 495` and `end = 511`.  
+The model should output:  
+`function_spans = [('Uses',418,492), ('Uses',521,640)]`  
+which corresponds to the text `This leads to a somewhat pseudo-correlation between high DM and GPS pulsars` and `where serious underestimation of the flux at lower frequencies for high DM pulsars may give rise to an inverted spectra.`.
+
+Instructions can be found [here](shared_task_1)
 
 ***Second Shared Task: TBD***
 
