@@ -83,7 +83,7 @@ Submissions (Long and Short Papers) will be subject to a double-blind peer-revie
 
 ## Organizers
 
-- [Tirthankar Ghosal](https://elitr.eu/tirthankar-ghosal), National Center for Computational Sciences, Oak Ridge National Laboratory, USA
+- [Tirthankar Ghosal](https://elitr.eu/tirthankar-ghosal), National Center for Computational Sciences \| Oak Ridge National Laboratory, USA
 - [Felix Grezes](https://ui.adsabs.harvard.edu/about/team/team/fgrezes.html), Center for Astrophysics \| Harvard & Smithsonian, USA
 - [Thomas Allen](https://ui.adsabs.harvard.edu/about/team/team/tallen.html), Center for Astrophysics \| Harvard & Smithsonian, USA
 - [Kelly Lockhart](https://ui.adsabs.harvard.edu/about/team/team/klockhart.html) , Center for Astrophysics \| Harvard & Smithsonian, USA
