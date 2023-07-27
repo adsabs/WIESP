@@ -45,8 +45,8 @@ thereby reducing errors made during the baseline subtraction.
 ```
 and the following citation `Kijak et al. 2007` with `start = 495` and `end = 511`.  
 The model should output:  
-`function_spans = [('Uses',418,492), ('Uses',521,640)]`  
-which corresponds to the text `This leads to a somewhat pseudo-correlation between high DM and GPS pulsars` and `where serious underestimation of the flux at lower frequencies for high DM pulsars may give rise to an inverted spectra.`.
+`prediction['Function Labels'] = [Uses, Uses]` and `predictions['Functions Start End'] = [(418,492), (521,640)]`  
+which corresponds to the text `predictions['Function Text'] = ['This leads to a somewhat pseudo-correlation between high DM and GPS pulsars', 'where serious underestimation of the flux at lower frequencies for high DM pulsars may give rise to an inverted spectra.']`.
 
 Instructions can be found [here](shared_task_1)
 
