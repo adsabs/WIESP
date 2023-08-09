@@ -67,7 +67,7 @@ Participants should create accounts on [Huggingface](https://huggingface.co/) to
 
 Participants should also create accounts on [Codalab](https://codalab.lisn.upsaclay.fr/), register for the competition (link coming soon) and follow the instructions on how to submit their predictions for scoring.
 
-Participants should format their submissions the challenge in the same format as the training dataset. 
+Participants should format their submissions the challenge in the same format as the training dataset.  
 I.E. each submission should be in JSON Lines format (each line is a json dictionary), with each entry consisting of a dictionary with the following keys: `["Identifier", "Paragraph", "Citation Text", "Citation Start End", "Functions Text", "Functions Label", "Functions Start End"]` (note: for the first three of those keys, the values are provided by the validation/test set, while the last five are the participants' work).
 
 ### Registration
