@@ -35,6 +35,8 @@ We provide a dataset of full-text fragments from the [NASA ADS](https://ui.adsab
 
 The dataset is available on [Huggingface](https://huggingface.co/datasets/adsabs/FOCAL).
 
+A list of citation function labels and their definitions is available [here](https://github.com/adsabs/WIESP/blob/gh-pages/2023/LabelDefinitions.md).
+
 ### Evaluation & Baseline
 (coming soon)
 
