@@ -68,21 +68,23 @@ Participants should create accounts on [Huggingface](https://huggingface.co/) to
 Participants should also create accounts on [Codalab](https://codalab.lisn.upsaclay.fr/), register for the competition (link coming soon) and follow the instructions on how to submit their predictions for scoring.
 
 Participants should format their submissions the challenge in the same format as the training dataset. 
-I.E. each submission should be in JSON Lines format (each line is a json dictionary), with each entry consisting of a dictionary with the following keys: `["Identifier", "Paragraph", "Citation Text", "Citation Start End", "Functions Text", "Functions Label", "Functions Start End"]` (note: for the first three of those keys, the values are provided, the last five are the participants work).
+I.E. each submission should be in JSON Lines format (each line is a json dictionary), with each entry consisting of a dictionary with the following keys: `["Identifier", "Paragraph", "Citation Text", "Citation Start End", "Functions Text", "Functions Label", "Functions Start End"]` (note: for the first three of those keys, the values are provided by the validation/test set, while the last five are the participants' work).
 
 ### Registration
 
-### Timeline
-| Timeline                                                                    | Date
-|-----------------------------------------------------------------------------|---------------|
-| 1st CfP + Registration starts                                               | Aug 10        |
-| Train and Validation Data Release                                           | Aug 10        |
-| Test Set Release + 2nd CfP                                                  | Sep 10        |
-| Wide Promotion                                                              | Aug 10-Sep 10 |
-| Shared Task Period                                                          | Sep 10-Sep 25 |
-| Registration Ends                                                           | Sep 25        |
-| Evaluation & Review Period                                                  | Sep 26-Oct 5  |
-| System & Paper Submisison                                                   | Sep 25        |
-| Notification (light internal review of the papers)                          | Oct 5         |
-| Camera Ready Submission                                                     | Oct 12        |
-| Submit Overview Paper                                                       | Oct 12        |
+## Timeline
+
+| Timeline                                              | Date          |
+| ----------------------------------------------------- | ------------- |
+| 1st CfP + Registration starts                         | Aug 10        |
+| Train and Validation Data Release                     | Aug 10        |
+| Test Set Release + 2nd CfP                            | Sep 10        |
+| Wide Promotion                                        | Aug 10-Sep 10 |
+| Shared Task Period                                    | Sep 10-Sep 25 |
+| Registration Ends                                     | Sep 25        |
+| Evaluation & Review Period                            | Sep 26-Oct 5  |
+| System & Paper Submisison                             | Sep 25        |
+| Notification (light internal review of the papers)    | Oct 5         |
+| Camera Ready Submission                               | Oct 12        |
+| Submit Overview Paper                                 | Oct 12        |
+
