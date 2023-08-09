@@ -35,6 +35,23 @@ We provide a dataset of full-text fragments from the [NASA ADS](https://ui.adsab
 
 The dataset is available on [Huggingface](https://huggingface.co/datasets/adsabs/FOCAL).
 
+### Dataset Description
+Datasets are in JSON Lines format (each line is a json dictionary).  
+
+Each entry consists of a dictionary with the following keys:
+- `"Identifier"`: unique string to identify the entry
+- `"Paragraph"`: text string from an astrophysics paper 
+- `"Citation Text"`: list of strings forming the citation (most often a single string, but sometimes the citation text is split up)
+
+The keys below are only present in the Training dataset.  
+Participants should format their submissions to the challenge in this format.
+- `"Citation Start End"`: list of integer pairs denoting where the citation starts and end in `"Paragraph"` (most often a single pair, sometimes the citation text is split up, if so follows the order in `"Citation Text"`)
+- `"Functions Text"`: list of strings highlighting parts of the paragraph that explain the function of the citation
+- `"Functions Label"`: list of strings with the label for each text element in `"Functions Text"` (in same order)
+- `"Functions Start End"`: list of integer pairs denoting where the elements in `"Functions Text"` start and end in `"Paragraph"`(in same order)
+  
+`start` and `end` are defined by the character position in the `"Paragraph"` string.
+
 A list of citation function labels and their definitions is available [here](https://github.com/adsabs/WIESP/blob/gh-pages/2023/LabelDefinitions.md).
 
 ### Evaluation & Baseline
@@ -50,6 +67,22 @@ Participants should create accounts on [Huggingface](https://huggingface.co/) to
 
 Participants should also create accounts on [Codalab](https://codalab.lisn.upsaclay.fr/), register for the competition (link coming soon) and follow the instructions on how to submit their predictions for scoring.
 
+Participants should format their submissions the challenge in the same format as the training dataset. 
+I.E. each submission should be in JSON Lines format (each line is a json dictionary), with each entry consisting of a dictionary with the following keys: `["Identifier", "Paragraph", "Citation Text", "Citation Start End", "Functions Text", "Functions Label", "Functions Start End"]` (note: for the first three of those keys, the values are provided, the last five are the participants work).
+
 ### Registration
 
 ### Timeline
+| Timeline                                                                    | Date
+|-----------------------------------------------------------------------------|---------------|
+| 1st CfP + Registration starts                                               | Aug 10        |
+| Train and Validation Data Release                                           | Aug 10        |
+| Test Set Release + 2nd CfP                                                  | Sep 10        |
+| Wide Promotion                                                              | Aug 10-Sep 10 |
+| Shared Task Period                                                          | Sep 10-Sep 25 |
+| Registration Ends                                                           | Sep 25        |
+| Evaluation & Review Period                                                  | Sep 26-Oct 5  |
+| System & Paper Submisison                                                   | Sep 25        |
+| Notification (light internal review of the papers)                          | Oct 5         |
+| Camera Ready Submission                                                     | Oct 12        |
+| Submit Overview Paper                                                       | Oct 12        |
