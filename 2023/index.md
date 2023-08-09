@@ -50,10 +50,6 @@ which corresponds to the text `predictions['Function Text'] = ['This leads to a 
 
 Instructions can be found [here](shared_task_1)
 
-***Second Shared Task: TBD***
-
-Instructions can be found [here](shared_task_2)
-
 ## Important Dates 
 
 - Paper/Abstract Submission Deadline: August 25, 2023 
