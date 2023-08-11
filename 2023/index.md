@@ -10,9 +10,7 @@ The 2nd Workshop on Information Extraction from Scientific Publications will be 
 
 - Paper Presentations
 - Keynote talks
-- Shared task presentations
 - Panel discussion on "LLMs for Science"
-- Invited paper presentations
 - A virtual social cum poster presentation
 
 ## Call for Papers
@@ -50,6 +48,8 @@ which corresponds to the text `predictions['Function Text'] = ['This leads to a 
 
 Instructions can be found [here](shared_task_1)
 
+The shared task papers/system descriptions would be published with the 2nd WIESP proceedings in ACL Anthology.
+
 ## Important Dates 
 
 - Paper/Abstract Submission Deadline: August 25, 2023 
@@ -59,23 +59,15 @@ Instructions can be found [here](shared_task_1)
 
 *All submission deadlines are 11.59 pm UTC -12h (“Anywhere on Earth”)*
 
-## Schedule
-The schedule for the talks can be found [here](Schedule).
-
 ## Submission Site
 
 Submission Link: [TBD](TBD)
-
-## Registration
-
-Please follow the instructions for conference registration provided on the [AACL-IJCNLP 2023](http://www.ijcnlp-aacl2023.org/).
-
 
 ## Submissions
 
 Submission will be via softconf. Submissions should follow the [ACLPUB formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html) and [template files](https://github.com/acl-org/acl-style-files/tree/master). 
 
-Submissions (Long and Short Papers) will be subject to a double-blind peer-review process.  We follow the same policies as IJCNLP-AACL 2023 regarding preprints and double submissions. The anonymity period for WIESP 2023 is from July 25 to August 25. 
+Submissions (Long and Short Papers) will be subject to a double-blind peer-review process.  We follow the same policies as IJCNLP-AACL 2023 regarding preprints and double submissions.
 
 ## Organizers
 
@@ -89,4 +81,4 @@ Submissions (Long and Short Papers) will be subject to a double-blind peer-revie
 
 ## Contact
 
-You can contact us at `TBD [at] softconf.com`.
+The Organizers
