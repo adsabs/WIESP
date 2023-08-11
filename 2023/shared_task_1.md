@@ -79,12 +79,10 @@ I.E. each submission should be in JSON Lines format (each line is a json diction
 | 1st CfP + Registration starts                         | Aug 10        |
 | Train and Validation Data Release                     | Aug 10        |
 | Test Set Release + 2nd CfP                            | Sep 10        |
-| Wide Promotion                                        | Aug 10-Sep 10 |
 | Shared Task Period                                    | Sep 10-Sep 25 |
 | Registration Ends                                     | Sep 25        |
 | Evaluation & Review Period                            | Sep 26-Oct 5  |
-| System & Paper Submisison                             | Sep 25        |
-| Notification (light internal review of the papers)    | Oct 5         |
+| System Paper Submisison                               | Sep 25        |
+| Notification                                          | Oct 5         |
 | Camera Ready Submission                               | Oct 12        |
-| Submit Overview Paper                                 | Oct 12        |
 
