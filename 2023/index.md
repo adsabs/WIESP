@@ -4,7 +4,7 @@ title: 2023
 permalink: /2023/
 ---
 
-## WIESP @ AACL-IJCNLP 2023 
+## WIESP @ IJCNLP-AACL 2023 
 
 The 2nd Workshop on Information Extraction from Scientific Publications will be held online at the [IJCNLP-AACL 2023](http://www.ijcnlp-aacl2023.org/) on November 2-4, 2023 and it will feature:
 
