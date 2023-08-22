@@ -21,11 +21,11 @@ We invite papers of the following categories:
 
 ***Short papers*** must describe original and unpublished work. Please note that a short paper is not a shortened long paper. Instead, short papers should have a point that can be made in a few pages, such as a small, focused contribution, a negative result, or an interesting application nugget. Short papers must not exceed four (4) pages, plus unlimited pages of references. The final versions of short papers will be given one additional page of content (up to 5 pages) so that reviewers' comments can be taken into account.
 
-In addition to papers, WIESP will also host shared tasks. More details on the WIESP shared tasks would be available on our website shortly. Also, we will publish separate CfPs on the shared tasks. Shared task authors would be invited to write their system descriptions and those would be subjected to peer review.
+In addition to papers, WIESP will also host a shared task.  Details on the WIESP shared tasks are available below. Also, we will publish a separate CfP on the shared task. Shared task authors will be invited to write their system descriptions and those will be subjected to peer review.
 
-All accepted papers would be published in the WIESP proceedings as part of IJCNLP-AACL 2023 and indexed in the ACL Anthology.
+All accepted papers will be published in the WIESP proceedings as part of IJCNLP-AACL 2023 and indexed in the ACL Anthology.
 
-***First Shared Task: Function of Citation in Astrophysics Literature ([FOCAL](shared_task_1))***
+***Shared Task: Function of Citation in Astrophysics Literature ([FOCAL](shared_task_1))***
 
 The citation graph is an essential tool for helping researchers find relevant literature. To further empower discovery, we aim to label the edges of the graph with the function of the citation: e.g. is the cited work necessary background knowledge, or is it used as a comparison, to the citing work? To start this process, we propose a shared task of automatically labeling citations with a function based on the textual context of the citation. 
 
