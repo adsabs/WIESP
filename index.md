@@ -6,7 +6,7 @@ title: ""
 
 ## Workshop on Information Extraction from Scientific Publications (WIESP)
 
-The surge in scientific paper publications has greatly contributed to scientific advancement. To navigate this vast amount of data and facilitate discovery, incorporating the metadata, full text, and citations into search engines is crucial. A popular and open example is the [NASA Astrophysics Data System](https://ui.adsabs.harvard.edu), which offers many ways to discover research articles of interest within a curated collection of 17 million records. However, navigating through this vast amount of data presents considerable challenges. To overcome them, extracting structured and semantically meaningful information from scientific publications becomes imperative. We have introduced the WIESP workshop to provide a discussion forum for novel problems and challenges associated with mining scholarly texts from scientific papers and related artifacts.
+The surge in scientific paper publications has greatly contributed to scientific advancement. To navigate this vast amount of data and facilitate discovery, incorporating the metadata, full text, and citations into search engines is crucial. A popular and open example is the [NASA Astrophysics Data System](https://ui.adsabs.harvard.edu), which offers many ways to discover research articles of interest within a curated collection of 17 million records. However, navigating through this vast amount of data presents considerable challenges. To overcome them, extracting structured and semantically meaningful information from scientific publications becomes imperative. We have introduced the WIESP workshop to provide a discussion forum for novel problems and challenges associated with mining scholarly texts from scientific papers and related artefacts.
 
 ## Second Workshop at IJCNLP-AACL 2023
 
@@ -34,6 +34,10 @@ Building on the success of the [First WIESP at AACL-IJCNLP 2022](2022), the [Sec
 - Bibliometric and Altmetric studies via information extraction from scientific articles and metadata
 
 In addition to research paper presentations, WIESP would also feature keynote talks, a panel discussion, and shared tasks. We will update the details on our website as and when they become available. We especially welcome participation from academic and research institutions, government and industry labs, publishers, and information service providers. Projects and organizations using NLP/ML techniques in their text mining and enrichment efforts are also welcome to participate. We strongly encourage the participation of students, researchers, and science practitioners from diverse backgrounds, especially from underrepresented groups and communities, to be a part of WIESP events, and proactively make the workshop a diverse and inclusive one. For more details please see [here](2023).
+
+## WIESP 2022 Proceedings
+
+WIESP is an [ACL](https://www.aclweb.org/portal/)-sponsored event. Papers accepted in WIESP are published in [ACL Anthology](https://aclanthology.org). The First WIESP Proceedings can be found [here](https://aclanthology.org/events/wiesp-2022/).
 
 ## Editions
 - [Second WIESP @ IJCNLP-AACL 2023](2023)
