@@ -81,4 +81,4 @@ Submissions (Long and Short Papers) will be subject to a double-blind peer-revie
 
 ## Contact
 
-[2nd WIESP @ IJCNLP-AACL 2023 Organizers](wiesp_ijcnlp-aacl-2023@softconf.com)
+[Organizers](Email to: wiesp_ijcnlp-aacl-2023@softconf.com)
