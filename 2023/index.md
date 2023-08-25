@@ -81,4 +81,4 @@ Submissions (Long and Short Papers) will be subject to a double-blind peer-revie
 
 ## Contact
 
-`wiesp ijcnlp-aacl-2023 [at] softconf.com`
+`wiesp_ijcnlp-aacl-2023 [at] softconf.com`
