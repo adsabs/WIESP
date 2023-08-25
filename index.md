@@ -35,9 +35,9 @@ Building on the success of the [First WIESP at AACL-IJCNLP 2022](2022), the [Sec
 
 In addition to research paper presentations, WIESP would also feature keynote talks, a panel discussion, and shared tasks. We will update the details on our website as and when they become available. We especially welcome participation from academic and research institutions, government and industry labs, publishers, and information service providers. Projects and organizations using NLP/ML techniques in their text mining and enrichment efforts are also welcome to participate. We strongly encourage the participation of students, researchers, and science practitioners from diverse backgrounds, especially from underrepresented groups and communities, to be a part of WIESP events, and proactively make the workshop a diverse and inclusive one. For more details please see [here](2023).
 
-## WIESP 2022 Proceedings
+## WIESP Proceedings
 
-WIESP is an [ACL](https://www.aclweb.org/portal/) event. Papers accepted in WIESP are published in [ACL Anthology](https://aclanthology.org). The First WIESP Proceedings can be found [here](https://aclanthology.org/events/wiesp-2022/).
+WIESP is an [ACL](https://www.aclweb.org/portal/) event. Papers accepted in WIESP are published in [ACL Anthology](https://aclanthology.org). The [First WIESP Proceedings](2022) can be found [here](https://aclanthology.org/events/wiesp-2022/).
 
 ## Editions
 - [Second WIESP @ IJCNLP-AACL 2023](2023)
