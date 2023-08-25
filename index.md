@@ -14,16 +14,16 @@ Building on the success of the [First WIESP at AACL-IJCNLP 2022](2022), the [Sec
 
 ## Topics
 
-- Large Language Models (LLMs) for Science
-- Application of LLMs on information extraction, generation, mining and knowledge discovery from scientific publications
-- Probing LLMs for scientific fact-checking and misinformation
+- <b>Large Language Models (LLMs) for Science</b>
+- <b>Application of LLMs on information extraction, generation, mining and knowledge discovery from scientific publications</b>
+- <b>Probing LLMs for scientific fact-checking and misinformation</b>
 - Scientific document parsing
 - Scientific named-entity recognition
 - Scientific article summarization
 - Question-answering on scientific articles
 - Citation context/span extraction
 - Structured information extraction from full-text, tables, figures, bibliography
-- Novel datasets curated from scientific publications
+- <b>Novel datasets</b> curated from scientific publications
 - Argument extraction and mining
 - Challenges in information extraction from scientific articles
 - Building knowledge graphs via mining scientific literature; querying scientific knowledge graphs
@@ -36,5 +36,5 @@ Building on the success of the [First WIESP at AACL-IJCNLP 2022](2022), the [Sec
 In addition to research paper presentations, WIESP would also feature keynote talks, a panel discussion, and shared tasks. We will update the details on our website as and when they become available. We especially welcome participation from academic and research institutions, government and industry labs, publishers, and information service providers. Projects and organizations using NLP/ML techniques in their text mining and enrichment efforts are also welcome to participate. We strongly encourage the participation of students, researchers, and science practitioners from diverse backgrounds, especially from underrepresented groups and communities, to be a part of WIESP events, and proactively make the workshop a diverse and inclusive one. For more details please see [here](2023).
 
 ## Editions
-- [WIESP @ AACL-IJCNLP 2023](2023)
-- [WIESP @ AACL-IJCNLP 2022](2022)
+- [Second WIESP @ IJCNLP-AACL 2023](2023)
+- [First WIESP @ AACL-IJCNLP 2022](2022)
