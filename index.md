@@ -37,7 +37,7 @@ In addition to research paper presentations, WIESP would also feature keynote ta
 
 ## WIESP 2022 Proceedings
 
-WIESP is an [ACL](https://www.aclweb.org/portal/)-sponsored event. Papers accepted in WIESP are published in [ACL Anthology](https://aclanthology.org). The First WIESP Proceedings can be found [here](https://aclanthology.org/events/wiesp-2022/).
+WIESP is an [ACL](https://www.aclweb.org/portal/) event. Papers accepted in WIESP are published in [ACL Anthology](https://aclanthology.org). The First WIESP Proceedings can be found [here](https://aclanthology.org/events/wiesp-2022/).
 
 ## Editions
 - [Second WIESP @ IJCNLP-AACL 2023](2023)
