@@ -55,7 +55,15 @@ Participants should format their submissions to the challenge in this format.
 A list of citation function labels and their definitions is available [here](https://github.com/adsabs/WIESP/blob/gh-pages/2023/LabelDefinitions.md).
 
 ### Evaluation & Baseline
-(coming soon)
+#### Evaluation
+Submissions will be evaluated using two scripts found [here](https://huggingface.co/datasets/adsabs/FOCAL/tree/main/scoring_scripts). The submissions will be scored by three metrics:
+
+- The full seqeval score and main evaluation metric: `evaluate_FOCAL_seqeval(references_jsonl, predictions_jsonl)[0]['micro avg']['f1-score']`. This metrics check that you placed the function of the citation correctly in the paragraph along with the correct function label.
+- A seqeval score with a generic label instead of functions: `evaluate_FOCAL_seqeval(references_jsonl, predictions_jsonl)[1]['micro avg']['f1-score']`. This metric checks that you correctly found the parts of the paragraph that explain the function of the citation, without checking if you correctly predicted the reason(s) a given citation was made (the function labels)
+- An f1-score on the function labels only: `evaluate_FOCAL_labels(references_jsonl, predictions_jsonl)['micro avg']['f1-score']`. This metric checks that you correctly predicted the reason(s) a given citation was made, without checking if you correctly find the parts of the paragraph that explain the function of the citation.
+
+We also encourage authors to propose their own evaluation metrics. 
+
 
 ### Challenge
 Can a different model/architecture/approach be more successful at recognizing astronomical citation functions?  
