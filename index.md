@@ -6,7 +6,7 @@ title: ""
 
 ## Workshop on Information Extraction from Scientific Publications (WIESP)
 
-The surge in scientific paper publications has greatly contributed to scientific advancement. To navigate this vast amount of data and facilitate discovery, incorporating the metadata, full text, and citations into search engines is crucial. A popular and open example is the NASA Astrophysics Data System, which offers many ways to discover research articles of interest within a curated collection of 17 million records. However, navigating through this vast amount of data presents considerable challenges. To overcome them, extracting structured and semantically meaningful information from scientific publications becomes imperative.
+The surge in scientific paper publications has greatly contributed to scientific advancement. To navigate this vast amount of data and facilitate discovery, incorporating the metadata, full text, and citations into search engines is crucial. A popular and open example is the [NASA Astrophysics Data System](https://ui.adsabs.harvard.edu), which offers many ways to discover research articles of interest within a curated collection of 17 million records. However, navigating through this vast amount of data presents considerable challenges. To overcome them, extracting structured and semantically meaningful information from scientific publications becomes imperative. We have introduced the WIESP workshop to provide a discussion forum for novel problems and challenges associated with mining scholarly texts from scientific papers and related artifacts.
 
 ## Second Workshop at IJCNLP-AACL 2023
 
