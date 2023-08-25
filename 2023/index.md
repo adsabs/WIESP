@@ -52,7 +52,7 @@ The shared task papers/system descriptions would be published with the 2nd WIESP
 
 ## Important Dates 
 
-- Paper/Abstract Submission Deadline: August 25, 2023 
+- Paper/Abstract Submission Deadline: <s>August 25, 2023</s> September 4, 2023
 - Notification of workshop paper/abstract acceptance: October 2, 2023
 - Camera-ready Submission Deadline: October 15, 2023
 - Workshop: November 2-4, 2023 (online, final date TBD)
