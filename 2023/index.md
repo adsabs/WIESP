@@ -50,7 +50,7 @@ In addition to papers, WIESP will also host a shared task.  Details on the WIESP
 
 All accepted papers will be published in the WIESP proceedings as part of IJCNLP-AACL 2023 and indexed in the ACL Anthology.
 
-***Shared Task: Function of Citation in Astrophysics Literature ([FOCAL](shared_task_1))***
+***Shared Task: [Function of Citation in Astrophysics Literature (FOCAL)](shared_task_1))***
 
 The citation graph is an essential tool for helping researchers find relevant literature. To further empower discovery, we aim to label the edges of the graph with the function of the citation: e.g. is the cited work necessary background knowledge, or is it used as a comparison, to the citing work? To start this process, we propose a shared task of automatically labeling citations with a function based on the textual context of the citation. 
 
