@@ -30,6 +30,8 @@ The model should output:
 `prediction['Function Labels'] = [Uses, Uses]` and `predictions['Functions Start End'] = [(418,492), (521,640)]`  
 which corresponds to the text `predictions['Function Text'] = ['This leads to a somewhat pseudo-correlation between high DM and GPS pulsars', 'where serious underestimation of the flux at lower frequencies for high DM pulsars may give rise to an inverted spectra.']`.
 
+The competition will be run on [Codalab](https://codalab.lisn.upsaclay.fr/competitions/15292).
+
 ### Dataset
 We provide a dataset of full-text fragments from the [NASA ADS](https://ui.adsabs.harvard.edu/) annotated by a human expert with the location of citations and their associated functions. 
 
@@ -64,6 +66,16 @@ Submissions will be evaluated using two scripts found [here](https://huggingface
 
 We also encourage authors to propose their own evaluation metrics. 
 
+### Baseline
+Baseline scores from a simple model are provided as benchmark for the participants.  This model is defined as follows:  
+- the function of the citation is the majority class (i.e. `Background`).
+- the start and end of the function is the sentence that includes citation, as defined by [pySBD](https://github.com/nipunsadvilkar/pySBD).  
+ The baseline scores (all micro-averaged f1-scores) are as follows:
+
+| seqeval_full | seqeval_generic | score_labels_only |
+| :----------: | :-------------: | :---------------: |
+| 0.2368       | 0.5986          | 0.4287            |
+ 
 
 ### Challenge
 Can a different model/architecture/approach be more successful at recognizing astronomical citation functions?  
@@ -73,10 +85,10 @@ Participants will have the opportunity to present their findings during the work
 ### Instructions for Participants
 Participants should create accounts on [Huggingface](https://huggingface.co/) to access the data. Instructions on how to format your predictions and compute your scores on the training set will be available in the Huggingface repository.
 
-Participants should also create accounts on [Codalab](https://codalab.lisn.upsaclay.fr/), register for the competition (link coming soon) and follow the instructions on how to submit their predictions for scoring.
+Participants should also create accounts on [Codalab](https://codalab.lisn.upsaclay.fr/), register for the competition here [https://codalab.lisn.upsaclay.fr/competitions/15292](https://codalab.lisn.upsaclay.fr/competitions/15292), and follow the instructions on how to submit their predictions for scoring.
 
 Participants should format their submissions the challenge in the same format as the training dataset.  
-I.E. each submission should be in JSON Lines format (each line is a json dictionary), with each entry consisting of a dictionary with the following keys: `["Identifier", "Paragraph", "Citation Text", "Citation Start End", "Functions Text", "Functions Label", "Functions Start End"]` (note: for the first three of those keys, the values are provided by the validation/test set, while the last five are the participants' work).
+I.E. each submission should be in JSON Lines format (each line is a json dictionary), with each entry consisting of a dictionary with the following keys: `["Identifier", "Paragraph", "Citation Text", "Citation Start End", "Functions Text", "Functions Label", "Functions Start End"]` (note: for the first three of those keys, the values are provided by the validation/test set, while the last five are the participants' work). Submit your predictions as a .zip file.
 
 ### Registration
 
