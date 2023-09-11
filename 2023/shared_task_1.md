@@ -82,6 +82,10 @@ Can a different model/architecture/approach be more successful at recognizing as
 
 Participants will have the opportunity to present their findings during the workshop and write a short paper. The best performant or interesting approaches might be invited to further collaborate with the [NASA Astrophysical Data System](https://ui.adsabs.harvard.edu/).
 
+### Registration for FOCAL
+
+Please register in this [link](https://forms.office.com/g/cUyC00LnWB) to participate.
+
 ### Instructions for Participants
 Participants should create accounts on [Huggingface](https://huggingface.co/) to access the data. Instructions on how to format your predictions and compute your scores on the training set will be available in the Huggingface repository.
 
