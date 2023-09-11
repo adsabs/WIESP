@@ -73,7 +73,7 @@ which corresponds to the text `predictions['Function Text'] = ['This leads to a 
 
 Instructions can be found [here](shared_task_1)
 
-The shared task papers/system descriptions would be published with the 2nd WIESP proceedings in ACL Anthology.
+The shared task papers/system descriptions would be published with the 2nd WIESP proceedings in ACL Anthology. Please register in this [link](https://forms.office.com/g/cUyC00LnWB) to participate.
 
 ## Important Dates 
 
