@@ -54,7 +54,7 @@ Participants should format their submissions to the challenge in this format.
   
 `start` and `end` are defined by the character position in the `"Paragraph"` string.
 
-A list of citation function labels and their definitions is available [here](https://github.com/adsabs/WIESP/blob/gh-pages/2023/LabelDefinitions.md).
+A list of citation function labels and their definitions is available [here](LabelDefinitions).
 
 ### Evaluation & Baseline
 #### Evaluation
