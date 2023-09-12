@@ -102,11 +102,11 @@ I.E. each submission should be in JSON Lines format (each line is a json diction
 | ----------------------------------------------------- | ------------- |
 | 1st CfP + Registration starts                         | Aug 10        |
 | Train and Validation Data Release                     | Aug 10        |
-| Test Set Release + 2nd CfP                            | Sep 10        |
-| Shared Task Period                                    | Sep 10-Sep 25 |
+| Test Set Release + 2nd CfP                            | Sep 17        |
+| Shared Task Period                                    | Sep 17-Oct 2  |
 | Registration Ends                                     | Sep 25        |
-| Evaluation & Review Period                            | Sep 26-Oct 5  |
-| System Paper Submisison                               | Sep 25        |
-| Notification                                          | Oct 5         |
-| Camera Ready Submission                               | Oct 12        |
+| Evaluation & Review Period                            | Oct 3-Oct 7   |
+| System Paper Submisison                               | Oct 2         |
+| Notification                                          | Oct 8         |
+| Camera Ready Submission                               | Oct 13        |
 
