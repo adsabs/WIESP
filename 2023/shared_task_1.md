@@ -104,9 +104,9 @@ I.E. each submission should be in JSON Lines format (each line is a json diction
 | Train and Validation Data Release                     | Aug 10        |
 | Test Set Release + 2nd CfP                            | Sep 17        |
 | Shared Task Period                                    | Sep 17-Oct 2  |
-| Registration Ends                                     | Sep 25        |
-| Evaluation & Review Period                            | Oct 3-Oct 7   |
+| Registration Ends                                     | Oct 2         |
 | System Paper Submisison                               | Oct 2         |
+| Evaluation & Review Period                            | Oct 3-Oct 7   |
 | Notification                                          | Oct 8         |
 | Camera Ready Submission                               | Oct 13        |
 
