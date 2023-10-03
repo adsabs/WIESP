@@ -77,10 +77,11 @@ The shared task papers/system descriptions would be published with the 2nd WIESP
 
 ## Important Dates 
 
-- Paper/Abstract Submission Deadline: <s>August 25, 2023</s> <s>September 4, 2023</s> September 11, 2023 (Final)
-- Deadline for FOCAL shared task: extended to OCtober 2, 2023
-- Notification of workshop paper/abstract acceptance: October 5, 2023
-- Camera-ready Submission Deadline: October 12, 2023
+- Paper Submission Deadline: <s>August 25, 2023</s> <s>September 4, 2023</s> September 11, 2023 (Final)
+- Deadline for FOCAL shared task: extended to October 2, 2023
+- Notification of workshop paper acceptance: October 7, 2023
+- Deadline for FOCAL shared task system papers: October 7, 2023
+- Camera-ready submission deadline (WIESP+FOCAL): October 13, 2023
 - Workshop: November 1, 2023 (online, final date TBD)
 
 *All submission deadlines are 11.59 pm UTC -12h (“Anywhere on Earth”)*
