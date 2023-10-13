@@ -81,10 +81,16 @@ The shared task papers/system descriptions would be published with the 2nd WIESP
 - Deadline for FOCAL shared task: extended to October 2, 2023
 - Notification of workshop paper acceptance: October 7, 2023
 - Deadline for FOCAL shared task system papers: October 7, 2023
-- Camera-ready submission deadline (WIESP+FOCAL): October 13, 2023
-- Workshop: November 1, 2023 (online, final date TBD)
+- Camera-ready submission deadline (WIESP+FOCAL): October 14, 2023 (FIRM)
+- Workshop: November 1, 2023 (online)
 
 *All submission deadlines are 11.59 pm UTC -12h (“Anywhere on Earth”)*
+
+## Workshop Registration at IJCNLP-AACL 2023
+
+Workshop authors, please use discount code "WORKSHOP" to register to enjoy early-bird rate.
+
+[Registration](https://reg.eventnook.com/event/ijcnlp-aacl-2023/home)
 
 ## Submission Site
 
