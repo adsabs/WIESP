@@ -1,5 +1,10 @@
-# Accepted Submissions for WIESP @ IJCNLP-AACL 2023
+---
+layout: simple-page
+title: Accepted Submissions
+permalink: /accepted_submissions/
+---
 
+# Accepted Submissions for WIESP @ IJCNLP-AACL 2023
 
 **A Novel Dataset Towards Extracting Virus-Host Interactions**  
 &nbsp;&nbsp;&nbsp;&nbsp;*Rasha R. Alshawi, Atriya Sen, Nathan S. Upham and Beckett Sterner*  
