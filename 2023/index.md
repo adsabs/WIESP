@@ -14,7 +14,7 @@ The 2nd Workshop on Information Extraction from Scientific Publications will be 
 - A virtual social cum poster presentation
 
 ## Accepted Submissions
-Find all accepted [here](/accepted_submissions)
+Find all accepted [here](accepted_submissions)
 
 ## Call for Papers
 
