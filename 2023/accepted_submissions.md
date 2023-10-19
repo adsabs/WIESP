@@ -1,7 +1,7 @@
 ---
 layout: simple-page
 title: Accepted Submissions
-permalink: /accepted_submissions/
+permalink: /2023/accepted_submissions/
 ---
 
 # Accepted Submissions for WIESP @ IJCNLP-AACL 2023
