@@ -13,6 +13,9 @@ The 2nd Workshop on Information Extraction from Scientific Publications will be 
 - Panel discussion on "LLMs for Science"
 - A virtual social cum poster presentation
 
+## Accepted Submissions
+Find all accepted [here](accepted_submissions)
+
 ## Call for Papers
 
 Building on the success of the [First WIESP at AACL-IJCNLP 2022](../2022), the [Second Workshop on Information Extraction from Scientific Publications (WIESP)]() will provide a platform for researchers to foster discussion and research on information extraction, mining, generation, and knowledge discovery from scientific publications using Natural Language Processing and Machine Learning techniques. Much technological change happened in one year (since the 1st WIESP), especially with Generative Artificial Intelligence research. We are incorporating a few additional topics to stay abreast with the latest developments and research in the community. The 2nd iteration of WIESP would focus on the following topics  (but not limited to):
