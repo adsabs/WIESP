@@ -55,4 +55,4 @@ permalink: /2023/accepted_submissions/
 &nbsp;&nbsp;&nbsp;&nbsp;*Tomoki Ikoma and Shigeki Matsubara*  
 
 **Relation Extraction from Scientific Texts in Russian with Limited Training Data**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Olga Tikhobaeva and Elena Bruches
+&nbsp;&nbsp;&nbsp;&nbsp;*Olga Tikhobaeva and Elena Bruches*
