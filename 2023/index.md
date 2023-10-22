@@ -6,11 +6,11 @@ permalink: /2023/
 
 ## The 2nd [WIESP](https://ui.adsabs.harvard.edu/WIESP/) @ IJCNLP-AACL 2023 
 
-The 2nd Workshop on Information Extraction from Scientific Publications will be held online at the [IJCNLP-AACL 2023](http://www.ijcnlp-aacl2023.org/) on November 1, 2023 and it will feature:
+The 2nd Workshop on Information Extraction from Scientific Publications will be held in hybrid mode (online + at Bali, Indonesia) at the [IJCNLP-AACL 2023](http://www.ijcnlp-aacl2023.org/) on November 1, 2023 and it will feature:
 
 - Paper Presentations
-- Keynote talks
-- Panel discussion on "LLMs for Science"
+- A Keynote talk
+- Panel discussion on "LLMs for Science" (will be held later)
 - A virtual social cum poster presentation
 
 ## Accepted Submissions
