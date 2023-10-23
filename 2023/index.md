@@ -85,7 +85,7 @@ The shared task papers/system descriptions would be published with the 2nd WIESP
 - Notification of workshop paper acceptance: October 7, 2023
 - Deadline for FOCAL shared task system papers: October 7, 2023
 - Camera-ready submission deadline (WIESP+FOCAL): October 14, 2023 (FIRM)
-- Workshop: November 1, 2023 (online)
+- Workshop: November 1, 2023 (hybrid)
 
 *All submission deadlines are 11.59 pm UTC -12h (“Anywhere on Earth”)*
 
