@@ -13,6 +13,10 @@ The 2nd Workshop on Information Extraction from Scientific Publications will be 
 - Panel discussion on "LLMs for Science" (will be held later)
 - A virtual social cum poster presentation
 
+## Keynote Talk
+Our keynote speaker is Yuan-Sen Ting from the Australian National University, who will be presenting on "Can Artificial Intelligence Generate Meaningful Scientific Hypotheses?".  
+Details [here](keynote).
+
 ## Accepted Submissions
 Find all accepted papers [here](accepted_submissions)
 
