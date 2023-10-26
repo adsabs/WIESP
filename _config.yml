@@ -22,7 +22,7 @@ title: WIESP
 #email: ads@cfa.harvard.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Workshop on Information Extraction from Scientific Publications
-baseurl: /WIESP/ # the subpath of your site, e.g. /blog
+baseurl: /WIESP # the subpath of your site, e.g. /blog
 url: https://ui.adsabs.harvard.edu/ # the base hostname & protocol for your site, e.g. http://example.com
 #domain: ui.adsabs.harvard.edu # Forces HTTPS if no http:// or https:// is specified
 twitter_username: wiesp_nlp
