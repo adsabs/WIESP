@@ -14,11 +14,13 @@ The 2nd Workshop on Information Extraction from Scientific Publications will be 
 - A virtual social cum poster presentation
 
 ## Keynote Talk
-Our keynote speaker is Yuan-Sen Ting from the Australian National University, who will be presenting on "Can Artificial Intelligence Generate Meaningful Scientific Hypotheses?".  
-Details [here](keynote).
+Our keynote speaker is Dr. Yuan-Sen Ting from the Australian National University, who will be presenting on "Can Artificial Intelligence Generate Meaningful Scientific Hypotheses?".  
+
+More details [here](keynote).
 
 ## Accepted Submissions
-Find all accepted papers [here](accepted_submissions)
+
+Find all accepted papers in WIESP 2023 [here](accepted_submissions)
 
 ## Call for Papers
 
@@ -118,7 +120,10 @@ Submissions (Long and Short Papers) will be subject to a double-blind peer-revie
 - [Alberto Accomazzi](https://ui.adsabs.harvard.edu/about/team/team/aaccomazzi.html), Center for Astrophysics \| Harvard & Smithsonian, USA
 - [Sergi Blanco-Cuaresma](https://blancocuaresma.com/s/), Center for Astrophysics \| Harvard & Smithsonian, USA
 
-[Program Committee](ProgramCommittee)
+## [Program Committee](ProgramCommittee)
+
+We are thakful to our program committee members to help us curate a strong WIESP 2023 program at IJCNLP-AACL 2023.
+
 
 ## Contact
 
