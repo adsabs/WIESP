@@ -20,7 +20,7 @@ More details [here](keynote).
 
 ## Accepted Submissions
 
-Find all accepted papers in WIESP 2023 [here](accepted_submissions)
+Find all accepted papers in WIESP 2023 [here](accepted_submissions). The papers will appear in ACL Anthology shortly.
 
 ## Call for Papers
 
