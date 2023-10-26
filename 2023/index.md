@@ -11,7 +11,7 @@ The 2nd Workshop on Information Extraction from Scientific Publications will be 
 - Paper Presentations
 - A Keynote talk
 - Panel discussion on "LLMs for Science" (will be held later)
-- A virtual social cum poster presentation
+- A virtual social with WIESP 2023 Authors, Organizers, and Reviewers (will be held later)
 
 ## Keynote Talk
 Our keynote speaker is Dr. Yuan-Sen Ting from the Australian National University, who will be presenting on "Can Artificial Intelligence Generate Meaningful Scientific Hypotheses?".  
