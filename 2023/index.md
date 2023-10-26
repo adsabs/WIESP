@@ -120,9 +120,9 @@ Submissions (Long and Short Papers) will be subject to a double-blind peer-revie
 - [Alberto Accomazzi](https://ui.adsabs.harvard.edu/about/team/team/aaccomazzi.html), Center for Astrophysics \| Harvard & Smithsonian, USA
 - [Sergi Blanco-Cuaresma](https://blancocuaresma.com/s/), Center for Astrophysics \| Harvard & Smithsonian, USA
 
-## [Program Committee](ProgramCommittee)
+## Program Committee
 
-We are thakful to our program committee members to help us curate a strong WIESP 2023 program at IJCNLP-AACL 2023.
+We are thakful to our [program committee](ProgramCommittee) members to help us curate a strong WIESP 2023 program.
 
 
 ## Contact
