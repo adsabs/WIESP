@@ -4,7 +4,7 @@ title: WIESP Schedule
 permalink: /2023/Schedule
 ---
 
-| Paper Title | Time (Bali UTC+8) | Schedule | Duration |
+| Paper Title | Time (Bali UTC+8) | Speaker | Duration |
 |---|---|---|---|
 | Keynote Talk : Can Artificial Intelligence Generate Meaningful Scientific Hypotheses? | 9:00 AM | Yuan-Sen Ting | 40 mins including Q&A |
 | AstroLLaMA: Towards Specialized Foundation Models in Astronomy | 9:40 AM | Josh Nguyen | 10 mins including Q&A |
