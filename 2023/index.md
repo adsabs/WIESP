@@ -118,6 +118,7 @@ Submissions (Long and Short Papers) will be subject to a double-blind peer-revie
 - [Alberto Accomazzi](https://ui.adsabs.harvard.edu/about/team/team/aaccomazzi.html), Center for Astrophysics \| Harvard & Smithsonian, USA
 - [Sergi Blanco-Cuaresma](https://blancocuaresma.com/s/), Center for Astrophysics \| Harvard & Smithsonian, USA
 
+[Program Committee](/2023/ProgramCommittee)
 
 ## Contact
 
