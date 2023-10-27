@@ -20,7 +20,7 @@ More details [here](keynote).
 
 ## Call for Papers
 
-Information about the call for papers can be found [here](/call_for_papers)
+Information about the call for papers can be found [here](call_for_papers)
 
 ## Accepted Submissions
 
