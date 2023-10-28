@@ -1,7 +1,7 @@
 ---
 layout: simple-page
 title: WIESP Schedule
-permalink: /2023/Schedule
+permalink: /2023/schedule
 ---
 
 | Paper Title | Time (Bali UTC+8) | Speaker | Duration |
