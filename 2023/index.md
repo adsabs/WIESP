@@ -18,23 +18,21 @@ Our keynote speaker is Dr. Yuan-Sen Ting from the Australian National University
 
 More details [here](keynote).
 
-## Call for Papers
+## Schedule
+Full Schedule of presentations can be found [here](schedule)
 
+## Call for Papers
 Information about the call for papers can be found [here](call_for_papers)
 
 ## Accepted Submissions
-
 Find all accepted papers in WIESP 2023 [here](accepted_submissions). The papers will appear in ACL Anthology shortly.
 
-
 ## Workshop Registration at IJCNLP-AACL 2023
-
 Workshop authors, please use discount code "WORKSHOP" to register to enjoy early-bird rate (only valid for onsite tickets).
 
 [Registration](https://reg.eventnook.com/event/ijcnlp-aacl-2023/home)
 
 ## Organizers
-
 - [Tirthankar Ghosal](https://elitr.eu/tirthankar-ghosal), National Center for Computational Sciences \| Oak Ridge National Laboratory, USA
 - [Felix Grezes](https://ui.adsabs.harvard.edu/about/team/team/fgrezes.html), Center for Astrophysics \| Harvard & Smithsonian, USA
 - [Thomas Allen](https://ui.adsabs.harvard.edu/about/team/team/tallen.html), Center for Astrophysics \| Harvard & Smithsonian, USA
