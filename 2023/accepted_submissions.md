@@ -56,3 +56,6 @@ permalink: /2023/accepted_submissions/
 
 **Relation Extraction from Scientific Texts in Russian with Limited Training Data**  
 &nbsp;&nbsp;&nbsp;&nbsp;*Olga Tikhobaeva and Elena Bruches*
+
+Proceedings can be found [here](https://github.com/IJCNLP-AACL23-Files/handbook/blob/main/IJCNLP_AACL_Handbook_2023_v4.pdf).
+
