@@ -26,4 +26,4 @@ permalink: /2023/schedule
 | Enhancing Academic Title Generation Using SciBERT and Linguistic Rules | Elena Callegari, Peter Vajdecka, Desara Xhura and Anton Karl Ingason | 12:49 PM | Elena Callegari | 13 mins including Q&A |
 |   |  | 1:02 PM | Closing | 2 mins |
 
-Proceedings can be found [here](https://github.com/IJCNLP-AACL23-Files/handbook/blob/main/IJCNLP_AACL_Handbook_2023_v4.pdf).
+Proceedings can be found [here](book.pdf).
