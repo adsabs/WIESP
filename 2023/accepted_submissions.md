@@ -5,6 +5,7 @@ permalink: /2023/accepted_submissions/
 ---
 
 # Accepted Submissions for WIESP @ IJCNLP-AACL 2023
+Proceedings can be found [here](book.pdf).
 
 **A Novel Dataset Towards Extracting Virus-Host Interactions**  
 &nbsp;&nbsp;&nbsp;&nbsp;*Rasha R. Alshawi, Atriya Sen, Nathan S. Upham and Beckett Sterner*  
@@ -57,5 +58,4 @@ permalink: /2023/accepted_submissions/
 **Relation Extraction from Scientific Texts in Russian with Limited Training Data**  
 &nbsp;&nbsp;&nbsp;&nbsp;*Olga Tikhobaeva and Elena Bruches*
 
-Proceedings can be found [here](https://github.com/IJCNLP-AACL23-Files/handbook/blob/main/IJCNLP_AACL_Handbook_2023_v4.pdf).
 
