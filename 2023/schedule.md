@@ -6,7 +6,7 @@ permalink: /2023/schedule
 
 | Paper Title | Authors | Time (Bali UTC+8) | Speaker | Duration |
 |:---:|:---:|:---:|:---:|:---:|
-| Keynote Talk : Can Artificial Intelligence Generate Meaningful Scientific Hypotheses? |  Yuan-Sen Ting | 9:00 AM | Yuan-Sen Ting | 40 mins including Q&A |
+| [Keynote Talk : Can Artificial Intelligence Generate Meaningful Scientific Hypotheses?](keynote) |  Yuan-Sen Ting | 9:00 AM | Yuan-Sen Ting | 40 mins including Q&A |
 | AstroLLaMA: Towards Specialized Foundation Models in Astronomy | Tuan Dung Nguyen, Yuan-Sen Ting, Ioana Ciuca, Charles O'Neill, Ze-Chang Sun, Maja Jabłońska, Sandor Kruk, Ernest Perkowski, Jack Miller, Jason Jason Jingsh Li, Josh Peek, Kartheik Iyer, Tomasz Rozanski, Pranav Khetarpal, Sharaf Zaman, David Brodrick, Sergio J. Rodriguez Mendez, Thang Bui, Alyssa Goodman, Alberto Accomazzi, Jill Naiman, Jesse Cranney, Kevin Schawinski and Roberta Raileanu | 9:40 AM | Josh Nguyen | 10 mins including Q&A |
 | A Novel Dataset Towards Extracting Virus-Host Interactions­­ | Rasha R. Alshawi, Atriya Sen, Nathan S. Upham and Beckett Sterner | 9:50 AM | Rasha Alshawi | 10 mins including Q&A |
 | Automated Citation Function Classification and Context  Extraction in Astrophysics: Leveraging Paraphrasing and Question  Answering | Hariram Veeramani, Surendrabikram Thapa and Usman Naseem | 10:00 AM | Surendrabikram Thapa | 10 mins including Q&A |
