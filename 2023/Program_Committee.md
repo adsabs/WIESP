@@ -13,7 +13,7 @@ permalink: /2023/ProgramCommittee
 | Atilla Kaan Alkan | Université Paris-Saclay |  |
 | Atriya Sen | University of New Orleans | [LinkedIn](https://www.linkedin.com/in/atriyasen/) |
 | Daisuke Ikeda |  |  |
-| Daniel Acuna | University of Colorado at Boulder | https://acuna.io/ |
+| Daniel Acuna | University of Colorado at Boulder | [https://acuna.io/](https://acuna.io/) |
 | Elena Callegari |  |  |
 | Faith Mutinda |  | [LinkedIn](https://www.linkedin.com/in/faithwmutinda) |
 | Grishma Sharma |  |  |
@@ -24,10 +24,10 @@ permalink: /2023/ProgramCommittee
 | Jennifer D'Souza |  |  |
 | Kelly Lockhart | SAO/NASA Astrophysics Data System |  |
 | Madhusudan Ghosh |  |  |
-| Neil Smalheiser | University of Illinois at Chicago | http://arrowsmith.psych.uic.edu |
-| Pierre Zweigenbaum | Université Paris-Saclay, CNRS, LISN | https://perso.limsi.fr/pz/ |
-| Premjith B | Amrita Vishwa Vidyapeetham, India | https://www.amrita.edu/faculty/dr-premjith-b/ |
-| Rajesh Piryani | IRIT, Universite Toulouse III Paul Sabatier (UT3), Toulouse, France | https://sites.google.com/site/piryanirajesh/ |
+| Neil Smalheiser | University of Illinois at Chicago | [http://arrowsmith.psych.uic.edu](http://arrowsmith.psych.uic.edu) |
+| Pierre Zweigenbaum | Université Paris-Saclay, CNRS, LISN | [https://perso.limsi.fr/pz/](https://perso.limsi.fr/pz/) |
+| Premjith B | Amrita Vishwa Vidyapeetham, India | [https://www.amrita.edu/faculty/dr-premjith-b/](https://www.amrita.edu/faculty/dr-premjith-b/) |
+| Rajesh Piryani | IRIT, Universite Toulouse III Paul Sabatier (UT3), Toulouse, France | [https://sites.google.com/site/piryanirajesh/](https://sites.google.com/site/piryanirajesh/) |
 | Rohan Tondulkar | SciSpace | [LinkedIn](https://www.linkedin.com/in/rohan-tondulkar-485b3169/) |
 | Sandeep Kumar | Indian Institute of Technology Patna | [LinkedIn](https://www.linkedin.com/in/sandeep-kumar-a51329197/) |
 | Sarvnaz Karimi |  |  |
@@ -35,7 +35,7 @@ permalink: /2023/ProgramCommittee
 | Sergi Blanco-Cuaresma | SAO/NASA Astrophysics Data System |  |
 | Shuntaro Yada |  |  |
 | Sujit Pal |  |  |
-| Ted Pedersen | University of Minnesota, Duluth | http://www.d.umn.edu/~tpederse |
+| Ted Pedersen | University of Minnesota, Duluth | [http://www.d.umn.edu/~tpederse](http://www.d.umn.edu/~tpederse) |
 | Trinita Roy | SciSpace | [LinkedIn](www.linkedin.com/in/trinita-roy-055b6b141) |
 | Vignesh Edithal |  |  |
 | Wojtek Sylwestrzak | ICM, University of Warsaw |  |
