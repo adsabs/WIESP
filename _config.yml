@@ -31,7 +31,6 @@ twitter_username: wiesp_nlp
 repository: adsabs/WIESP
 
 # Build settings
-#theme: minima
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 #plugins:
