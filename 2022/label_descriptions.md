@@ -1,7 +1,9 @@
 ---
-layout: simple-page
+layout: single
 title: Label Definitions for the DEAL Shared Task
 permalink: /2022/LabelDefinitions
+sidebar:
+  nav: "sidebar2022"
 ---
 
 ## Definitions of the Labels used in the DEAL Shared Task

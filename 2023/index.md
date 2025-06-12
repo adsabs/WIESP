@@ -1,7 +1,16 @@
 ---
-layout: simple-page
+layout: single
 title: 2023
 permalink: /2023/
+sidebar:
+  nav: "sidebar2023"
+title: "Workshop for Information Extraction from Scientific Publications (WIESP) 2023"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/old_bookshelf.jpg
+  caption: "Photo credit: [Unsplash](https://unsplash.com)"
+excerpt: "A workshop series associated with the International Joint Conference on Natural Language Processing & Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL)."
 ---
 
 ## The 2nd [WIESP](https://ui.adsabs.harvard.edu/WIESP/) @ IJCNLP-AACL 2023 

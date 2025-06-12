@@ -1,7 +1,9 @@
 ---
-layout: simple-page
+layout: single
 title: WIESP 2023 FOCAL Shared Task
 permalink: /2023/shared_task_1
+sidebar:
+  nav: "sidebar2023"
 ---
 
 Shared task for WIESP-2023.  

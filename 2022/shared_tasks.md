@@ -1,11 +1,10 @@
 ---
-layout: simple-page
-title: DEAL Shared Task
+layout: single
+title: Shared Task - Detecting Entities in the Astrophysics Literature (DEAL)
 permalink: /2022/SharedTasks
+sidebar:
+  nav: "sidebar2022"
 ---
-
-### DEAL: Detecting Entities in the Astrophysics Literature
-# Shared Task
 
 A good amount of astrophysics research makes use of data coming from missions and facilities such as ground observatories in remote locations or space telescopes, as well as digital archives that hold large amounts of observed and simulated data. These missions and facilities are frequently named after historical figures or use some ingenious acronym which, unfortunately, can be easily confused when searching for them in the literature via simple string matching. For instance, `Planck` can refer to the person, the mission, the constant, or several institutions. Automatically recognizing entities (i.e., Named Entity Recognition or NER) such as missions or facilities would help tackle this word sense disambiguation problem.
 

@@ -18,26 +18,38 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: WIESP
+title: WASP
 #email: ads@cfa.harvard.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Workshop on Information Extraction from Scientific Publications
+  Workshop on Aritifical intelligence for Scientific Publications
 baseurl: /WIESP # the subpath of your site, e.g. /blog
 url: https://ui.adsabs.harvard.edu/ # the base hostname & protocol for your site, e.g. http://example.com
 #domain: ui.adsabs.harvard.edu # Forces HTTPS if no http:// or https:// is specified
 twitter_username: wiesp_nlp
 #github_username: adsabs
 #permalink: /:categories/:title
+repository: adsabs/WIESP
 
 # Build settings
-theme: minima
+#theme: minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 #plugins:
   #- jekyll-feed
 
-header_pages:
-  - index.md
-  - 2022/index.md
-  - 2023/index.md
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: https://x.com/wiesp_nlp
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: https://github.com/adsabs/WIESP
+
+atom_feed:
+  hide: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

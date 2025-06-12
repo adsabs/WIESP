@@ -1,7 +1,10 @@
 ---
-layout: simple-page
+layout: single
+classes: wide
 title: WIESP Schedule
 permalink: /2023/schedule
+sidebar:
+  nav: "sidebar2023"
 ---
 
 | Paper Title | Authors | Time (Bali UTC+8) | Speaker | Duration |

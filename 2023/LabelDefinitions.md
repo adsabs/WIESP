@@ -1,7 +1,9 @@
 ---
-layout: simple-page
+layout: single
 title: Label Definitions for the FOCAL Shared Task
 permalink: /2023/LabelDefinitions
+sidebar:
+  nav: "sidebar2023"
 ---
 
 ## Definitions of the Labels used in the FOCAL Shared Task

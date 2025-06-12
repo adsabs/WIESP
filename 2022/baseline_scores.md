@@ -1,7 +1,9 @@
 ---
-layout: simple-page
+layout: single
 title: DEAL Shared Task - Baseline Scores
 permalink: /2022/SharedTask_BaselineScores
+sidebar:
+  nav: "sidebar2022"
 ---
 
 # Baseline Scores 
