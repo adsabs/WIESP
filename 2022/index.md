@@ -4,9 +4,9 @@ title: 2022
 permalink: /2022/
 ---
 
-### WIESP @ AACL-IJCNLP 2022 
+## WIESP @ AACL-IJCNLP 2022 
 
-The first Workshop on Information Extraction from Scientific Publications will be held at the [AACL-IJCNLP 2022](https://www.aacl2022.org/) and it will feature:
+The first Workshop on Information Extraction from Scientific Publications was held at the [AACL-IJCNLP 2022](https://www.aacl2022.org/) and it featured:
 
 - Paper Presentations
 - Keynote talks
@@ -15,14 +15,16 @@ The first Workshop on Information Extraction from Scientific Publications will b
 - Invited paper presentations
 - A virtual social cum poster presentation
 
+Full proceedings: [https://aclanthology.org/volumes/2022.wiesp-1/](https://aclanthology.org/volumes/2022.wiesp-1/)
+
 ## Schedule
 The schedule for the talks can be found [here](Schedule).
 
-# Submission Site
+## Submission Site
 
 Submission Link: https://softconf.com/aacl2022/WIESP/
 
-# Shared Tasks
+## Shared Tasks
 
 WIESP includes one shared task where we invite teams (individuals and groups) to come up with a system to tackle a Name Entity Recognition (NER) challenge:
 
@@ -30,7 +32,7 @@ WIESP includes one shared task where we invite teams (individuals and groups) to
 
 Participants will have the opportunity to present their findings during the workshop and write a short paper. The best performant or interesting approaches might be invited to further collaborate with the [NASA Astrophysical Data System](https://ui.adsabs.harvard.edu/).
 
-# Call for Papers
+## Call for Papers
 
 We invite regular and work-in-progress papers of the following categories:
 
@@ -41,7 +43,7 @@ We invite regular and work-in-progress papers of the following categories:
 - Extended Abstracts: We welcome submissions of extended abstracts (2 pages max) related to the research topics mentioned above. Submissions may include previously published results, late-breaking results, and work in progress, description of ongoing projects in the broad field of information extraction and mining from scientific publications. Extended abstracts can summarize existing work, work in progress, or a collection of works under a unified theme (e.g., a series of closely related papers that build on each other or tackle a common problem). 
 
 
-# Important Dates
+## Important Dates
 
 - Paper/Abstract Submission Deadline: September 12, 2022 (Final and Firm)
 - Notification of workshop paper/abstract acceptance: October 12, 2022
@@ -50,12 +52,12 @@ We invite regular and work-in-progress papers of the following categories:
 
 *All submission deadlines are 11.59 pm UTC -12h (“Anywhere on Earth”)*
 
-# Registration
+## Registration
 
 Please follow the instructions for conference registration provided on the [AACL-IJCNLP 2022](https://www.aacl2022.org/).
 
 
-# Submissions
+## Submissions
 
 Submission will be via softconf, they should follow the [ACLPUB formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html) and [template files](https://github.com/acl-org/acl-style-files/tree/master). 
 
@@ -66,7 +68,7 @@ Submissions (Long and Short Papers) will be subject to a double-blind peer-revie
 We follow the same policies as [AACL-IJCNLP 2022](https://www.aacl2022.org/) regarding preprints and double-submissions. The anonymity period for WIESP 2022 is from July 15 to September 25.  
 
 
-# Organizers
+## Organizers
 
 - [Tirthankar Ghosal](https://elitr.eu/tirthankar-ghosal), Charles University, CZ
 - [Sergi Blanco-Cuaresma](https://blancocuaresma.com/s/), Center for Astrophysics \| Harvard & Smithsonian, USA
