@@ -1,7 +1,16 @@
 ---
-layout: simple-page
+layout: single
 title: 2022
 permalink: /2022/
+sidebar:
+  nav: "sidebar2022"
+title: "Workshop for Information Extraction from Scientific Publications (WIESP) 2022"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/folders.jpg
+  caption: "Photo credit: [Unsplash](https://unsplash.com)"
+excerpt: "A workshop series associated with the International Joint Conference on Natural Language Processing & Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL)."
 ---
 
 ## WIESP @ AACL-IJCNLP 2022 
@@ -30,7 +39,7 @@ WIESP includes one shared task where we invite teams (individuals and groups) to
 
 - [DEAL: Detecting Entities in the Astrophysics Literature](SharedTasks)
 
-Participants will have the opportunity to present their findings during the workshop and write a short paper. The best performant or interesting approaches might be invited to further collaborate with the [NASA Astrophysical Data System](https://ui.adsabs.harvard.edu/).
+Participants will have the opportunity to present their findings during the workshop and write a short paper. The best performant or interesting approaches might be invited to further collaborate with the [Astrophysics Data System](https://ui.adsabs.harvard.edu/).
 
 ## Call for Papers
 

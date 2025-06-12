@@ -1,7 +1,10 @@
 ---
-layout: simple-page
+layout: single
+classes: wide
 title: WIESP Schedule
 permalink: /2022/Schedule
+sidebar:
+  nav: "sidebar2022"
 ---
 
 | **Session** | **Time (Taipei time, UTC+8)** |                                                          **Paper Title**                                                          |                                                            **Authors**                                                            |

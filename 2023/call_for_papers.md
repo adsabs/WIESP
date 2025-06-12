@@ -1,7 +1,9 @@
 ---
-layout: simple-page
+layout: single
 title: Call for Papers
 permalink: /2023/call_for_papers
+sidebar:
+  nav: "sidebar2023"
 ---
 
 # Call for Papers

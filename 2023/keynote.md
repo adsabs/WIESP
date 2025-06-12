@@ -1,12 +1,12 @@
 ---
-layout: simple-page
-title: Keynote
+layout: single
+title: Keynote Talk at WIESP 2023
 permalink: /2023/keynote/
+sidebar:
+  nav: "sidebar2023"
 ---
 
-# Keynote Talk at WIESP 2023
-
-## Can Artificial Intelligence Generate Meaningful Scientific Hypotheses? by Yuan-Sen Ting. 
+## Can Artificial Intelligence Generate Meaningful Scientific Hypotheses? <br> *Yuan-Sen Ting* 
 
 ### Abstract 
 In recent years, AI, notably through advancements in Large Language Models (LLMs) such as ChatGPT, has garnered significant attention both within academia and the broader public sphere. However, these general-purpose LLMs have been criticized for their tendency to produce spurious or 'hallucinated' information when grappling with specialized or technical domains. To address this limitation, we introduce the UniverseTBD Consortium—an international collaboration, comprising a diverse team of 30 active contributors from computer science and astronomy. Our mission is to democratize the field of astronomy by developing public-facing, AI-driven large language model tools specialized for this discipline. Our research presents the first astronomy-centric LLM, AstroLLaMa, that can produce text completion and embedding that outperform GPT models. We also show that LLMs can generate scientific hypotheses of a complexity comparable to those produced by human experts through techniques such as in-context prompting and fine-tuning on domain-specific literature. Moreover, we posit that these specialized foundational models can revolutionize the methods we employ for literature searches and the tracing of intellectual developments within the field. We argue that the domain of physical sciences, particularly astronomy, serves as an ideal test bed for investigating the potential of modern LLMs. This inquiry stands to fundamentally reshape our understanding of both artificial and human intelligence and the boundaries of accumulated knowledge.

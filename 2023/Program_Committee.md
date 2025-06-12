@@ -1,7 +1,9 @@
 ---
-layout: simple-page
+layout: single
 title: WIESP 2023 Program Committee
 permalink: /2023/ProgramCommittee
+sidebar:
+  nav: "sidebar2023"
 ---
 
 | WIESP 2023 Program Committee | Affiliation | Website |

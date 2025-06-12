@@ -1,44 +1,30 @@
 ---
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-title: ""
+layout: splash
+title: "Workshop for Artificial intelligence for Scientific Publications (WASP)"
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/bookshelf.jpg
+  caption: "Photo credit: [Unsplash](https://unsplash.com)"
+excerpt: "A workshop series associated with the International Joint Conference on Natural Language Processing & Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL)."
 ---
 
-## Workshop on Information Extraction from Scientific Publications (WIESP)
+## Workshop for Artificial intelligence for Scientific Publications (WASP)
 
-The surge in scientific paper publications has greatly contributed to scientific advancement. To navigate this vast amount of data and facilitate discovery, incorporating the metadata, full text, and citations into search engines is crucial. A popular and open example is the [NASA Astrophysics Data System](https://ui.adsabs.harvard.edu), which offers many ways to discover research articles of interest within a curated collection of 17 million records. However, navigating through this vast amount of data presents considerable challenges. To overcome them, extracting structured and semantically meaningful information from scientific publications becomes imperative. We have introduced the WIESP workshop to provide a discussion forum for novel problems and challenges associated with mining scholarly texts from scientific papers and related artefacts.
+The surge in scientific paper publications has greatly contributed to scientific advancement. To navigate this vast amount of data and facilitate discovery, incorporating the metadata, full text, and citations into search engines is crucial. A popular and open example is the [Astrophysics Data System](https://ui.adsabs.harvard.edu), which offers many ways to discover research articles of interest within a curated collection of over 26 million records. However, navigating through this vast amount of data presents considerable challenges. To overcome them, extracting structured and semantically meaningful information from scientific publications becomes imperative. We have introduced the WASP workshop to provide a discussion forum for novel problems and challenges associated with mining scholarly texts from scientific papers and related artefacts.
 
-## Second Workshop at IJCNLP-AACL 2023
+#### *Note on WASP vs. WIESP*
+The 2022 and 2023 editions of the workshop were named the Workshop on Information Extraction from Scientific Publications (WIESP). The name of the workshop was changed to the Workshop for Artificial intelligence for Scientific Publications (WASP) in 2025, in recognition of the growing role of artificial intelligence in these fields. 
 
-Building on the success of the [First WIESP at AACL-IJCNLP 2022](2022), the [Second Workshop on Information Extraction from Scientific Publications (WIESP)](2023) will provide a platform for researchers to foster discussion and research on information extraction, mining, generation, and knowledge discovery from scientific publications using Natural Language Processing and Machine Learning techniques. Much technological change happened in one year (since the 1st WIESP), especially with Generative Artificial Intelligence research. We are incorporating a few additional topics to stay abreast with the latest developments and research in the community. The 2nd iteration of WIESP would focus on the following topics  (but not limited to):
 
-## Topics
+## WASP & WIESP Proceedings
 
-- <b>Large Language Models (LLMs) for Science</b>
-- <b>Application of LLMs on information extraction, generation, mining and knowledge discovery from scientific publications</b>
-- <b>Probing LLMs for scientific fact-checking and misinformation</b>
-- Scientific document parsing
-- Scientific named-entity recognition
-- Scientific article summarization
-- Question-answering on scientific articles
-- Citation context/span extraction
-- Structured information extraction from full-text, tables, figures, bibliography
-- <b>Novel datasets</b> curated from scientific publications
-- Argument extraction and mining
-- Challenges in information extraction from scientific articles
-- Building knowledge graphs via mining scientific literature; querying scientific knowledge graphs
-- Novel tools for IE on scientific literature and interaction with users
-- Mathematical information extraction
-- Scientific concepts, facts extraction
-- Visualizing scientific knowledge
-- Bibliometric and Altmetric studies via information extraction from scientific articles and metadata
-
-In addition to research paper presentations, WIESP would also feature keynote talks, a panel discussion, and shared tasks. We will update the details on our website as and when they become available. We especially welcome participation from academic and research institutions, government and industry labs, publishers, and information service providers. Projects and organizations using NLP/ML techniques in their text mining and enrichment efforts are also welcome to participate. We strongly encourage the participation of students, researchers, and science practitioners from diverse backgrounds, especially from underrepresented groups and communities, to be a part of WIESP events, and proactively make the workshop a diverse and inclusive one. For more details please see [here](2023).
-
-## WIESP Proceedings
-
-WIESP is an [ACL](https://www.aclweb.org/portal/) event. Papers accepted in WIESP are published in [ACL Anthology](https://aclanthology.org). The [First WIESP Proceedings](2022) can be found [here](https://aclanthology.org/events/wiesp-2022/).
+WASP/WIESP is an [ACL](https://www.aclweb.org/portal/) event. Papers accepted in WASP/WIESP are published in [ACL Anthology](https://aclanthology.org): 
+* The [First WIESP Proceedings](2022) can be found [here](https://aclanthology.org/events/wiesp-2022/). 
+* The [Second WIESP Proceedings](2023) can be found [here](https://aclanthology.org/events/wiesp-2023/). 
 
 ## Editions
+- [Third WASP @ IJCNLP-AACL 2025](2025)
 - [Second WIESP @ IJCNLP-AACL 2023](2023)
 - [First WIESP @ AACL-IJCNLP 2022](2022)

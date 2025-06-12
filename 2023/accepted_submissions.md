@@ -1,10 +1,11 @@
 ---
-layout: simple-page
-title: Accepted Submissions
+layout: single
+title: Accepted Submissions for WIESP @ IJCNLP-AACL 2023
 permalink: /2023/accepted_submissions/
+sidebar:
+  nav: "sidebar2023"
 ---
 
-# Accepted Submissions for WIESP @ IJCNLP-AACL 2023
 Proceedings can be found [here](book.pdf).
 
 **A Novel Dataset Towards Extracting Virus-Host Interactions**  
