@@ -6,12 +6,14 @@ permalink: /2023/
 
 ## The 2nd [WIESP](https://ui.adsabs.harvard.edu/WIESP/) @ IJCNLP-AACL 2023 
 
-The 2nd Workshop on Information Extraction from Scientific Publications will be held in hybrid mode (online and at Bali, Indonesia) at the [IJCNLP-AACL 2023](http://www.ijcnlp-aacl2023.org/) on November 1, 2023 and it will feature:
+The 2nd Workshop on Information Extraction from Scientific Publications was held in hybrid mode (online and at Bali, Indonesia) at the [IJCNLP-AACL 2023](http://www.ijcnlp-aacl2023.org/) on November 1, 2023 and featured:
 
 - Paper Presentations
 - A Keynote talk
 - Panel discussion on "LLMs for Science" (will be organized later)
 - A virtual social with WIESP 2023 Authors, Organizers, and Reviewers (will be organized later)
+- Full published proceedings [https://aclanthology.org/volumes/2023.wiesp-1/](https://aclanthology.org/volumes/2023.wiesp-1/)
+
 
 ## Keynote Talk
 Our keynote speaker is Dr. Yuan-Sen Ting from the Australian National University, who will be presenting on "Can Artificial Intelligence Generate Meaningful Scientific Hypotheses?".  
@@ -24,8 +26,17 @@ Full Schedule of presentations can be found [here](schedule)
 ## Call for Papers
 Information about the call for papers can be found [here](call_for_papers)
 
+## FOCAL Shared Task
+WIESP 2023 includes one shared task where we invite teams (individuals and groups) to come up with a system to tackle an automatic citation labeling challenge:
+
+- [FOCAL: Function Of Citation in Astrophysics Literature](shared_task_1)
+
+Participants will have the opportunity to present their findings during the workshop and write a short paper. The best performant or interesting approaches might be invited to further collaborate with the [NASA Astrophysical Data System](https://ui.adsabs.harvard.edu/).
+
+
 ## Accepted Submissions
-Find all accepted papers in WIESP 2023 [here](accepted_submissions). The papers will appear in ACL Anthology shortly.
+Find all accepted papers in WIESP 2023 [here](accepted_submissions).  
+Published proceedings [here](https://aclanthology.org/volumes/2023.wiesp-1/)
 
 ## Workshop Registration at IJCNLP-AACL 2023
 Workshop authors, please use discount code "WORKSHOP" to register to enjoy early-bird rate (only valid for onsite tickets).
