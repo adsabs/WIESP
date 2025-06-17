@@ -52,11 +52,15 @@ The shared task papers/system descriptions will be published with the Third WASP
 <!---
 XX UPDATE w/ dates
 --->
-- Paper Submission Deadline: 
-- Deadline for TRACS shared task: 
-- Notification of workshop paper acceptance: 
-- Deadline for TRACS shared task system papers: 
-- Camera-ready submission deadline (WASP+TRACS): 
+- First Call for Proposals: July 22, 2025
+- Second Call for Proposals: August 22, 2025
+- Third Call for Proposals: September 22, 2025
+- Paper Submission Deadline: September 29, 2025
+- Deadline for TRACS shared task: TBD
+- ARR commitment deadline: October 27, 2025
+- Notification of workshop paper acceptance: November 3, 2025
+- Deadline for TRACS shared task system papers: TBD
+- Camera-ready submission deadline (WASP+TRACS): November 11, 2025
 - Workshop: December 23, 2025 (hybrid)
 
 *All submission deadlines are 11.59 pm UTC -12h (“Anywhere on Earth”)*
@@ -71,7 +75,7 @@ XX UPDATE w/ registration link
 --->
 ## Submissions
 
-Submission will be via softconf. Submissions should follow the [ACLPUB formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html) and [template files](https://github.com/acl-org/acl-style-files/tree/master). 
+Submission will be via OpenReview. Submissions should follow the [ACLPUB formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html) and [template files](https://github.com/acl-org/acl-style-files/tree/master). 
 
 Submissions (Long and Short Papers) will be subject to a double-blind peer-review process. We follow the same policies as IJCNLP-AACL 2025 regarding anonymity, preprints and double submissions.
 
