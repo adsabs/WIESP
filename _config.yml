@@ -32,12 +32,14 @@ repository: adsabs/WIESP
 
 # Build settings
 # uncomment out the following line for local development
-#theme: minimal-mistakes-jekyll
-# this line must be un-commented out when pushing to Github for building
-remote_theme: "mmistakes/minimal-mistakes@4.27.1"
+theme: minimal-mistakes-jekyll
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-#plugins:
-  #- jekyll-feed
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
 
 # Site Footer
 footer:
