@@ -1,0 +1,347 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.1 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Shared Task - Detecting Entities in the Astrophysics Literature (DEAL) - WASP</title>
+<meta name="description" content="Workshop on Aritifical intelligence for Scientific Publications">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="WASP">
+<meta property="og:title" content="Shared Task - Detecting Entities in the Astrophysics Literature (DEAL)">
+<meta property="og:url" content="https://ui.adsabs.harvard.edu//WIESP/2022/SharedTasks">
+
+
+  <meta property="og:description" content="Workshop on Aritifical intelligence for Scientific Publications">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://ui.adsabs.harvard.edu//WIESP/2022/SharedTasks">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/WIESP/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/WIESP/">
+          WASP
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/WIESP/2025"
+                
+                
+              >WASP 2025</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/WIESP/2023"
+                
+                
+              >WIESP 2023</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/WIESP/2022"
+                
+                
+              >WIESP 2022</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      <nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      
+      
+        <li>
+          
+            <a href="/WIESP/2022"><span class="nav__sub-title">WIESP 2022</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <span class="nav__sub-title">Workshop</span>
+          
+
+          
+          <ul>
+            
+              <li><a href="/WIESP/2022/Schedule">Schedule</a></li>
+            
+          </ul>
+          
+        </li>
+      
+        <li>
+          
+            <span class="nav__sub-title">Shared Task</span>
+          
+
+          
+          <ul>
+            
+              <li><a href="/WIESP/2022/SharedTasks" class="active">Detecting Entities in the Astrophysics Literature (DEAL)</a></li>
+            
+              <li><a href="/WIESP/2022/LabelDefinitions">DEAL Label Definitions</a></li>
+            
+              <li><a href="/WIESP/2022/SharedTask_BaselineScores">DEAL Baseline Scores</a></li>
+            
+          </ul>
+          
+        </li>
+      
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Shared Task - Detecting Entities in the Astrophysics Literature (DEAL)">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="https://ui.adsabs.harvard.edu//WIESP/2022/SharedTasks" itemprop="url">Shared Task - Detecting Entities in the Astrophysics Literature (DEAL)
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>A good amount of astrophysics research makes use of data coming from missions and facilities such as ground observatories in remote locations or space telescopes, as well as digital archives that hold large amounts of observed and simulated data. These missions and facilities are frequently named after historical figures or use some ingenious acronym which, unfortunately, can be easily confused when searching for them in the literature via simple string matching. For instance, <code class="language-plaintext highlighter-rouge">Planck</code> can refer to the person, the mission, the constant, or several institutions. Automatically recognizing entities (i.e., Named Entity Recognition or NER) such as missions or facilities would help tackle this word sense disambiguation problem.</p>
+
+<h1 id="task">Task</h1>
+
+<p>The task consists on building a system (any strategy is valid as long as it is automatic and does not require human intervention) that is capable of identifying Named Entities in a dataset composed by full-text fragments and acknowledgements from the astrophysics literature.</p>
+
+<h1 id="dataset">Dataset</h1>
+
+<p>We provide a <a href="https://huggingface.co/datasets/fgrezes/WIESP2022-NER">dataset with acknowledgements and full-text fragments</a> from the <a href="https://ui.adsabs.harvard.edu/">NASA ADS</a> with manually tagged astronomical facilities and other entities of interest e.g. archive, celestial objects. See <a href="LabelDefinitions">here</a> for full list, definitions and examples. We also provide baseline metrics obtained with an early version of the <a href="https://ui.adsabs.harvard.edu/abs/2021arXiv211200590G/abstract">astroBERT model</a>.</p>
+
+<h1 id="evaluation--baseline">Evaluation &amp; Baseline</h1>
+
+<p>Submissions will be scored using both the CoNLL-2000 shared task <a href="https://github.com/chakki-works/seqeval">seqeval</a> F1-Score at the entity level and <a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.matthews_corrcoef.html">scikit-learn’s Matthews correlation coefficient method</a> at the token level. We also encourage authors to propose their own evaluation metrics. The baseline is computed using the <a href="https://ui.adsabs.harvard.edu/abs/2021arXiv211200590G/abstract">astroBERT</a> trained for this NER task (see <a href="SharedTask_BaselineScores">the detailed baseline scores</a>). The submissions will be scored on <a href="https://codalab.lisn.upsaclay.fr/competitions/5062">Codalab</a>.</p>
+
+<h1 id="challenge">Challenge</h1>
+
+<p>Can a different model/architecture/approach be more successful at recognizing astronomical named entities?</p>
+
+<p>Participants will have the opportunity to present their findings during the workshop and write a short paper. The best performant or interesting approaches might be invited to further collaborate with the <a href="https://ui.adsabs.harvard.edu/">NASA Astrophysical Data System</a>.</p>
+
+<h1 id="instructions-for-participants">Instructions for Participants</h1>
+
+<p>Participants should create accounts on <a href="https://huggingface.co/datasets">Huggingface</a> to access the data. Instructions on how to format your predictions and compute your scores on the training set are available in the <a href="https://huggingface.co/datasets/fgrezes/WIESP2022-NER">Huggingface repository</a></p>
+
+<p>Participants should also create accounts on <a href="https://codalab.lisn.upsaclay.fr/competitions/5062">Codalab</a> and follow the instructions on how to submit their predictions for scoring.</p>
+
+<h1 id="registration">Registration</h1>
+
+<p><strong><em>Please fill in this form to report your intention to participate in the shared task</em></strong></p>
+
+<p><a href="https://forms.office.com/r/KKpeKJBLy3">https://forms.office.com/r/KKpeKJBLy3</a></p>
+
+<h1 id="timeline">Timeline</h1>
+
+<ul>
+  <li>Training+Validation Data Release: June 1, 2022</li>
+  <li>Validation Phase: June 1 - July 31, 2022</li>
+  <li>Test Data Release: August 1, 2022</li>
+  <li>Final Scoring Period: August 1 - August 26, 2022</li>
+  <li>System Report Submission: September 12, 2022 (Final and Firm)</li>
+  <li>Notification: October 7, 2022</li>
+  <li>Camera-ready Submission Deadline: October 24, 2022</li>
+  <li>Event Date: November 20, 2022 (online)</li>
+</ul>
+
+<h1 id="contact">Contact</h1>
+
+<p>You can contact us at <code class="language-plaintext highlighter-rouge">WIESP_AACL2022 [at] softconf.com</code>.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://x.com/wiesp_nlp" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/adsabs/WIESP" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="https://ui.adsabs.harvard.edu/">WASP</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/WIESP/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

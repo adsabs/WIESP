@@ -1,0 +1,468 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.27.1 by Michael Rose
+  Copyright 2013-2025 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Label Definitions for the DEAL Shared Task - WASP</title>
+<meta name="description" content="Workshop on Aritifical intelligence for Scientific Publications">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="WASP">
+<meta property="og:title" content="Label Definitions for the DEAL Shared Task">
+<meta property="og:url" content="https://ui.adsabs.harvard.edu//WIESP/2022/LabelDefinitions">
+
+
+  <meta property="og:description" content="Workshop on Aritifical intelligence for Scientific Publications">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://ui.adsabs.harvard.edu//WIESP/2022/LabelDefinitions">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/WIESP/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/WIESP/">
+          WASP
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/WIESP/2025"
+                
+                
+              >WASP 2025</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/WIESP/2023"
+                
+                
+              >WIESP 2023</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/WIESP/2022"
+                
+                
+              >WIESP 2022</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      <nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      
+      
+        <li>
+          
+            <a href="/WIESP/2022"><span class="nav__sub-title">WIESP 2022</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <span class="nav__sub-title">Workshop</span>
+          
+
+          
+          <ul>
+            
+              <li><a href="/WIESP/2022/Schedule">Schedule</a></li>
+            
+          </ul>
+          
+        </li>
+      
+        <li>
+          
+            <span class="nav__sub-title">Shared Task</span>
+          
+
+          
+          <ul>
+            
+              <li><a href="/WIESP/2022/SharedTasks">Detecting Entities in the Astrophysics Literature (DEAL)</a></li>
+            
+              <li><a href="/WIESP/2022/LabelDefinitions" class="active">DEAL Label Definitions</a></li>
+            
+              <li><a href="/WIESP/2022/SharedTask_BaselineScores">DEAL Baseline Scores</a></li>
+            
+          </ul>
+          
+        </li>
+      
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Label Definitions for the DEAL Shared Task">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="https://ui.adsabs.harvard.edu//WIESP/2022/LabelDefinitions" itemprop="url">Label Definitions for the DEAL Shared Task
+</a>
+          </h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <h2 id="definitions-of-the-labels-used-in-the-deal-shared-task">Definitions of the Labels used in the DEAL Shared Task</h2>
+<p>Below you will find the full list of labels used in the DEAL shared task, along with their definitions and some examples.<br />
+In the dataset, tokens are labeled using the <a href="https://en.wikipedia.org/wiki/Inside%E2%80%93outside%E2%80%93beginning_(tagging)">IOB2 format</a> (ex: B-Archive, I-Archive).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>Label</strong> (abbreviation)</th>
+      <th><strong>Definition</strong></th>
+      <th><strong>Example</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Archive (Arc)</td>
+      <td>A curated collection of the literature or data. Very similar to Database</td>
+      <td>NASA ADS, MAST</td>
+    </tr>
+    <tr>
+      <td>CelestialObject (COb)</td>
+      <td>A named object in the sky</td>
+      <td>ONC, Andromeda galaxy</td>
+    </tr>
+    <tr>
+      <td>CelestialObjectRegion (COR)</td>
+      <td>A named area on/in a celestial body</td>
+      <td>Inner galaxy</td>
+    </tr>
+    <tr>
+      <td>CelestialRegion (CeR)</td>
+      <td>A defined region projected onto the sky, or celestial coordinates</td>
+      <td>GOODS field, l=2, b=15</td>
+    </tr>
+    <tr>
+      <td>Citation (Cit)</td>
+      <td>A reference to previous work in the literature</td>
+      <td>Allen et al. 2012</td>
+    </tr>
+    <tr>
+      <td>Collaboration (Col)</td>
+      <td>An organizational entity containing multiple organizations, observatories, and/or countries</td>
+      <td>the Plank Collaboration</td>
+    </tr>
+    <tr>
+      <td>ComputingFacility (CoF)</td>
+      <td>A facility whose primary purpose is to operate computational resources.</td>
+      <td>Example: Australian National Computational Infrastructure high-performance computing centre, CINECA supercomputing Centre</td>
+    </tr>
+    <tr>
+      <td>Database (DaB)</td>
+      <td>A curated and searchable set of related data tables (very similar to Archive)</td>
+      <td>Simbad</td>
+    </tr>
+    <tr>
+      <td>Dataset (DaS)</td>
+      <td>A curated set of data (essentially a single data table)</td>
+      <td>Gaia EDR3</td>
+    </tr>
+    <tr>
+      <td>EntityOfFutureInterest (EFI)</td>
+      <td>A general catch all for things that we think may be worth thinking about in the future (often terms related to gravitational waves)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Event (Eve)</td>
+      <td>A conference, workshop or other event that often brings scientists together</td>
+      <td>Protostars and Planets VI</td>
+    </tr>
+    <tr>
+      <td>Fellowship (Fel)</td>
+      <td>A grant focused towards students and/or early career researchers</td>
+      <td>Hubble Fellowship</td>
+    </tr>
+    <tr>
+      <td>Formula (For)</td>
+      <td>Mathematical formula or equations</td>
+      <td>F = Gm1m2/r^2, z=2.3</td>
+    </tr>
+    <tr>
+      <td>Grant (Gra)</td>
+      <td>An allocation of money and/or time for a research project</td>
+      <td>grant No. 12345, ADAP grant 12345</td>
+    </tr>
+    <tr>
+      <td>Identifier (Ide)</td>
+      <td>A unique identifier for data, images, etc</td>
+      <td>ALMA 123.12345</td>
+    </tr>
+    <tr>
+      <td>Instrument (Ins)</td>
+      <td>A device, often, but not always, placed on a telescope, to make a measurement</td>
+      <td>Infrared Array Camera, NIRCam</td>
+    </tr>
+    <tr>
+      <td>Location (Loc)</td>
+      <td>A named location on Earth</td>
+      <td>Canada</td>
+    </tr>
+    <tr>
+      <td>Mission (Mis)</td>
+      <td>A spacecraft that is not a telescope or observatory that carries multiple instruments</td>
+      <td>WIND</td>
+    </tr>
+    <tr>
+      <td>Model (Mod)</td>
+      <td>A named scientific or computational model.</td>
+      <td>TNG100, Salpeter IMF</td>
+    </tr>
+    <tr>
+      <td>ObservationalTechniques (ObT)</td>
+      <td>A method used to observe celestial objects</td>
+      <td>Resolved Long-slit Spectroscopy, adaptive optics imaging</td>
+    </tr>
+    <tr>
+      <td>Observatory (Obs)</td>
+      <td>A, often similarly located, group of telescopes</td>
+      <td>Keck Observatory, Fermi</td>
+    </tr>
+    <tr>
+      <td>Organization (Org)</td>
+      <td>A named organization that is not an observatory</td>
+      <td>NASA, University of Toledo</td>
+    </tr>
+    <tr>
+      <td>Person (Per)</td>
+      <td>A named person or their initials</td>
+      <td>A. Einstein</td>
+    </tr>
+    <tr>
+      <td>Proposal (Pro)</td>
+      <td>A request for telescope time or funding</td>
+      <td>74.C-0209(A), GN-2014B-Q-26</td>
+    </tr>
+    <tr>
+      <td>Software (Sof)</td>
+      <td>Named computer code or language</td>
+      <td>Python, Numpy, ClumpFind</td>
+    </tr>
+    <tr>
+      <td>Survey (Sur)</td>
+      <td>An organized search of the sky often dedicated to large scale science projects</td>
+      <td>2MASS, SDSS</td>
+    </tr>
+    <tr>
+      <td>Tag (Tag)</td>
+      <td>A HTML tag</td>
+      <td><bold>&lt;\bold&gt;</bold></td>
+    </tr>
+    <tr>
+      <td>Telescope (Tel)</td>
+      <td>A “bucket” to catch light</td>
+      <td>Hubble Space Telescope, Discovery Channel Telescope</td>
+    </tr>
+    <tr>
+      <td>TextGarbage (TeG)</td>
+      <td>Incorrect text, often multiple punctuation marks with no inner text</td>
+      <td>’,,,,,’</td>
+    </tr>
+    <tr>
+      <td>URL (URL)</td>
+      <td>A link to a website</td>
+      <td>https://www.astropy.org/</td>
+    </tr>
+    <tr>
+      <td>Wavelength (Wav)</td>
+      <td>A portion of the electromagnetic spectrum (can be communicated as a particular wavelength, a name, or a particular transition)</td>
+      <td>656.46 nm, H-alpha</td>
+    </tr>
+  </tbody>
+</table>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+      </footer>
+
+      
+
+      
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://x.com/wiesp_nlp" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/adsabs/WIESP" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="https://ui.adsabs.harvard.edu/">WASP</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/WIESP/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
