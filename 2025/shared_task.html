@@ -247,7 +247,7 @@
         <h2 id="telescope-reference-and-astronomy-categorization-shared-task-tracs">Telescope Reference and Astronomy Categorization Shared task (TRACS)</h2>
 
 <h3 id="introduction-and-motivation">Introduction and Motivation</h3>
-<p>A well-established way to assess the scientific impact of an observational facility in astronomy is the quantitative analysis of the studies published in the literature which have made use of the data taken by the facility. A requirement of such analysis is the creation of bibliographies which annotate and link data products with the literature, thus providing a way to use bibliometrics as an impact measure for the underlying data. Creating such links and bibliographies is a laborious process which involves specialists searching the literature for names, acronyms and identifiers, and then determining how observations were used in those publications, if at all <a href="https://arxiv.org/abs/2401.00060">Observatory Bibliographers Collaboration, 2024</a>.<br />
+<p>A well-established way to assess the scientific impact of an observational facility in astronomy is the quantitative analysis of the studies published in the literature which have made use of the data taken by the facility. A requirement of such analysis is the creation of bibliographies which annotate and link data products with the literature, thus providing a way to use bibliometrics as an impact measure for the underlying data. Creating such links and bibliographies is a laborious process which involves specialists searching the literature for names, acronyms and identifiers, and then determining how observations were used in those publications, if at all <a href="https://scixplorer.org/abs/2024OJAp....7E..85O/abstract">Observatory Bibliographers Collaboration, 2024</a>.<br />
 The creation of such links represents more than just a useful way to generate metrics: doing science with archival data depends on being able to critically review prior studies and then locate the data used therein, a basic tenet behind the principle of scientific reproducibility. From the perspective of a research scientist, the data-literature connections provide a critical path to data discovery and access. Thus, by leveraging the efforts of librarians and archivists, we can make use of telescope bibliographies to support the scientific inquiry process. We wish to make the creation of such bibliographies simpler and more consistent by using AI technologies to support the efforts of data curators.</p>
 
 <h4 id="typical-curation-process">Typical Curation Process</h4>
@@ -303,10 +303,14 @@ For a more detailed describtion of each label, see <a href="shared_task_labels">
 <p>Because new telescopes are deployed each year, we are especially interested in methods that can generalize and be applied to papers about telescopes not present in the training data.<br />
 The task for participants is thus :</p>
 <ol>
-  <li>Identifying if a paper relates to a telescope (binary semi-supervised classification)</li>
-  <li>Grouping papers by identified telescope (semi-supervised clustering)</li>
-  <li>Labeling the papers as one or more of <code class="language-plaintext highlighter-rouge">"science"</code>, <code class="language-plaintext highlighter-rouge">"mention"</code>, <code class="language-plaintext highlighter-rouge">"not_telescope"</code> (multi-label classification)</li>
+  <li>Identifying if a paper relates to a telescope</li>
+  <li>Grouping papers by identified telescope</li>
+  <li>Labeling the papers as one or more of <code class="language-plaintext highlighter-rouge">"science"</code>, <code class="language-plaintext highlighter-rouge">"mention"</code>, <code class="language-plaintext highlighter-rouge">"not_telescope"</code></li>
 </ol>
+
+<!---
+add example
+--->
 
 <h3 id="instructions-for-participants">Instructions for Participants</h3>
 
