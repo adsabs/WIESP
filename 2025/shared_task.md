@@ -9,7 +9,7 @@ sidebar:
 ## Telescope Reference and Astronomy Categorization Shared task (TRACS)
 
 ### Introduction and Motivation
-A well-established way to assess the scientific impact of an observational facility in astronomy is the quantitative analysis of the studies published in the literature which have made use of the data taken by the facility. A requirement of such analysis is the creation of bibliographies which annotate and link data products with the literature, thus providing a way to use bibliometrics as an impact measure for the underlying data. Creating such links and bibliographies is a laborious process which involves specialists searching the literature for names, acronyms and identifiers, and then determining how observations were used in those publications, if at all [Observatory Bibliographers Collaboration, 2024](https://arxiv.org/abs/2401.00060).  
+A well-established way to assess the scientific impact of an observational facility in astronomy is the quantitative analysis of the studies published in the literature which have made use of the data taken by the facility. A requirement of such analysis is the creation of bibliographies which annotate and link data products with the literature, thus providing a way to use bibliometrics as an impact measure for the underlying data. Creating such links and bibliographies is a laborious process which involves specialists searching the literature for names, acronyms and identifiers, and then determining how observations were used in those publications, if at all [Observatory Bibliographers Collaboration, 2024](https://scixplorer.org/abs/2024OJAp....7E..85O/abstract).  
 The creation of such links represents more than just a useful way to generate metrics: doing science with archival data depends on being able to critically review prior studies and then locate the data used therein, a basic tenet behind the principle of scientific reproducibility. From the perspective of a research scientist, the data-literature connections provide a critical path to data discovery and access. Thus, by leveraging the efforts of librarians and archivists, we can make use of telescope bibliographies to support the scientific inquiry process. We wish to make the creation of such bibliographies simpler and more consistent by using AI technologies to support the efforts of data curators.
 
 #### Typical Curation Process
@@ -57,9 +57,14 @@ For a more detailed describtion of each label, see [here](shared_task_labels)
 ### Challenge
 Because new telescopes are deployed each year, we are especially interested in methods that can generalize and be applied to papers about telescopes not present in the training data.  
 The task for participants is thus :
-1. Identifying if a paper relates to a telescope (binary semi-supervised classification)
-2. Grouping papers by identified telescope (semi-supervised clustering) 
-3. Labeling the papers as one or more of `"science"`, `"mention"`, `"not_telescope"` (multi-label classification)
+1. Identifying if a paper relates to a telescope
+2. Grouping papers by identified telescope
+3. Labeling the papers as one or more of `"science"`, `"mention"`, `"not_telescope"`
+
+<!---
+add example
+--->
+
 
 ### Instructions for Participants
 
