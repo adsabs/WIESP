@@ -83,15 +83,15 @@ Please register here (link TBD) to participate.
 
 ### Timeline
 
-| Timeline                                              | Date          |
-| ----------------------------------------------------- | ------------- |
-| 1st CfP + Registration starts                         |         |
-| Train and Validation Data Release                     |         |
-| Test Set Release + 2nd CfP                            |         |
-| Shared Task Period                                    |   |
-| Registration Ends                                     |          |
-| System Paper Submisison                               |          |
-| Evaluation & Review Period                            |    |
-| Notification                                          |          |
-| Camera Ready Submission                               |         |
+| Timeline                          | Date               |
+|-----------------------------------|--------------------|
+| 1st CfP + Registration starts     | July 22, 2025      |
+| Train and Validation Data Release | August 1, 2025     |
+| Test Set Release + 2nd CfP        | August 22, 2025    |
+| Registration Ends                 | September 21, 2025 |
+| System Run and Output Submission  | September 22, 2025 |
+| System Paper Submisison           | September 29, 2025 |
+| Result Announcement               | October 22, 2025   |
+| Notification                      | November 3, 2025   |
+| Camera Ready Submission           | November 11, 2025  |
 
