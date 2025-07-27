@@ -2,7 +2,7 @@
 layout: single
 title: WASP 2025
 permalink: /2025/
-title: "Workshop for Artificial intelligence for Scientific Publications (WASP) 2025"
+title: "Workshop for Artificial Intelligence for Scientific Publications (WASP) 2025"
 sidebar:
   nav: "sidebar2025"
 header:
@@ -13,21 +13,21 @@ header:
 excerpt: "A workshop series associated with the International Joint Conference on Natural Language Processing & Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL)."
 ---
 
-## The 3nd [WASP](https://ui.adsabs.harvard.edu/WIESP/) @ IJCNLP-AACL 2025
+## The 3rd [WASP](https://ui.adsabs.harvard.edu/WIESP/) @ IJCNLP-AACL 2025
 
-The Third Workshop on Artificial intelligence for Scientific Publications will be held in hybrid mode (online and at Mumbai, India) at the [IJCNLP-AACL 2025](https://www.afnlp.org/conferences/ijcnlp2025/) on December 23, 2025 and it will feature:
+The Third Workshop on Artificial Intelligence for Scientific Publications will be held in hybrid mode (online and at Mumbai, India) at the [IJCNLP-AACL 2025](https://www.afnlp.org/conferences/ijcnlp2025/) on December 23, 2025, and it will feature:
 
 - Keynote talk(s)
 - Paper Presentations
 - Shared task presentations
 - A virtual poster presentation and social event
-- Panel discussion: *LLMs for “Trustworthy and Grounded” Scientific Discovery*
+- A proposed panel discussion on *LLMs for “Trustworthy and Grounded” Scientific Discovery*
 
 ## Keynote Talk
 More details on our keynote speaker will be available [here](keynote).
 
 ## Schedule
-Full Schedule of presentations can be found [here](schedule).
+The Full Schedule of presentations can be found [here](schedule).
 
 ## Call for Papers
 Information about the call for papers can be found [here](call_for_papers).
@@ -43,15 +43,14 @@ Workshop authors, please use discount code "WORKSHOP" to register to enjoy early
 
 ## Organizers
 - [Alberto Accomazzi](https://ui.adsabs.harvard.edu/about/team/team/aaccomazzi.html), Center for Astrophysics \| Harvard & Smithsonian, USA
-- [Tirthankar Ghosal](https://elitr.eu/tirthankar-ghosal), National Center for Computational Sciences \| Oak Ridge National Laboratory, USA
+- [Tirthankar Ghosal](https://www.ornl.gov/staff-profile/tirthankar-ghosal), National Center for Computational Sciences \| Oak Ridge National Laboratory, USA
 - [Felix Grezes](https://ui.adsabs.harvard.edu/about/team/team/fgrezes.html), Center for Astrophysics \| Harvard & Smithsonian, USA
 - [Kelly Lockhart](https://ui.adsabs.harvard.edu/about/team/team/klockhart.html), Center for Astrophysics \| Harvard & Smithsonian, USA
 
 
 ## Program Committee
 
-We are thankful to our [program committee](ProgramCommittee) members to help us curate a strong WASP 2025 program.
+We are thankful to our [program committee](ProgramCommittee) members for helping us curate a strong WASP 2025 program.
 
 ## Contact
 
-`wiesp_ijcnlp-aacl-2025 [at] softconf.com`
