@@ -54,10 +54,10 @@ XX UPDATE w/ registration link for shared task
 The shared task papers/system descriptions will be published with the Third WASP proceedings in ACL Anthology. Please register here to participate.
 
 ## Important Dates
-- First Call for Proposals: July 27, 2025
-- Second Call for Proposals: August 22, 2025
+- First Call for Papers: July 27, 2025
+- Second Call for Papers: August 22, 2025
 - Registration deadline for TRACS shared task: September 21, 2025
-- Third Call for Proposals: September 22, 2025
+- Third Call for Papers: September 22, 2025
 - Paper submission deadline (WASP+TRACS): September 29, 2025
 - ARR commitment deadline: October 27, 2025
 - Notification of paper acceptance (WASP+TRACS): November 3, 2025
