@@ -272,7 +272,7 @@ The creation of such links represents more than just a useful way to generate me
 <p>An automated assistant able to emulate the supervised curation activities listed in the steps 2-5 above would provide a valuable contribution to the human effort involved. LLMs have shown flexibility in interpreting and classifying scientific articles which are the basis for this curation activity. They have also been successfully used for information extraction tasks, which would help identify the specific datasets mentioned in the papers. This shared task aims at improving the state of the art technologies to support these curation efforts.</p>
 
 <p>We at WASP-2025 challenge the community to build such automated assistants, especially if they can be applied to new telescopes.<br />
-(see <a href="#Instructions for Participants">Instructions for Participants</a> for a precise description of the task)</p>
+(see <a href="#instructions-for-participants">Instructions for Participants</a> for a precise description of the task)</p>
 
 <!---
 (OLD FG text)
@@ -291,12 +291,12 @@ The TRACS dataset is hosted on Hugginface here (link TBD).</p>
 <ul>
   <li><code class="language-plaintext highlighter-rouge">"bibcode"</code>: unique string that identifies the entry in the SciX database</li>
   <li><code class="language-plaintext highlighter-rouge">"telescope"</code>: the telescope referenced in the entry</li>
-  <li><code class="language-plaintext highlighter-rouge">"science"</code>, <code class="language-plaintext highlighter-rouge">"mention"</code>, <code class="language-plaintext highlighter-rouge">"not_telescope"</code>: boolean labels for the entry</li>
+  <li><code class="language-plaintext highlighter-rouge">"science"</code>, <code class="language-plaintext highlighter-rouge">instrumentation</code>,  <code class="language-plaintext highlighter-rouge">"mention"</code>, <code class="language-plaintext highlighter-rouge">"not_telescope"</code>: boolean labels for the entry</li>
   <li><code class="language-plaintext highlighter-rouge">"author"</code>, <code class="language-plaintext highlighter-rouge">"year"</code>: metadata for the entry</li>
   <li><code class="language-plaintext highlighter-rouge">"title"</code>, <code class="language-plaintext highlighter-rouge">"abstract"</code>, <code class="language-plaintext highlighter-rouge">"body"</code>, <code class="language-plaintext highlighter-rouge">"acknowledgments"</code>, <code class="language-plaintext highlighter-rouge">"grants"</code>: the relevant textual information for the entry.</li>
 </ul>
 
-<p>The <code class="language-plaintext highlighter-rouge">"science"</code>, <code class="language-plaintext highlighter-rouge">"mention"</code>, <code class="language-plaintext highlighter-rouge">"not_telescope"</code> labels describe how the paper use the data from the telescope. Broadly, <code class="language-plaintext highlighter-rouge">"science"</code> papers use data from the designated telescope to obtain new results, or describe the technical aspects of the telescope;  <code class="language-plaintext highlighter-rouge">"mention"</code> papers do reference the designated telescope but do not produce new scientific results; and <code class="language-plaintext highlighter-rouge">"not_telescope"</code> are papers that include a reference that might otherwise be confused with the designated telescope, i.e. false positives. 
+<p>The <code class="language-plaintext highlighter-rouge">"science"</code>, <code class="language-plaintext highlighter-rouge">instrumentation</code>, <code class="language-plaintext highlighter-rouge">"mention"</code>, <code class="language-plaintext highlighter-rouge">"not_telescope"</code> labels describe how the paper use the data from the telescope. Broadly, <code class="language-plaintext highlighter-rouge">"science"</code> papers use data from the designated telescope to obtain new results; <code class="language-plaintext highlighter-rouge">instrumentation</code> papers describe the technical aspects of the telescope;  <code class="language-plaintext highlighter-rouge">"mention"</code> papers do reference the designated telescope but do not produce new scientific results; and <code class="language-plaintext highlighter-rouge">"not_telescope"</code> are papers that include a reference that might otherwise be confused with the designated telescope, i.e. false positives. 
 For a more detailed describtion of each label, see <a href="shared_task_labels">here</a></p>
 
 <h3 id="challenge">Challenge</h3>
@@ -305,7 +305,7 @@ The task for participants is thus :</p>
 <ol>
   <li>Identifying if a paper relates to a telescope</li>
   <li>Grouping papers by identified telescope</li>
-  <li>Labeling the papers as one or more of <code class="language-plaintext highlighter-rouge">"science"</code>, <code class="language-plaintext highlighter-rouge">"mention"</code>, <code class="language-plaintext highlighter-rouge">"not_telescope"</code></li>
+  <li>Labeling the papers as one or more of <code class="language-plaintext highlighter-rouge">"science"</code>, <code class="language-plaintext highlighter-rouge">instrumentation</code>, <code class="language-plaintext highlighter-rouge">"mention"</code>, <code class="language-plaintext highlighter-rouge">"not_telescope"</code></li>
 </ol>
 
 <!---
