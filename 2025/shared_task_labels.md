@@ -9,15 +9,14 @@ sidebar:
 ## Description of the Labels for TRACS @ WASP @ IJCNLP-AACL 2025
 The TRACS dataset consists of papers associated with a telescope and three categories likely to be of interest to bibliographers. We have drawn the categories from a simplification of those discussed by the [Observatory Bibliographers Collaboration (2024)](https://scixplorer.org/abs/2024OJAp....7E..85O/abstract).  
 
-Papers can be categorized as one of `science`, `mention`, or `not_telescope`.
+Papers can be categorized as one of `science`, `instrumentation`, `mention`, or `not_telescope`.
 
 ### `science`
-Science papers combine two sub-categories: `new science` and `instrumentation`.  
-
 New science papers use data from the designated telescope to obtain new results. The authors may be using new observations, using archival observations, or reanalyzing previous results. However, papers that merely refer to previous results for comparison or suggest what might be possible with future observations are Mentions, rather than Science papers.  
 Science papers may use observations directly or indirectly, such as through a published source catalog. Indirect use must be substantive. Papers that overlay new data over images from the designated telescope without discussing the underlying image are Mentions, rather than Science papers. Papers that use catalog data, such as positions or measurements, without further discussion are Mentions, rather than Science papers.  
 Papers that reference a grant associated with the designated telescope but provide no evidence of using data from it are Not Telescope papers, rather than Science papers or Mentions.  
 
+### `instrumentation`
 Instrumentation papers describe the technical aspects of the telescope, its calibration activities, its data processing pipeline, or its archival procedures. These papers can discuss hardware, software, or methodologies.  
 A paper that includes new science facilitated by use of the hardware, software, or methodology described in the paper may be both a Science and an Instrumentation paper. A paper that describes a novel technique or software to achieve its scientific conclusions may be a Science and an Instrumentation paper. A paper that uses calibration, alignment, or engineering data to produce new results may be a Science and an Instrumentation paper.
 
