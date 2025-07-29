@@ -32,8 +32,15 @@ The Full Schedule of presentations can be found [here](schedule).
 ## Call for Papers
 Information about the call for papers can be found [here](call_for_papers).
 
+## TRACS Shared Task
+WASP 2025 includes one shared task where we invite teams (individuals and groups) to come up with a system to tackle bibliographic creation for space telescopes.  
+
+- [TRACS: Telescope Reference and Astronomy Categorization Shared task](shared_task)
+
+Participants will have the opportunity to present their findings during the workshop and write a short paper. The best performant or interesting approaches might be invited to further collaborate with [NASA  Science Explorer (SciX)](https://scixplorer.org/).
+
 ## Accepted Submissions
-Accepted papers in WIESP 2025 will appear [here](accepted_submissions). 
+Accepted papers in WASP 2025 will appear [here](accepted_submissions). 
 
 ## Workshop Registration at IJCNLP-AACL 2025
 <!---
