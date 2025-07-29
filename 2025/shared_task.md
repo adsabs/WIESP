@@ -29,7 +29,7 @@ While different groups use different approaches and criteria to the problem of b
 An automated assistant able to emulate the supervised curation activities listed in the steps 2-5 above would provide a valuable contribution to the human effort involved. LLMs have shown flexibility in interpreting and classifying scientific articles which are the basis for this curation activity. They have also been successfully used for information extraction tasks, which would help identify the specific datasets mentioned in the papers. This shared task aims at improving the state of the art technologies to support these curation efforts.  
 
 We at WASP-2025 challenge the community to build such automated assistants, especially if they can be applied to new telescopes.  
-(see [Instructions for Participants](#Instructions for Participants) for a precise description of the task)
+(see [Instructions for Participants](#instructions-for-participants) for a precise description of the task)
 
 <!---
 (OLD FG text)
@@ -47,11 +47,11 @@ The TRACS dataset is hosted on Hugginface here (link TBD).
 The dataset entries consists of the following features:  
 - `"bibcode"`: unique string that identifies the entry in the SciX database
 - `"telescope"`: the telescope referenced in the entry 
-- `"science"`, `"mention"`, `"not_telescope"`: boolean labels for the entry
+- `"science"`, `instrumentation`,  `"mention"`, `"not_telescope"`: boolean labels for the entry
 - `"author"`, `"year"`: metadata for the entry
 - `"title"`, `"abstract"`, `"body"`, `"acknowledgments"`, `"grants"`: the relevant textual information for the entry.
 
-The `"science"`, `"mention"`, `"not_telescope"` labels describe how the paper use the data from the telescope. Broadly, `"science"` papers use data from the designated telescope to obtain new results, or describe the technical aspects of the telescope;  `"mention"` papers do reference the designated telescope but do not produce new scientific results; and `"not_telescope"` are papers that include a reference that might otherwise be confused with the designated telescope, i.e. false positives. 
+The `"science"`, `instrumentation`, `"mention"`, `"not_telescope"` labels describe how the paper use the data from the telescope. Broadly, `"science"` papers use data from the designated telescope to obtain new results; `instrumentation` papers describe the technical aspects of the telescope;  `"mention"` papers do reference the designated telescope but do not produce new scientific results; and `"not_telescope"` are papers that include a reference that might otherwise be confused with the designated telescope, i.e. false positives. 
 For a more detailed describtion of each label, see [here](shared_task_labels)
 
 ### Challenge
@@ -59,7 +59,7 @@ Because new telescopes are deployed each year, we are especially interested in m
 The task for participants is thus :
 1. Identifying if a paper relates to a telescope
 2. Grouping papers by identified telescope
-3. Labeling the papers as one or more of `"science"`, `"mention"`, `"not_telescope"`
+3. Labeling the papers as one or more of `"science"`, `instrumentation`, `"mention"`, `"not_telescope"`
 
 <!---
 add example
