@@ -61,22 +61,18 @@ The task for participants is thus :
 2. Grouping papers by identified telescope
 3. Labeling the papers as one or more of `"science"`, `instrumentation`, `"mention"`, `"not_telescope"`
 
-<!---
-add example
---->
-
 
 ### Instructions for Participants
+Participants can find the latest version of the dataset on Huggingface [here](https://huggingface.co/datasets/adsabs/TRACS).  
+Participants should join the competition on Kaggle (link TBD soon).  
 
 
 ### Baseline
-
+(baseline available soon)
 
 ### Registration for TRACS
-<!---
-XXX add registration link
---->
-Please register here (link TBD) to participate.
+Please register here for ICNLP-AACL 2025 [here](https://www.afnlp.org/conferences/ijcnlp2025/#registration) to participate.  
+You should also register for [Kaggle](https://www.kaggle.com/)
 
 
 
