@@ -64,7 +64,7 @@ The shared task papers/system descriptions will be published with the Third WASP
 - Camera-ready submission deadline (WASP+TRACS): November 11, 2025
 - Workshop: December 23, 2025 (hybrid)
 
-*All submission deadlines are 11.59 pm UTC -12h (“Anywhere on Earth”)*
+*All submission deadlines are 11.59 pm UTC -12 h (“Anywhere on Earth”)*
 
 ## Submission Site
 
