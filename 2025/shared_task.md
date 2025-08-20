@@ -41,7 +41,7 @@ With the rise of Large Language Models as general purpose text understanding too
 
 ### Dataset  
 We provide a dataset of scientific papers from SciX annotated with their associated telescope, categorization, and metada. 
-The TRACS dataset is hosted on Hugginface here (link TBD).  
+The TRACS dataset is hosted on Hugginface [here](https://huggingface.co/datasets/adsabs/TRACS).  
 
 ### Dataset Description  
 The dataset entries consists of the following features:  
@@ -64,7 +64,7 @@ The task for participants is thus :
 
 ### Instructions for Participants
 Participants can find the latest version of the dataset on Huggingface [here](https://huggingface.co/datasets/adsabs/TRACS).  
-Participants should join the competition on Kaggle (link TBD soon).  
+Participants should join the competition on Kaggle [here](https://www.kaggle.com/competitions/tracs-wasp-2025).  
 
 
 ### Baseline
