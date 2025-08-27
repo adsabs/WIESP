@@ -6,4 +6,6 @@ sidebar:
   nav: "sidebar2025"
 ---
 
-Coming soon.
+WASP 2025 will have several keynote speakers. The confirmed speakers include:
+- Karin Verspoor, Dean, School of Computing Technologies, Royal Melbourne Institute of Technology, Australia
+- [Kartheik Iyer](https://kartheikiyer.github.io/), NASA Hubble Fellow, Columbia University, USA
