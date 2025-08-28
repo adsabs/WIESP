@@ -42,6 +42,7 @@ With the rise of Large Language Models as general purpose text understanding too
 ### Dataset  
 We provide a dataset of scientific papers from SciX annotated with their associated telescope, categorization, and metada. 
 The TRACS dataset is hosted on Hugginface [here](https://huggingface.co/datasets/adsabs/TRACS).  
+The competition is run from Kaggle [here](https://www.kaggle.com/competitions/tracs-wasp-2025/).  
 
 ### Dataset Description  
 The dataset entries consists of the following features:  
@@ -51,8 +52,10 @@ The dataset entries consists of the following features:
 - `"author"`, `"year"`: metadata for the entry
 - `"title"`, `"abstract"`, `"body"`, `"acknowledgments"`, `"grants"`: the relevant textual information for the entry.
 
+On Kaggle, an additional `Id` column is present.
+
 The `"science"`, `instrumentation`, `"mention"`, `"not_telescope"` labels describe how the paper use the data from the telescope. Broadly, `"science"` papers use data from the designated telescope to obtain new results; `instrumentation` papers describe the technical aspects of the telescope;  `"mention"` papers do reference the designated telescope but do not produce new scientific results; and `"not_telescope"` are papers that include a reference that might otherwise be confused with the designated telescope, i.e. false positives. 
-For a more detailed describtion of each label, see [here](shared_task_labels)
+For a more detailed description of each label, see [here](shared_task_labels)
 
 ### Challenge
 Because new telescopes are deployed each year, we are especially interested in methods that can generalize and be applied to papers about telescopes not present in the training data.  
@@ -66,27 +69,38 @@ The task for participants is thus :
 Participants can find the latest version of the dataset on Huggingface [here](https://huggingface.co/datasets/adsabs/TRACS).  
 Participants should join the competition on Kaggle [here](https://www.kaggle.com/competitions/tracs-wasp-2025).  
 
+Participants are to used the data from the `"title"`, `"abstract"`, `"body"`, `"acknowledgments"`, `"grants"` features to build models.  
+These models should then make predictions and submit them to Kaggle in  for the a `.csv` file with the following columns: `Id,telescope,science,instrumentation,mention,not_telescope`.  
+For example, a `sample_submission.csv` file could start with:
+```
+Id,telescope,science,instrumentation,mention,not_telescope
+2012A&A...537A..18M_CHANDRA,JWST,True,False,False,False
+1998SPIE.3356.1078P_CHANDRA,HST,False,False,True,False
+2022arXiv220915324P_CHANDRA,HST,True,False,False,False
+```
+
+### Evaluation
+Submission are ranked by macro f1-score across the `"telescope"` feature and the type of label of the telescope (`"science"`, `instrumentation`,  `"mention"`, `"not_telescope"`).  The code for scoring is available [here](https://www.kaggle.com/code/felixgrezes/f1-tracs-wasp2025).  
+**However** we highly encourage participants to propose their own evaluation metrics and use those to highlight the strength of their models.  
 
 ### Baseline
 (baseline available soon)
 
 ### Registration for TRACS
 Please register here for ICNLP-AACL 2025 [here](https://www.afnlp.org/conferences/ijcnlp2025/#registration) to participate.  
-You should also register for [Kaggle](https://www.kaggle.com/)
-
-
+You should also register for Kaggle [here](https://www.kaggle.com/).  
 
 
 ### Timeline
 
 | Timeline                          | Date               |
 |-----------------------------------|--------------------|
-| 1st CfP + Registration starts     | July 22, 2025      |
-| Train and Validation Data Release | August 1, 2025     |
-| Test Set Release + 2nd CfP        | August 22, 2025    |
-| Registration Ends                 | September 21, 2025 |
-| System Run and Output Submission  | September 22, 2025 |
-| System Paper Submisison           | September 29, 2025 |
+| 1st CfP + Registration starts     | August 27, 2025    |
+| Train and Validation Data Release | August 31, 2025    |
+| Test Set Release                  | August 31, 2025    |
+| Registration Ends                 | October 10, 2025   |
+| System Run and Output Submission  | October 13, 2025   |
+| System Paper Submisison           | October 20, 2025   |
 | Result Announcement               | October 22, 2025   |
 | Notification                      | November 3, 2025   |
 | Camera Ready Submission           | November 11, 2025  |
