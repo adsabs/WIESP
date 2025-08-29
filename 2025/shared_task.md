@@ -7,6 +7,10 @@ sidebar:
 ---
 
 ## Telescope Reference and Astronomy Categorization Shared task (TRACS)
+Quicklinks:
+- dataset on [Hugginface](https://huggingface.co/datasets/adsabs/TRACS)
+- competition on [Kaggle](https://www.kaggle.com/competitions/tracs-wasp-2025)
+- registration for [ICNLP-AACL](https://www.afnlp.org/conferences/ijcnlp2025/#registration)
 
 ### Introduction and Motivation
 A well-established way to assess the scientific impact of an observational facility in astronomy is the quantitative analysis of the studies published in the literature which have made use of the data taken by the facility. A requirement of such analysis is the creation of bibliographies which annotate and link data products with the literature, thus providing a way to use bibliometrics as an impact measure for the underlying data. Creating such links and bibliographies is a laborious process which involves specialists searching the literature for names, acronyms and identifiers, and then determining how observations were used in those publications, if at all [Observatory Bibliographers Collaboration, 2024](https://scixplorer.org/abs/2024OJAp....7E..85O/abstract).  
@@ -31,18 +35,10 @@ An automated assistant able to emulate the supervised curation activities listed
 We at WASP-2025 challenge the community to build such automated assistants, especially if they can be applied to new telescopes.  
 (see [Instructions for Participants](#instructions-for-participants) for a precise description of the task)
 
-<!---
-(OLD FG text)
-The NASA Science eXplorer (SciX) is a literature-based, open digital information system that, to help researchers, enriches its content by making relevant data discoverable. For example in astrophysics, a bibliography tracking all papers related to the CHANDRA space telescope hase been curated through large efforts by human contributors.   
-To help librarians and archivists with these data discovery efforts, automated text mining tools have been created, however these rely on explicit links either in the citations or the full-text. These automated tools also struggle with the additional information that human curators add based on the specific needs of each project. 
-to add: figuring out what LLMS can do, we offer this challenge
-With the rise of Large Language Models as general purpose text understanding tools, we at WASP-2025 challenge the community to build automated 
---->
-
 ### Dataset  
-We provide a dataset of scientific papers from SciX annotated with their associated telescope, categorization, and metada. 
+We provide a dataset of scientific papers from SciX annotated with their associated telescope, categorization, and metada.  
 The TRACS dataset is hosted on Hugginface [here](https://huggingface.co/datasets/adsabs/TRACS).  
-The competition is run from Kaggle [here](https://www.kaggle.com/competitions/tracs-wasp-2025/).  
+The competition is run on Kaggle [here](https://www.kaggle.com/competitions/tracs-wasp-2025/).  
 
 ### Dataset Description  
 The dataset entries consists of the following features:  
