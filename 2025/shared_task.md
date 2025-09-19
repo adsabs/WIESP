@@ -8,9 +8,9 @@ sidebar:
 
 ## Telescope Reference and Astronomy Categorization Shared task (TRACS)
 Quicklinks:
-- dataset on [Hugginface](https://huggingface.co/datasets/adsabs/TRACS)
-- competition on [Kaggle](https://www.kaggle.com/competitions/tracs-wasp-2025)
+- dataset and competition on [Kaggle](https://www.kaggle.com/competitions/tracs-wasp-2025)
 - registration for [ICNLP-AACL](https://www.afnlp.org/conferences/ijcnlp2025/#registration)
+- mirror link of the dataset on [Huggingface](https://huggingface.co/datasets/adsabs/TRACS) (different formating, for archival purposes)
 
 ### Introduction and Motivation
 A well-established way to assess the scientific impact of an observational facility in astronomy is the quantitative analysis of the studies published in the literature which have made use of the data taken by the facility. A requirement of such analysis is the creation of bibliographies which annotate and link data products with the literature, thus providing a way to use bibliometrics as an impact measure for the underlying data. Creating such links and bibliographies is a laborious process which involves specialists searching the literature for names, acronyms and identifiers, and then determining how observations were used in those publications, if at all [Observatory Bibliographers Collaboration, 2024](https://scixplorer.org/abs/2024OJAp....7E..85O/abstract).  
@@ -37,8 +37,7 @@ We at WASP-2025 challenge the community to build such automated assistants, espe
 
 ### Dataset  
 We provide a dataset of scientific papers from SciX annotated with their associated telescope, categorization, and metada.  
-The TRACS dataset is hosted on Hugginface [here](https://huggingface.co/datasets/adsabs/TRACS).  
-The competition is run on Kaggle [here](https://www.kaggle.com/competitions/tracs-wasp-2025/).  
+The dataset and competition are on Kaggle [here](https://www.kaggle.com/competitions/tracs-wasp-2025/).  
 
 ### Dataset Description  
 The dataset entries consists of the following features:  
@@ -51,7 +50,8 @@ The dataset entries consists of the following features:
 On Kaggle, an additional `Id` column is present.
 
 The `"science"`, `instrumentation`, `"mention"`, `"not_telescope"` labels describe how the paper use the data from the telescope. Broadly, `"science"` papers use data from the designated telescope to obtain new results; `instrumentation` papers describe the technical aspects of the telescope;  `"mention"` papers do reference the designated telescope but do not produce new scientific results; and `"not_telescope"` are papers that include a reference that might otherwise be confused with the designated telescope, i.e. false positives. 
-For a more detailed description of each label, see [here](shared_task_labels)
+For a more detailed description of each label, see [here](shared_task_labels).  
+
 
 ### Challenge
 Because new telescopes are deployed each year, we are especially interested in methods that can generalize and be applied to papers about telescopes not present in the training data.  
@@ -62,8 +62,7 @@ The task for participants is thus :
 
 
 ### Instructions for Participants
-Participants can find the latest version of the dataset on Huggingface [here](https://huggingface.co/datasets/adsabs/TRACS).  
-Participants should join the competition on Kaggle [here](https://www.kaggle.com/competitions/tracs-wasp-2025).  
+Participants should join the competition on Kaggle [here](https://www.kaggle.com/competitions/tracs-wasp-2025), where they can find the latest version of the dataset.  
 
 Participants are to used the data from the `"title"`, `"abstract"`, `"body"`, `"acknowledgments"`, `"grants"` features to build models.  
 These models should then make predictions and submit them to Kaggle in  for the a `.csv` file with the following columns: `Id,telescope,science,instrumentation,mention,not_telescope`.  
@@ -76,7 +75,8 @@ Id,telescope,science,instrumentation,mention,not_telescope
 ```
 
 ### Evaluation
-Submission are ranked by macro f1-score across the `"telescope"` feature and the type of label of the telescope (`"science"`, `instrumentation`,  `"mention"`, `"not_telescope"`).  The code for scoring is available [here](https://www.kaggle.com/code/felixgrezes/f1-tracs-wasp2025).  
+Submission are ranked by macro f1-score across the `"telescope"` feature and the type of label of the telescope (`"science"`, `instrumentation`,  `"mention"`, `"not_telescope"`).  
+The code for scoring is available [here](https://www.kaggle.com/code/felixgrezes/f1-tracs-wasp2025).  
 **However** we highly encourage participants to propose their own evaluation metrics and use those to highlight the strength of their models.  
 
 ### Baseline
