@@ -6,6 +6,8 @@ sidebar:
   nav: "sidebar2025"
 ---
 
+**Submission deadline extended to October 6th**
+
 Building on the success of the [First Workshop on Information Extraction from Scientific Publications (WIESP) at AACL-IJCNLP 2022](../2022) and the [Second WIESP at IJCNLP-AACL 2023](../2023), the [Third Workshop on Artificial intelligence for Scientific Publications (WASP) at IJCNLP-AACL 2025](../2025) aims to establish itself as a pivotal platform for promoting discussions and research in the field of Natural Language Processing (NLP) and Artificial Intelligence (AI). This gathering will bring together esteemed experts and renowned organizations with students and early-career researchers who are interested and invested in efforts to extract and mine the world’s scientific knowledge from research papers. Their collaboration will be focused on developing advanced algorithms, models, and tools that will lay the foundation for future machine comprehension of scientific literature. The third iteration of WASP will specifically concentrate on various topics related to Artificial Intelligence research for/with scientific publications:
 
 ## Topics (not limited to)
@@ -58,7 +60,7 @@ The shared task papers/system descriptions will be published with the Third WASP
 - Second Call for Papers: August 22, 2025
 - Registration deadline for TRACS shared task: September 21, 2025
 - Third Call for Papers: September 22, 2025
-- Paper submission deadline (WASP+TRACS): September 29, 2025
+- Paper submission deadline (WASP+TRACS): October 6, 2025
 - ARR commitment deadline: October 27, 2025
 - Notification of paper acceptance (WASP+TRACS): November 3, 2025
 - Camera-ready submission deadline (WASP+TRACS): November 11, 2025
@@ -67,14 +69,10 @@ The shared task papers/system descriptions will be published with the Third WASP
 *All submission deadlines are 11.59 pm UTC -12 h (“Anywhere on Earth”)*
 
 ## Submission Site
-
-Submission Link: 
-
+Submission Link:  
 [OpenReview](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/WASP)
 
 ## Submissions
-
-Submission will be via OpenReview. Submissions should follow the [ACLPUB formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html) and [template files](https://github.com/acl-org/acl-style-files/tree/master). 
-
-Submissions (Long and Short Papers) will be subject to a double-blind peer-review process. We follow the same policies as IJCNLP-AACL 2025 regarding anonymity, preprints, and double submissions.
+Submission will be via OpenReview. Submissions should follow the [ACLPUB formatting guidelines](https://acl-org.github.io/ACLPUB/formatting.html) and [template files](https://github.com/acl-org/acl-style-files/tree/master).  
+Submissions (Long and Short Papers) will be subject to a double-blind peer-review process. We follow the same policies as IJCNLP-AACL 2025 regarding anonymity, preprints, and double submissions.  
 
