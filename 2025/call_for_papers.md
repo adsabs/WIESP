@@ -60,8 +60,9 @@ The shared task papers/system descriptions will be published with the Third WASP
 - Second Call for Papers: August 22, 2025
 - Registration deadline for TRACS shared task: September 21, 2025
 - Third Call for Papers: September 22, 2025
-- Paper submission deadline (WASP+TRACS): October 6, 2025
-- ARR commitment deadline: October 27, 2025
+- Paper submission deadline (WASP): October 6, 2025
+- System Run and Output Submission (TRACS): October 13, 2025
+- System Paper Submisison (TRACS): October 20, 2025
 - Notification of paper acceptance (WASP+TRACS): November 3, 2025
 - Camera-ready submission deadline (WASP+TRACS): November 11, 2025
 - Workshop: December 23, 2025 (hybrid)
