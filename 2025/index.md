@@ -60,4 +60,4 @@ Workshop authors, please use discount code "WORKSHOP" to register to enjoy early
 We are thankful to our [program committee](ProgramCommittee) members for helping us curate a strong WASP 2025 program.
 
 ## Contact
-
+for enquiries, contact Felix Grezes [felix.grezes@cfa.harvard.edu](mailto:felix.grezes@cfa.harvard.edu?subject=TRACS@WASP20250)
