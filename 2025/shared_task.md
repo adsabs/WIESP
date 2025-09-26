@@ -7,9 +7,13 @@ sidebar:
 ---
 
 ## Telescope Reference and Astronomy Categorization Shared task (TRACS)
+
 Quicklinks:
 - dataset and competition on [Kaggle](https://www.kaggle.com/competitions/tracs-wasp-2025)
-- registration for [ICNLP-AACL](https://www.afnlp.org/conferences/ijcnlp2025/#registration)
+- registration for ICNLP-AACL [here](https://www.afnlp.org/conferences/ijcnlp2025/#registration)
+- registration for TRACS [here](https://forms.office.com/pages/responsepage.aspx?id=2RNYUX1x3UWeypqhnAnW-QZ5Zy_W4nZAvEgm_Ak_4FhUQlIwSjhFTTRPQk9EQzNSNkNaTzVaN0lISS4u)
+- ACL LaTeX template on [Github](https://github.com/acl-org/acl-style-files/tree/master?tab=readme-ov-file)
+- submission link on [OpenReview](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/WASP).
 - mirror link of the dataset on [Huggingface](https://huggingface.co/datasets/adsabs/TRACS) (different formating, for archival purposes)
 
 ### Introduction and Motivation
@@ -62,7 +66,11 @@ The task for participants is thus :
 
 
 ### Instructions for Participants
-Participants should join the competition on Kaggle [here](https://www.kaggle.com/competitions/tracs-wasp-2025), where they can find the latest version of the dataset.  
+1. Participants should register for ICNLP-AACL [here](https://www.afnlp.org/conferences/ijcnlp2025/#registration).
+2. Particpants should register for TRACS on this google form [here](https://forms.office.com/pages/responsepage.aspx?id=2RNYUX1x3UWeypqhnAnW-QZ5Zy_W4nZAvEgm_Ak_4FhUQlIwSjhFTTRPQk9EQzNSNkNaTzVaN0lISS4u).
+3. Participants should join the competition on Kaggle [here](https://www.kaggle.com/competitions/tracs-wasp-2025), where they can find the latest version of the dataset, and score their submissions.
+4. Participants should format their papers using the ACL LaTeX template on Github [here](https://github.com/acl-org/acl-style-files/tree/master?tab=readme-ov-file), and submit them to OpenReview [here](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2025/Workshop/WASP).
+
 
 Participants are to used the data from the `"title"`, `"abstract"`, `"body"`, `"acknowledgments"`, `"grants"` features to build models.  
 These models should then make predictions and submit them to Kaggle in  for the a `.csv` file with the following columns: `Id,telescope,science,instrumentation,mention,not_telescope`.  
@@ -80,12 +88,14 @@ The code for scoring is available [here](https://www.kaggle.com/code/felixgrezes
 **However** we highly encourage participants to propose their own evaluation metrics and use those to highlight the strength of their models.  
 
 ### Baseline
-(baseline available soon)
+- Random: 0.24
+- [openai-gpt-oss-20b](https://huggingface.co/openai/gpt-oss-20b): 0.31
+
+(more details to come)  
 
 ### Registration for TRACS
-Please register here for ICNLP-AACL 2025 [here](https://www.afnlp.org/conferences/ijcnlp2025/#registration) to participate.  
+Please register for ICNLP-AACL 2025 [here](https://www.afnlp.org/conferences/ijcnlp2025/#registration) and to TRACS [here](https://forms.office.com/pages/responsepage.aspx?id=2RNYUX1x3UWeypqhnAnW-QZ5Zy_W4nZAvEgm_Ak_4FhUQlIwSjhFTTRPQk9EQzNSNkNaTzVaN0lISS4u) to participate.  
 You should also register for Kaggle [here](https://www.kaggle.com/).  
-
 
 ### Timeline
 
@@ -100,4 +110,7 @@ You should also register for Kaggle [here](https://www.kaggle.com/).
 | Result Announcement               | October 22, 2025   |
 | Notification                      | November 3, 2025   |
 | Camera Ready Submission           | November 11, 2025  |
+
+### Contact
+for enquiries, contact Felix Grezes [felix.grezes@cfa.harvard.edu](mailto:felix.grezes@cfa.harvard.edu?subject=TRACS@WASP20250)
 
