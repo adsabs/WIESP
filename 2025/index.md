@@ -27,7 +27,8 @@ The Third Workshop on Artificial Intelligence for Scientific Publications will b
 More details on our keynote speaker will be available [here](keynote).
 
 ## Schedule
-The Full Schedule of presentations can be found [here](schedule).
+The Full Schedule of presentations can be found [here](schedule).  
+**Deadline for paper submissions extended to October 13.** 
 
 ## Call for Papers
 Information about the call for papers can be found [here](call_for_papers).
