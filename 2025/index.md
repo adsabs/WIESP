@@ -24,11 +24,17 @@ The Third Workshop on Artificial Intelligence for Scientific Publications will b
 - A proposed panel discussion on *LLMs for “Trustworthy and Grounded” Scientific Discovery*
 
 ## Keynote Talk
-More details on our keynote speaker will be available [here](keynote).
+
+- [Karin Verspoor](https://www.rmit.edu.au/profiles/v/karin-verspoor), Dean, School of Computing Technologies, Royal Melbourne Institute of Technology, Australia
+- [Kartheik Iyer](https://kartheikiyer.github.io/), NASA Hubble Fellow, Columbia University, USA
+
+More details on our keynote speaker is be available [here](keynote).
 
 ## Schedule
 The Full Schedule of presentations can be found [here](schedule).  
-**Deadline for paper submissions extended to October 13.** 
+**Deadline for paper submissions extended to October 13.**
+**Deadline for shared task TRACS papers submissions extended to October 20.**
+
 
 ## Call for Papers
 Information about the call for papers can be found [here](call_for_papers).
@@ -47,7 +53,8 @@ Accepted papers in WASP 2025 will appear [here](accepted_submissions).
 <!---
 Workshop authors, please use discount code "WORKSHOP" to register to enjoy early-bird rate (only valid for onsite tickets). (XX UPDATE)
 --->
-[Registration](https://www.afnlp.org/conferences/ijcnlp2025/#registration)
+[Registration](https://www.afnlp.org/conferences/ijcnlp2025/#registration)  
+(opens soon)
 
 ## Organizers
 - [Alberto Accomazzi](https://ui.adsabs.harvard.edu/about/team/team/aaccomazzi.html), Center for Astrophysics \| Harvard & Smithsonian, USA
