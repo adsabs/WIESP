@@ -17,7 +17,7 @@ excerpt: "A workshop series associated with the International Joint Conference o
 
 The Third Workshop on Artificial Intelligence for Scientific Publications will be held in hybrid mode (online and at Mumbai, India) at the [IJCNLP-AACL 2025](https://www.afnlp.org/conferences/ijcnlp2025/) on December 23, 2025, and it will feature:
 
-- Keynote talk(s)
+- Keynote talks
 - Paper Presentations
 - Shared task presentations
 - A virtual poster presentation and social event
@@ -28,7 +28,7 @@ The Third Workshop on Artificial Intelligence for Scientific Publications will b
 - [Karin Verspoor](https://www.rmit.edu.au/profiles/v/karin-verspoor), Dean, School of Computing Technologies, Royal Melbourne Institute of Technology, Australia
 - [Kartheik Iyer](https://kartheikiyer.github.io/), NASA Hubble Fellow, Columbia University, USA
 
-More details on our keynote speakers are available [here](keynote).
+More information on our keynote speakers is available [here](keynote).
 
 ## Schedule
 The Full Schedule of presentations can be found [here](schedule).  
