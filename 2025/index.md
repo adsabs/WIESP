@@ -32,7 +32,7 @@ More details on our keynote speakers are available [here](keynote).
 
 ## Schedule
 The Full Schedule of presentations can be found [here](schedule).  
-**Deadline for paper submissions extended to October 13.**
+**Deadline for paper submissions extended to October 13.**  
 **Deadline for shared task TRACS papers submissions extended to October 20.**
 
 
@@ -53,8 +53,8 @@ Accepted papers in WASP 2025 will appear [here](accepted_submissions).
 <!---
 Workshop authors, please use discount code "WORKSHOP" to register to enjoy early-bird rate (only valid for onsite tickets). (XX UPDATE)
 --->
-[Registration](https://www.afnlp.org/conferences/ijcnlp2025/#registration)  
-(opens soon)
+[Registration](https://2025.aaclnet.org/registration/)  
+(open now!)
 
 ## Organizers
 - [Alberto Accomazzi](https://ui.adsabs.harvard.edu/about/team/team/aaccomazzi.html), Center for Astrophysics \| Harvard & Smithsonian, USA
