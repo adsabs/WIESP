@@ -23,12 +23,12 @@ The Third Workshop on Artificial Intelligence for Scientific Publications will b
 - A virtual poster presentation and social event
 - A proposed panel discussion on *LLMs for “Trustworthy and Grounded” Scientific Discovery*
 
-## Keynote Talk
+## Keynote Talks
 
 - [Karin Verspoor](https://www.rmit.edu.au/profiles/v/karin-verspoor), Dean, School of Computing Technologies, Royal Melbourne Institute of Technology, Australia
 - [Kartheik Iyer](https://kartheikiyer.github.io/), NASA Hubble Fellow, Columbia University, USA
 
-More details on our keynote speaker is be available [here](keynote).
+More details on our keynote speakers is available [here](keynote).
 
 ## Schedule
 The Full Schedule of presentations can be found [here](schedule).  
