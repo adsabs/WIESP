@@ -28,7 +28,7 @@ The Third Workshop on Artificial Intelligence for Scientific Publications will b
 - [Karin Verspoor](https://www.rmit.edu.au/profiles/v/karin-verspoor), Dean, School of Computing Technologies, Royal Melbourne Institute of Technology, Australia
 - [Kartheik Iyer](https://kartheikiyer.github.io/), NASA Hubble Fellow, Columbia University, USA
 
-More details on our keynote speakers are available [here](keynote).
+More information on our keynote speakers is available [here](keynote).
 
 ## Schedule
 The Full Schedule of presentations can be found [here](schedule).  
