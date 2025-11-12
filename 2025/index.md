@@ -50,11 +50,8 @@ Participants will have the opportunity to present their findings during the work
 Accepted papers in WASP 2025 will appear [here](accepted_submissions). 
 
 ## Workshop Registration at IJCNLP-AACL 2025
-<!---
-Workshop authors, please use discount code "WORKSHOP" to register to enjoy early-bird rate (only valid for onsite tickets). (XX UPDATE)
---->
-[Registration](https://2025.aaclnet.org/registration/)  
-(open now!)
+[Registration](https://2025.aaclnet.org/registration/) (open now!)  
+You may also apply to D&I Subsidy Program [here](https://2025.aaclnet.org/calls/subsidies/#di-subsidy-program). **The deadline is November 12th.**
 
 ## Organizers
 - [Alberto Accomazzi](https://ui.adsabs.harvard.edu/about/team/team/aaccomazzi.html), Center for Astrophysics \| Harvard & Smithsonian, USA
