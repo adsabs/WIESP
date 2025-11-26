@@ -51,6 +51,7 @@ Accepted papers in WASP 2025 will appear [here](accepted_submissions).
 
 ## Workshop Registration at IJCNLP-AACL 2025
 [Registration](https://2025.aaclnet.org/registration/) (open now!)  
+Early bird registration deadline extended by 5 days to **December 5th**.  
 You may also apply to D&I Subsidy Program [here](https://2025.aaclnet.org/calls/subsidies/#di-subsidy-program). **The deadline is November 12th.**
 
 ## Organizers
