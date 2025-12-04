@@ -40,7 +40,7 @@ We at WASP-2025 challenge the community to build such automated assistants, espe
 (see [Instructions for Participants](#instructions-for-participants) for a precise description of the task)
 
 ### Dataset  
-We provide a dataset of scientific papers from SciX annotated with their associated telescope, categorization, and metada.  
+We provide a dataset of scientific papers from SciX annotated with their associated telescope, categorization, and metadata.  
 The dataset and competition are on Kaggle [here](https://www.kaggle.com/competitions/tracs-wasp-2025/).  
 
 ### Dataset Description  
@@ -56,6 +56,10 @@ On Kaggle, an additional `Id` column is present.
 The `"science"`, `instrumentation`, `"mention"`, `"not_telescope"` labels describe how the paper use the data from the telescope. Broadly, `"science"` papers use data from the designated telescope to obtain new results; `instrumentation` papers describe the technical aspects of the telescope;  `"mention"` papers do reference the designated telescope but do not produce new scientific results; and `"not_telescope"` are papers that include a reference that might otherwise be confused with the designated telescope, i.e. false positives. 
 For a more detailed description of each label, see [here](shared_task_labels).  
 
+This dataset was created with the collaboration of: 
+- Jenny Novacescu, Chief Librarian at the STSCi who helped with the data from the HST and JWST
+- Erin Scott, Astrophysicist from the CfA who provided the CHANDRA data
+- Anjali Pandiri, of Florida State University who helped curate the data
 
 ### Challenge
 Because new telescopes are deployed each year, we are especially interested in methods that can generalize and be applied to papers about telescopes not present in the training data.  
