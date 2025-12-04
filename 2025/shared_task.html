@@ -285,7 +285,7 @@ The creation of such links represents more than just a useful way to generate me
 (see <a href="#instructions-for-participants">Instructions for Participants</a> for a precise description of the task)</p>
 
 <h3 id="dataset">Dataset</h3>
-<p>We provide a dataset of scientific papers from SciX annotated with their associated telescope, categorization, and metada.<br />
+<p>We provide a dataset of scientific papers from SciX annotated with their associated telescope, categorization, and metadata.<br />
 The dataset and competition are on Kaggle <a href="https://www.kaggle.com/competitions/tracs-wasp-2025/">here</a>.</p>
 
 <h3 id="dataset-description">Dataset Description</h3>
@@ -302,6 +302,13 @@ The dataset and competition are on Kaggle <a href="https://www.kaggle.com/compet
 
 <p>The <code class="language-plaintext highlighter-rouge">"science"</code>, <code class="language-plaintext highlighter-rouge">instrumentation</code>, <code class="language-plaintext highlighter-rouge">"mention"</code>, <code class="language-plaintext highlighter-rouge">"not_telescope"</code> labels describe how the paper use the data from the telescope. Broadly, <code class="language-plaintext highlighter-rouge">"science"</code> papers use data from the designated telescope to obtain new results; <code class="language-plaintext highlighter-rouge">instrumentation</code> papers describe the technical aspects of the telescope;  <code class="language-plaintext highlighter-rouge">"mention"</code> papers do reference the designated telescope but do not produce new scientific results; and <code class="language-plaintext highlighter-rouge">"not_telescope"</code> are papers that include a reference that might otherwise be confused with the designated telescope, i.e. false positives. 
 For a more detailed description of each label, see <a href="shared_task_labels">here</a>.</p>
+
+<p>This dataset was created with the collaboration of:</p>
+<ul>
+  <li>Jenny Novacescu, Chief Librarian at the STSCi who helped with the data from the HST and JWST</li>
+  <li>Erin Scott, Astrophysicist from the CfA who provided the CHANDRA data</li>
+  <li>Anjali Pandiri, of Florida State University who helped curate the data</li>
+</ul>
 
 <h3 id="challenge">Challenge</h3>
 <p>Because new telescopes are deployed each year, we are especially interested in methods that can generalize and be applied to papers about telescopes not present in the training data.<br />
