@@ -7,7 +7,8 @@ sidebar:
   nav: "sidebar2025"
 ---
 
-December 23, 2025 (IST) — Mumbai, India
+December 23, 2025 (IST) — Mumbai, India  
+*Note that EST is 10:30 hours behind IST. This event starts at **9:30 PM on Monday, December 22nd** U.S. East Coast time.*
 
 ## Welcome
 **8:00 - 8:15 am**
