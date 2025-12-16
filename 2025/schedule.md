@@ -7,9 +7,11 @@ sidebar:
   nav: "sidebar2025"
 ---
 
-The workshop will take place on December 23, 2025 (IST), in Mumbai, India.
+The workshop will take place on December 23, 2025 (IST), in Mumbai, India.  
+Note that EST is 10:30 hours behind IST, this is event starts at **10:45 PM on Monday December 22nd** for people on the East Coast of the US.
 
-| **Presentation ID** | **Open Review submission number** | **Start Time (IST)** | **Type** | **Title** | 
+| **Presentation ID** | **Open Review submission number** | **Start Time (IST)**  | **Type** | **Title** | 
+| | | 8:00 AM |  | Zoom link opens (10:30 PM IST, Monday night for USA) |
 | WASP-01 | KEY-1 | 8:15 AM | keynote | Kartheik Iyer, "Wandering through the Cosmic Library: Harnessing the embedding spaces of large language models for astronomical research and discovery""
 | WASP-02 | 5 | 9:00 AM | long | A benchmark for end-to-end zero-shot biomedical relation extraction with LLMs: experiments with OpenAI models | 
 | WASP-03 | 31 | 9:13 AM | long | "AstroMLab 5: Structured Summaries and Concept Extraction for 400,000 Astrophysics Papers" | 
