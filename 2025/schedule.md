@@ -23,27 +23,28 @@ December 23, 2025 (IST) — Mumbai, India
 
 | Time (IST) | Title | ID     |
 |------------|-------|--------|
-| 9:00 AM | A benchmark for end-to-end zero-shot biomedical relation extraction with LLMs: experiments with OpenAI models | WASP&#8209;02 | 
-| 9:13 AM | AstroMLab 5: Structured Summaries and Concept Extraction for 400,000 Astrophysics Papers | WASP&#8209;03 |
-| 9:26 AM | AI for Data Ingestion into IPAC Archives | WASP&#8209;04 |
-| 9:35 AM | Structured Outputs in Prompt Engineering: Enhancing LLM Adaptability on Counterintuitive Instructions | WASP&#8209;05 |
-| 9:44 AM | Atlas: Customizing Large Language Models for Reliable Bibliographic Retrieval and Verification | WASP&#8209;06 |
-| 9:53 AM | Citation Drift: Measuring Reference Stability in Multi-Turn LLM Conversations | WASP&#8209;07 |
+| 9:00 AM    | A benchmark for end-to-end zero-shot biomedical relation extraction with LLMs: experiments with OpenAI models | WASP&#8209;02 | 
+| 9:13 AM    | AstroMLab 5: Structured Summaries and Concept Extraction for 400,000 Astrophysics Papers | WASP&#8209;03 |
+| 9:26 AM    | AI for Data Ingestion into IPAC Archives | WASP&#8209;04 |
+| 9:35 AM    | Structured Outputs in Prompt Engineering: Enhancing LLM Adaptability on Counterintuitive Instructions | WASP&#8209;05 |
+| 9:44 AM    | Atlas: Customizing Large Language Models for Reliable Bibliographic Retrieval and Verification | WASP&#8209;06 |
+| 9:53 AM    | Citation Drift: Measuring Reference Stability in Multi-Turn LLM Conversations | WASP&#8209;07 |
+| 10:02 AM   | Exploring Health Misinformation Detection with Multi-Agent Debate | WASP&#8209;08 |
+| 10:11 AM   | Metadata Generation for Research Data from URL Citation Contexts in Scholarly Papers: Task Definition and Dataset Construction | WASP&#8209;09 |
+
 
 ## Coffee Break  
-**10:00 – 10:30 AM**
+**10:30 – 11:00 AM**
 
 ## Morning Session II
 
 | Time (IST) | Title | ID |
-|----------|-------|----|
-| 10:30 AM | Exploring Health Misinformation Detection with Multi-Agent Debate | WASP&#8209;08 |
-| 10:39 AM | Metadata Generation for Research Data from URL Citation Contexts in Scholarly Papers: Task Definition and Dataset Construction | WASP&#8209;09 |
-| 10:48 AM | Bridging the Gap: Instruction-Tuned LLMs for Scientific Named Entity Recognition | WASP&#8209;10 |
-| 11:01 AM | Enhanced Table Structure Recognition with Multi-Modal Approach | WASP&#8209;11 |
-| 11:10 AM | A Hybrid LLM and Supervised Model Pipeline for Polymer Property Extraction from Tables in Scientific Literature | WASP&#8209;12 |
-| 11:19 AM | TeG-DRec: Inductive Text-Graph Learning for Unseen Node Scientific Dataset Recommendation | WASP&#8209;13 |
-| 11:32 AM | Zero-Shot Cross-Sentential Scientific Relation Extraction via Entity-Guided Summarization | WASP&#8209;14 |
+|------------|-------|----|
+| 11:00 AM   | Bridging the Gap: Instruction-Tuned LLMs for Scientific Named Entity Recognition | WASP&#8209;10 |
+| 11:13 AM   | Enhanced Table Structure Recognition with Multi-Modal Approach | WASP&#8209;11 |
+| 11:22 AM   | A Hybrid LLM and Supervised Model Pipeline for Polymer Property Extraction from Tables in Scientific Literature | WASP&#8209;12 |
+| 11:31 AM   | TeG-DRec: Inductive Text-Graph Learning for Unseen Node Scientific Dataset Recommendation | WASP&#8209;13 |
+| 11:44 AM   | Zero-Shot Cross-Sentential Scientific Relation Extraction via Entity-Guided Summarization | WASP&#8209;14 |
 
 ## Keynote  II
 **12:00 – 1:00 PM**
