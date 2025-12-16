@@ -7,34 +7,81 @@ sidebar:
   nav: "sidebar2025"
 ---
 
-The workshop will take place on December 23, 2025 (IST), in Mumbai, India.
+December 23, 2025 (IST) — Mumbai, India
 
-| **Presentation ID** | **Open Review submission number** | **Start Time (IST)** | **Type** | **Title** | 
-| WASP-01 | KEY-1 | 8:15 AM | keynote | Kartheik Iyer, "Wandering through the Cosmic Library: Harnessing the embedding spaces of large language models for astronomical research and discovery""
-| WASP-02 | 5 | 9:00 AM | long | A benchmark for end-to-end zero-shot biomedical relation extraction with LLMs: experiments with OpenAI models | 
-| WASP-03 | 31 | 9:13 AM | long | "AstroMLab 5: Structured Summaries and Concept Extraction for 400,000 Astrophysics Papers" | 
-| WASP-04 | 18 | 9:26 AM | short | AI for Data Ingestion into IPAC Archives | 
-| WASP-05 | 23 | 9:35 AM | short | Structured Outputs in Prompt Engineering: Enhancing LLM Adaptability on Counterintuitive Instructions | 
-| WASP-06 | 24 | 9:44 AM | short | Atlas: Customizing Large Language Models for Reliable Bibliographic Retrieval and Verification | 
-| WASP-07 | 34 | 9:53 AM | short | Citation Drift: Measuring Reference Stability in Multi-Turn LLM Conversations | 
-| Break |  | 10:00 AM |  |  |  
-| WASP-08 | 1 | 10:30 AM | short | Exploring Health Misinformation Detection with Multi-Agent Debate | 
-| WASP-09 | 16 | 10:39 AM | short | Metadata Generation for Research Data from URL Citation Contexts in Scholarly Papers: Task Definition and Dataset Construction | 
-| WASP-10 | 6 | 10:48 AM | long | Bridging the Gap: Instruction-Tuned LLMs for Scientific Named Entity Recognition | 
-| WASP-11 | 37 | 11:01 AM | short | Enhanced Table Structure Recognition with Multi-Modal Approach | 
-| WASP-12 | 21 | 11:10 AM | short | A Hybrid LLM and Supervised Model Pipeline for Polymer Property Extraction from Tables in Scientific Literature | 
-| WASP-13 | 22 | 11:19 AM | long | TeG-DRec: Inductive Text-Graph Learning for Unseen Node Scientific Dataset Recommendation | 
-| WASP-14 | 3 | 11:32 AM | long | Zero-Shot Cross-Sentential Scientific Relation Extraction via Entity-Guided Summarization | 
-| WASP-15 | KEY-2 | 12:00 PM | keynote | Karin Verspoor, "Impacts of AI on the Scientific Ecosystem" | 
-| Lunch |  | 1:00 PM |  |  |  
-| WASP-16 | 4 | 2:00 PM | long | Finding the Paper Behind the Data: Automatic Identification of Research Articles related to Data Publications | 
-| WASP-17 | 17 | 2:13 PM | short | Dynamic Reference Extraction and Linking across Multiple Scholarly Knowledge Graphs | 
-| Shared Task segment | | 2:30 PM | | |
-| WASP-18 | 27 | 2:30 PM | shared task | Automated Telescope-Paper Linkage via Multi-Model Ensemble Learning | 
-| WASP-19 | 28 | 2:30 PM | shared task | Systematic Evaluation of Machine Learning and Transformer-Based Methods for Scientific Telescope Literature Classification | 
-| WASP-20 | 29 | 2:30 PM | shared task | “Clutch or Cry” Team at TRACS @ WASP2025:  A Hybrid Stacking Ensemble for Astrophysical Document Classification | 
-| WASP-21 | 30 | 2:30 PM | shared task | amc: The Automated Mission Classifier for Telescope Bibliographies | 
-| WASP-22 | 35 | 2:30 PM | shared task | Efficient Context-Limited Telescope Bibliography Classification for the WASP-2025 Shared Task Using SciBERT | 
-| WASP-23 | 36 | 2:30 PM | shared task | Encoder Fine-tuning with Stochastic Sampling Outperforms Open-weight GPT in Astronomy Knowledge Extraction | 
-| Break |  | 3:30 PM |  |  | 
-| Panel |  | 4:00 PM |  |  |  
+## Welcome
+**8:00 - 8:15 am**
+
+## Keynote I 
+**8:15 - 9:00am**
+
+**Kartheik Iyer**  
+*Wandering through the Cosmic Library: Harnessing the embedding spaces of large language models for astronomical research and discovery*
+
+## Morning Session I
+
+| Time (IST) | Title | ID     |
+|------------|-------|--------|
+| 9:00 AM | A benchmark for end-to-end zero-shot biomedical relation extraction with LLMs: experiments with OpenAI models | WASP&#8209;02 | 
+| 9:13 AM | AstroMLab 5: Structured Summaries and Concept Extraction for 400,000 Astrophysics Papers | WASP&#8209;03 |
+| 9:26 AM | AI for Data Ingestion into IPAC Archives | WASP&#8209;04 |
+| 9:35 AM | Structured Outputs in Prompt Engineering: Enhancing LLM Adaptability on Counterintuitive Instructions | WASP&#8209;05 |
+| 9:44 AM | Atlas: Customizing Large Language Models for Reliable Bibliographic Retrieval and Verification | WASP&#8209;06 |
+| 9:53 AM | Citation Drift: Measuring Reference Stability in Multi-Turn LLM Conversations | WASP&#8209;07 |
+
+## Coffee Break  
+**10:00 – 10:30 AM**
+
+## Morning Session II
+
+| Time (IST) | Title | ID |
+|----------|-------|----|
+| 10:30 AM | Exploring Health Misinformation Detection with Multi-Agent Debate | WASP&#8209;08 |
+| 10:39 AM | Metadata Generation for Research Data from URL Citation Contexts in Scholarly Papers: Task Definition and Dataset Construction | WASP&#8209;09 |
+| 10:48 AM | Bridging the Gap: Instruction-Tuned LLMs for Scientific Named Entity Recognition | WASP&#8209;10 |
+| 11:01 AM | Enhanced Table Structure Recognition with Multi-Modal Approach | WASP&#8209;11 |
+| 11:10 AM | A Hybrid LLM and Supervised Model Pipeline for Polymer Property Extraction from Tables in Scientific Literature | WASP&#8209;12 |
+| 11:19 AM | TeG-DRec: Inductive Text-Graph Learning for Unseen Node Scientific Dataset Recommendation | WASP&#8209;13 |
+| 11:32 AM | Zero-Shot Cross-Sentential Scientific Relation Extraction via Entity-Guided Summarization | WASP&#8209;14 |
+
+## Keynote  II
+**12:00 – 1:00 PM**
+
+**Karin Verspoor**  
+*Impacts of AI on the Scientific Ecosystem*
+
+## Lunch  
+**1:00 – 2:00 PM**
+
+## Afternoon Session
+
+| Time (IST) | Title | ID |
+|----------|-------|----|
+| 2:00 PM | Finding the Paper Behind the Data: Automatic Identification of Research Articles related to Data Publications | WASP&#8209;16 |
+| 2:13 PM | Dynamic Reference Extraction and Linking across Multiple Scholarly Knowledge Graphs | WASP&#8209;17 |
+
+## Shared Task: TRACS
+### Overview & Discussion
+
+| Time           | Activity |
+|----------------|----------|
+| 2:30 – 2:45 PM | Shared Task Overview |
+| 2:45 – 3:00 PM | Poster Pop Session (1–2 min per poster) |
+| 3:00 - 3:30 PM | Virtual Poster Session |
+
+### Virtual posters
+- Automated Telescope-Paper Linkage via Multi-Model Ensemble Learning (WASP&#8209;18) 
+- Systematic Evaluation of Machine Learning and Transformer-Based Methods for Scientific Telescope Literature Classification (WASP&#8209;19) 
+- “Clutch or Cry” Team at TRACS @ WASP2025:  A Hybrid Stacking Ensemble for Astrophysical Document Classification (WASP&#8209;20) 
+- amc: The Automated Mission Classifier for Telescope Bibliographies (WASP&#8209;21) 
+- Efficient Context-Limited Telescope Bibliography Classification for the WASP&#8209;2025 Shared Task Using SciBERT (WASP&#8209;22) 
+- Encoder Fine-tuning with Stochastic Sampling Outperforms Open-weight GPT in Astronomy Knowledge Extraction (WASP&#8209;23) 
+
+## Coffee Break  
+**03:30 – 04:00 PM**
+
+## Panel
+**04:00 – 05:00 PM**
+
+**LLMs for “Trustworthy and Grounded” Scientific Discovery**  
+*Panelists:  Karin Verspoor, Kartheik Iyer, Prasanna Balaprakash (Director of AI Programs, ORNL), and ChatGPT*
