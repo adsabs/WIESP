@@ -8,63 +8,65 @@ sidebar:
 
 Proceedings coming soon.
 
----
-layout: single
-title: Accepted Submissions for WIESP @ IJCNLP-AACL 2023
-permalink: /2023/accepted_submissions/
-sidebar:
-  nav: "sidebar2023"
----
+**A benchmark for end-to-end zero-shot biomedical relation extraction with LLMs: experiments with OpenAI models**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Aviv Brokman, Xuguang Ai, Yuhang Jiang, Shashank Gupta, Ramakanth Kavuluru*  
 
-Proceedings can be found [here](book.pdf).
+**AstroMLab 5: Structured Summaries and Concept Extraction for 400,000 Astrophysics Papers**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Yuan-Sen Ting, Alberto Accomazzi, Tirthankar Ghosal, Tuan Dung Nguyen, Rui Pan, Zechang Sun, Tijmen de Haan*  
 
-**A Novel Dataset Towards Extracting Virus-Host Interactions**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Rasha R. Alshawi, Atriya Sen, Nathan S. Upham and Beckett Sterner*  
+**AI for Data Ingestion into IPAC Archives**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Nicholas Susemiehl, Joseph Mazzarella*  
 
-**An End-to-End Pipeline for Bibliography Extraction from Scientific Articles**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Bikash Joshi, Anthi Symeonidou, Syed Mazin Danish and Floris Hermsen*  
+**Structured Outputs in Prompt Engineering: Enhancing LLM Adaptability on Counterintuitive Instructions**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Jingjing Ye, Song Bai, Zhenyang Li, Zheqi Shen*  
 
-**APCS: Towards Argument Based Pros and Cons Summarization of Peer Reviews**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Sandeep Kumar, Tirthankar Ghosal and Asif Ekbal*  
+**Atlas: Customizing Large Language Models for Reliable Bibliographic Retrieval and Verification**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Akash Chowdary Kodali, Hailu Xu, Wenlu Zhang, Xin Qin*  
 
-**AstroLLaMA: Towards Specialized Foundation Models in Astronomy**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Tuan Dung Nguyen, Yuan-Sen Ting, Ioana Ciuca, Charles O'Neill, Ze-Chang Sun, Maja Jabłońska, Sandor Kruk, Ernest Perkowski, Jack Miller, Jason Jason Jingsh Li, Josh Peek, Kartheik Iyer, Tomasz Rozanski, Pranav Khetarpal, Sharaf Zaman, David Brodrick, Sergio J. Rodriguez Mendez, Thang Bui, Alyssa Goodman, Alberto Accomazzi, Jill Naiman, Jesse Cranney, Kevin Schawinski and Roberta Raileanu*  
+**Citation Drift: Measuring Reference Stability in Multi-Turn LLM Conversations**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Gokul Srinath Seetha Ram*  
 
-**Automated Citation Function Classification and Context Extraction in Astrophysics: Leveraging Paraphrasing and Question Answering**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Hariram Veeramani, Surendrabikram Thapa and Usman Naseem*  
+**Exploring Health Misinformation Detection with Multi-Agent Debate**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Chih-Han Chen, Chen-Han Tsai, Yu-Shao Peng*  
 
-**Detection of Tortured Phrases in Scientific Literature**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Eléna Martel, Martin Lentschat and Cyril Labbe*  
+**Metadata Generation for Research Data from URL Citation Contexts in Scholarly Papers: Task Definition and Dataset Construction**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Yu Watanabe, Koichiro Ito, Shigeki Matsubara*  
 
-**Enhancing Academic Title Generation Using SciBERT and Linguistic Rules**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Elena Callegari, Peter Vajdecka, Desara Xhura and Anton Karl Ingason*  
+**Bridging the Gap: Instruction-Tuned LLMs for Scientific Named Entity Recognition**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Necva Bölücü, Maciej Rybinski, Stephen Wan*  
 
-**Extracting Definienda in Mathematical Scholarly Articles with Transformers**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Shufan Jiang and Pierre Senellart*  
+**Enhanced Table Structure Recognition with Multi-Modal Approach**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Huichen Yang, Andrew D. Hellicar, Maciej Rybinski, Sarvnaz Karimi*  
 
-**Factored Verification: Detecting and Reducing Hallucination in Summaries of Academic Papers**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Charlie George and Andreas Stuhlmueller*  
+**A Hybrid LLM and Supervised Model Pipeline for Polymer Property Extraction from Tables in Scientific Literature**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Van-Thuy Phi, Truong Dinh Do, Trieu Hoang An, Yuji Matsumoto*  
 
-**Function of Citation in Astrophysics Literature (FOCAL): Findings of the Shared Task**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Felix Grezes, Thomas Allen, Tirthankar Ghosal and Sergi Blanco-Cuaresma*  
+**TeG-DRec: Inductive Text-Graph Learning for Unseen Node Scientific Dataset Recommendation**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Ammar Qayyum, Bassamtiano Renaufalgi Irnawan, Fumiyo Fukumoto, Latifah Munirah Kamarudin, Go Kentaro, Yoshimi Suzuki*  
 
-**Investigating the Impact of Syntax-Enriched Transformers on Quantity Extraction in Scientific Texts**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Necva Bölücü, Maciej Rybinski and Stephen Wan*  
+**Zero-Shot Cross-Sentential Scientific Relation Extraction via Entity-Guided Summarization**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Vani Kanjirangat, Fabio Rinaldi*  
 
-**LaTeX Rainbow: Universal LaTeX to PDF Document Semantic & Layout Annotation Framework**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Changxu Duan, Zhiyin Tan and Sabine Bartsch*  
+**Finding the Paper Behind the Data: Automatic Identification of Research Articles related to Data Publications**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Barbara McGillivray, Kaveh Aryan, Viola Harperath, Marton Ribary, Mandy Wigdorowitz*  
 
-**Leveraging the Fusion-in-Decoder for Label Classification**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Azumi Okuda, Hideya Mino, Taro Miyazaki and Jun Goto*  
+**Dynamic Reference Extraction and Linking across Multiple Scholarly Knowledge Graphs**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Nicolau Duran-Silva, Pablo Accuosto*  
 
-**MuLMS: A Multi-Layer Annotated Text Corpus for Information Extraction in the Materials Science Domain**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Timo Pierre Schrader, Matteo Finco, Stefan Grünewald, Felix Hildebrand and Annemarie Friedrich*  
+**Automated Telescope-Paper Linkage via Multi-Model Ensemble Learning**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Ojaswa Varshney, Prashasti Vyas, Priyanka Goyal, Tarpita Singh, Ritesh Kumar, Mayank Singh*  
 
-**NanoNER: Named Entity Recognition for Nanobiology Using Experts' Knowledge and Distant Supervision**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Ran Cheng, Martin Lentschat and Cyril Labbe*  
+**Systematic Evaluation of Machine Learning and Transformer-Based Methods for Scientific Telescope Literature Classification**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Dao Sy Duy Minh, TRUNG KIET HUYNH, Phu Quy Nguyen Lam, Tran Chi Nguyen, Phu-Hoa Pham, Long HB Nguyen, Dien Dinh*  
 
-**On the Use of Language Models for Function Identification of Citations in Scholarly Papers**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Tomoki Ikoma and Shigeki Matsubara*  
+**“Clutch or Cry” Team at TRACS @ WASP2025:  A Hybrid Stacking Ensemble for Astrophysical Document Classification**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Arshad Khatib, Aayush Prasad Shambhu, Rudra Trivedi, Shrikant Malviya*  
 
-**Relation Extraction from Scientific Texts in Russian with Limited Training Data**  
-&nbsp;&nbsp;&nbsp;&nbsp;*Olga Tikhobaeva and Elena Bruches*
+**amc: The Automated Mission Classifier for Telescope Bibliographies**  
+&nbsp;&nbsp;&nbsp;&nbsp;*John F Wu, J. E. G. Peek, Sophie J Miller, Jenny Novacescu, Achu J Usha, Christopher A Wilkinson*  
+
+**Efficient Context-Limited Telescope Bibliography Classification for the WASP&#8209;2025 Shared Task Using SciBERT**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Madhusudhana Naidu*  
+
+**Encoder Fine-tuning with Stochastic Sampling Outperforms Open-weight GPT in Astronomy Knowledge Extraction**  
+&nbsp;&nbsp;&nbsp;&nbsp;*Shivam Rawat, Lucie Flek, Akbar Karimi*  
