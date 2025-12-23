@@ -10,6 +10,8 @@ sidebar:
 December 23, 2025 (IST) — Mumbai, India  
 *Note that EST is 10:30 hours behind IST. This event starts at **9:30 PM on Monday, December 22nd** U.S. East Coast time.*
 
+**Zoom Link:**https://www.google.com/url?q=https://smithsonian.zoom.us/j/82038792362?pwd%3D9y71a1dQfzQEABfSRQ64blgQ4fLy2S.1&sa=D&source=calendar&ust=1766716321650218&usg=AOvVaw30vB1gMDa3CrV6JpWMYxnx
+
 ## Welcome
 **8:00 - 8:15 am**
 
