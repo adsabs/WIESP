@@ -15,7 +15,7 @@ excerpt: "A workshop series associated with the International Joint Conference o
 
 ## WIESP @ AACL-IJCNLP 2022 
 
-The first Workshop on Information Extraction from Scientific Publications was held at the [AACL-IJCNLP 2022](https://www.aacl2022.org/) and it featured:
+The first Workshop on Information Extraction from Scientific Publications was held at the [AACL-IJCNLP 2022](https://www.aacl2022.org/) ([archive link](https://web.archive.org/web/20230711194107/https://www.aacl2022.org/)) and it featured:
 
 - Paper Presentations
 - Keynote talks
