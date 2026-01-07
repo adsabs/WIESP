@@ -12,16 +12,18 @@ December 23, 2025 (IST) — Mumbai, India
 
 **Zoom Link:** [https://smithsonian.zoom.us/j/82038792362?pwd=9y71a1dQfzQEABfSRQ64blgQ4fLy2S.1](https://smithsonian.zoom.us/j/82038792362?pwd=9y71a1dQfzQEABfSRQ64blgQ4fLy2S.1)
 
+**[WASP Recording on YouTube](https://www.youtube.com/watch?v=v9TJj2rrM60)** (timestamps in the links below)
+
 ## Welcome
 **8:00 - 8:15 am**
 
-## Keynote I 
+## [Keynote I](https://youtu.be/v9TJj2rrM60?t=118)
 **8:15 - 9:00am**
 
-**Kartheik Iyer**  
+**Kartheik Iyer** 
 *Wandering through the Cosmic Library: Harnessing the embedding spaces of large language models for astronomical research and discovery*
 
-## Morning Session I
+## [Morning Session I](https://youtu.be/v9TJj2rrM60?t=3086)
 
 | Time (IST) | Title | ID     |
 |------------|-------|--------|
@@ -38,7 +40,7 @@ December 23, 2025 (IST) — Mumbai, India
 ## Coffee Break  
 **10:30 – 11:00 AM**
 
-## Morning Session II
+## [Morning Session II](https://youtu.be/v9TJj2rrM60?t=8040)
 
 | Time (IST) | Title | ID |
 |------------|-------|----|
@@ -48,7 +50,7 @@ December 23, 2025 (IST) — Mumbai, India
 | 11:31 AM   | TeG-DRec: Inductive Text-Graph Learning for Unseen Node Scientific Dataset Recommendation | WASP&#8209;13 |
 | 11:44 AM   | Zero-Shot Cross-Sentential Scientific Relation Extraction via Entity-Guided Summarization | WASP&#8209;14 |
 
-## Keynote  II
+## [Keynote  II](https://youtu.be/v9TJj2rrM60?t=11769)
 **12:00 – 1:00 PM**
 
 **Karin Verspoor**  
@@ -57,14 +59,14 @@ December 23, 2025 (IST) — Mumbai, India
 ## Lunch  
 **1:00 – 2:00 PM**
 
-## Afternoon Session
+## [Afternoon Session](https://youtu.be/v9TJj2rrM60?t=15621)
 
 | Time (IST) | Title | ID |
 |----------|-------|----|
 | 2:00 PM | Finding the Paper Behind the Data: Automatic Identification of Research Articles related to Data Publications | WASP&#8209;16 |
 | 2:13 PM | Dynamic Reference Extraction and Linking across Multiple Scholarly Knowledge Graphs | WASP&#8209;17 |
 
-## Shared Task: TRACS
+## [Shared Task: TRACS](https://youtu.be/v9TJj2rrM60?t=17428)
 ### Overview & Discussion
 
 | Time           | Activity |
@@ -84,7 +86,7 @@ December 23, 2025 (IST) — Mumbai, India
 ## Coffee Break  
 **03:30 – 04:00 PM**
 
-## Panel
+## [Panel](https://youtu.be/v9TJj2rrM60?t=19964)
 **04:00 – 05:00 PM**
 
 **LLMs for “Trustworthy and Grounded” Scientific Discovery**  
