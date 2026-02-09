@@ -47,7 +47,8 @@ WASP 2025 includes one shared task where we invite teams (individuals and groups
 Participants will have the opportunity to present their findings during the workshop and write a short paper. The best performant or interesting approaches might be invited to further collaborate with [NASA  Science Explorer (SciX)](https://scixplorer.org/).
 
 ## Accepted Submissions
-Accepted papers in WASP 2025 will appear [here](accepted_submissions). 
+Accepted papers in WASP 2025 will appear [here](accepted_submissions).  
+Proceedings available here: https://aclanthology.org/volumes/2025.wasp-main/ 
 
 ## Workshop Registration at IJCNLP-AACL 2025
 [Registration](https://2025.aaclnet.org/registration/) (open now!)  
