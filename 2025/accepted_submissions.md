@@ -6,7 +6,7 @@ sidebar:
   nav: "sidebar2025"
 ---
 
-Proceedings coming soon.
+Proceedings available here:  https://aclanthology.org/volumes/2025.wasp-main/  
 
 **A benchmark for end-to-end zero-shot biomedical relation extraction with LLMs: experiments with OpenAI models**  
 &nbsp;&nbsp;&nbsp;&nbsp;*Aviv Brokman, Xuguang Ai, Yuhang Jiang, Shashank Gupta, Ramakanth Kavuluru*  
