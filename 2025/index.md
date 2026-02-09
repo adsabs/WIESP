@@ -48,7 +48,7 @@ Participants will have the opportunity to present their findings during the work
 
 ## Accepted Submissions
 Accepted papers in WASP 2025 will appear [here](accepted_submissions).  
-Proceedings available here: https://aclanthology.org/volumes/2025.wasp-main/ 
+Proceedings available here: [https://aclanthology.org/volumes/2025.wasp-main/](https://aclanthology.org/volumes/2025.wasp-main/)
 
 ## Workshop Registration at IJCNLP-AACL 2025
 [Registration](https://2025.aaclnet.org/registration/) (open now!)  
