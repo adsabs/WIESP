@@ -23,8 +23,10 @@ The 2022 and 2023 editions of the workshop were named the Workshop on Informatio
 WASP/WIESP is an [ACL](https://www.aclweb.org/portal/) event. Papers accepted in WASP/WIESP are published in [ACL Anthology](https://aclanthology.org): 
 * The [First WIESP Proceedings](2022) can be found [here](https://aclanthology.org/events/wiesp-2022/). 
 * The [Second WIESP Proceedings](2023) can be found [here](https://aclanthology.org/events/wiesp-2023/). 
+* The [Third WASP Proceedings](2025) can be found [here](https://aclanthology.org/volumes/2025.wasp-main/). 
 
 ## Editions
+- [Fourth WASP @ IJCNLP-AACL 2026](2026)
 - [Third WASP @ IJCNLP-AACL 2025](2025)
 - [Second WIESP @ IJCNLP-AACL 2023](2023)
 - [First WIESP @ AACL-IJCNLP 2022](2022)
