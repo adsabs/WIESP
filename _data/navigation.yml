@@ -1,10 +1,32 @@
 main:
+  - title: "WASP 2026"
+    url: /2026
   - title: "WASP 2025"
     url: /2025
   - title: "WIESP 2023"
     url: /2023
   - title: "WIESP 2022"
     url: /2022
+
+sidebar2026:
+  - title: "WASP 2026"
+    url: /2026
+  - title: "Call for Papers"
+    url: /2026/call_for_papers
+#  - title: "Accepted Submissions"
+#    url: /2025/accepted_submissions
+#  - title: "Workshop"
+#    children:
+#    - title: "Keynote"
+#      url: /2026/keynote
+#    - title: "Schedule"
+#      url: /2026/schedule
+#  - title: "Shared Task"
+#    children:
+#      - title: "Telescope Reference and Astronomy Categorization Shared task (TRACS)"
+#        url: /2025/shared_task
+#  - title: "Program Committee"
+#    url: /2025/ProgramCommittee
 
 sidebar2025:
   - title: "WASP 2025"
