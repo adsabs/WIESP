@@ -49,7 +49,7 @@ Speakers will be announced soon.
 
 ## Shared task
 
-Details and registration will be announced soon.
+Details and registration will be announced soon. Please visit [shared task page](shared_task). 
 
 ## Organizers
 
