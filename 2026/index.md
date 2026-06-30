@@ -55,7 +55,7 @@ Details and registration will be announced soon. Please visit [shared task page]
 
 - [Atilla Kaan Alkan](https://ui.adsabs.harvard.edu/about/team/team/aalkan.html), Center for Astrophysics \| Harvard & Smithsonian, USA
 - [Alberto Accomazzi](https://ui.adsabs.harvard.edu/about/team/team/aaccomazzi.html), Center for Astrophysics \| Harvard & Smithsonian, USA
-- [Tirthankar Ghosal](https://www.ornl.gov/staff-profile/tirthankar-ghosal), National Center for Computational Sciences \| Oak Ridge National Laboratory, USA
+- [Tirthankar Ghosal](https://www.ornl.gov/staff-profile/tirthankar-ghosal), Oak Ridge National Laboratory, USA
 - [Felix Grezes](https://ui.adsabs.harvard.edu/about/team/team/fgrezes.html), Center for Astrophysics \| Harvard & Smithsonian, USA
 - [Kelly Lockhart](https://ui.adsabs.harvard.edu/about/team/team/klockhart.html), Center for Astrophysics \| Harvard & Smithsonian, USA
 

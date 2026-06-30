@@ -62,8 +62,8 @@ We particularly invite papers, both long and short, that bring large language mo
 All accepted papers will be published in the WASP 2026 proceedings and indexed in the ACL Anthology.
 
 ## Important Dates
-- First Call for Papers: June 23, 2026
-- Second Call for Papers: July 8, 2026
+- First Call for Papers: June 29, 2026
+- Second Call for Papers: July 13, 2026
 - Registration deadline for shared task: [TBA]
 - Third Call for Papers: August 8, 2026 
 - Paper submission deadline (WASP): September 14, 2026
@@ -74,3 +74,7 @@ All accepted papers will be published in the WASP 2026 proceedings and indexed i
 - Workshop: November 9-10, 2026
 
 *All submission deadlines are 11.59 pm UTC -12 h ("Anywhere on Earth")*
+
+## Contact
+
+For enquiries, contact Atilla Kaan Alkan at [atilla.alkan@cfa.harvard.edu](mailto:atilla.alkan@cfa.harvard.edu).
