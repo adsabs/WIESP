@@ -233,93 +233,57 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <h2 id="evaluation-of-multimodal-capabilities-on-scientific-figures">Evaluation of Multimodal Capabilities on Scientific Figures</h2>
+        <h1 id="astroclimb">AstroCLIMB:</h1>
+<h2 id="astronomy-citation-linking-from-illustrations-a-multimodal-benchmark">Astronomy Citation Linking from Illustrations: a Multimodal Benchmark</h2>
 
 <h3 id="motivation">Motivation</h3>
+<p>Scientists rely on figures to share their discoveries, but this makes the information contained in the figures hard to parse, archive, and search. Recent multimodal neural-network models promise to extract this information, but have not yet been widely tested and adopted by the astronomy community.<br />
+In partnership with <a href="https://www.astroexplorer.org/">astroexplorer.org</a>, we propose a novel dataset and an associated task as a benchmark to evaluate a model’s multimodal capabilities.  The task is to partially reconstruct the citation graph of astronomy papers from their figures and captions.</p>
 
-<p>Scientists rely on figures to share their discoveries, but this makes the information contained in the figures hard to parse, archive, and search. Recent multimodal models promise to extract this information. We propose a dataset and an associated task to evaluate a model’s multimodal capabilities by its ability to partially reconstruct the citation graph of scientific papers from their figures.</p>
+<p><img src="AstroCLIMB_001.png" alt="AstroCLIMB image: these figures come from the same astronomy paper. Courtesy of astroexplorer.org" /></p>
 
 <h3 id="task-description">Task Description</h3>
-
-<p>The goal of the task is simple classification.<br />
+<p>The goal of the task is single-class classification.<br />
 The inputs are pairs of figures, a figure and a caption, or a pair of captions.<br />
 The possible classes are:</p>
 <ul>
-  <li>“same paper”;</li>
-  <li>“different paper but related (cited/citing)”;</li>
-  <li>“unrelated”;</li>
-  <li>“same figure” (only for figure+caption pairs).</li>
+  <li><code class="language-plaintext highlighter-rouge">"same paper"</code></li>
+  <li><code class="language-plaintext highlighter-rouge">"different paper but related"</code> (cited/citing)</li>
+  <li><code class="language-plaintext highlighter-rouge">"unrelated"</code></li>
+  <li><code class="language-plaintext highlighter-rouge">"same figure"</code> (only for figure+caption pairs)</li>
 </ul>
 
 <h3 id="dataset">Dataset</h3>
-
-<p>TBD</p>
+<p>The dataset consists of over 100K figure+caption pairs from the <a href="https://www.astroexplorer.org/">astroexplorer.org</a> from recent open access astronomy papers. More details to come.</p>
 
 <h3 id="evaluation">Evaluation</h3>
-
-<p>TBD</p>
-
-<h2 id="outline-of-the-shared-task">Outline of the Shared Task</h2>
-
-<p>TBD</p>
+<p>Models will be evaluated on <a href="https://www.kaggle.com/">Kaggle.com</a>. More details to come.</p>
 
 <h2 id="instructions-for-participants">Instructions for Participants</h2>
-
-<p>TBD</p>
+<ol>
+  <li>Participants should register for ICNLP-AACL [here] (TBD).</li>
+  <li>Participants should join the competition on Kaggle [here] (TBD), where they can find the latest version of the dataset, and score their submissions.</li>
+  <li>Participants should format their papers using the ACL LaTeX template on Github <a href="https://github.com/acl-org/acl-style-files/tree/master?tab=readme-ov-file">here</a>, and submit them to OpenReview [here] (TBD).</li>
+</ol>
 
 <h2 id="timeline">Timeline</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Timeline</th>
-      <th>Date</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1st CfP + Registration starts</td>
-      <td>TBD</td>
-    </tr>
-    <tr>
-      <td>Train and Validation Data Release</td>
-      <td>TBD</td>
-    </tr>
-    <tr>
-      <td>Test Set Release</td>
-      <td>TBD</td>
-    </tr>
-    <tr>
-      <td>Registration Ends</td>
-      <td>TBD</td>
-    </tr>
-    <tr>
-      <td>System Run and Output Submission</td>
-      <td>TBD</td>
-    </tr>
-    <tr>
-      <td>System Paper Submisison</td>
-      <td>TBD</td>
-    </tr>
-    <tr>
-      <td>Result Announcement</td>
-      <td>TBD</td>
-    </tr>
-    <tr>
-      <td>Notification</td>
-      <td>TBD</td>
-    </tr>
-    <tr>
-      <td>Camera Ready Submission</td>
-      <td>TBD</td>
-    </tr>
-  </tbody>
-</table>
+<p>(subject to changes)
+| Timeline                          | Date                |
+|———————————–|———————|
+| 1st CfP + Registration starts     | TBD                 |
+| Train and Validation Data Release | TBD                 |
+| Test Set Release                  | TBD                 |
+| Registration Ends                 | TBD                 |
+| System Run and Output Submission  | TBD                 |
+| System Paper Submisison           | ~September 14, 2026 |
+| Result Announcement               | ~October 1, 2026    |
+| Notification                      | TBD                 |
+| Camera Ready Submission           | ~October 12, 2026   |
+| Workshop                          | November 9-10, 2026 |</p>
 
 <p><em>All deadlines are 11.59 pm UTC-12h (“Anywhere on Earth”).</em></p>
 
 <h3 id="contact">Contact</h3>
-
 <p>For inquiries, contact Felix Grezes at <a href="mailto:felix.grezes@cfa.harvard.edu">felix.grezes@cfa.harvard.edu</a></p>
 
         
