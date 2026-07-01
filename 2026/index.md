@@ -47,8 +47,9 @@ We welcome long and short papers on information extraction, summarisation, retri
 
 Speakers will be announced soon.
 
-## Shared task
-
+## AstroCLIMB Shared task
+WASP 2026 includes one shared task where we invite teams (individuals or groups) to evaluate their multimodal (image and text) models on *AstroCLIMB: Astronomy Citation Linking from Illustrations: a Multimodal Benchmark*.  
+Participants will have the opportunity to present their findings during the workshop and write a short paper. The best performant or interesting approaches might be invited to further collaborate with [NASA  Science Explorer (SciX)](https://scixplorer.org/).  
 Details and registration will be announced soon. Please visit [shared task page](shared_task). 
 
 ## Organizers
