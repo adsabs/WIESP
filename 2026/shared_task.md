@@ -67,17 +67,18 @@ id,same_figure,same_paper,related_papers,unrelated_papers
 2,0,1,0,0
 ...
 ```
-A full sample submission can be found [here](https://www.kaggle.com/competitions/astroclimb/data?select=sample_submission.csv)
+A full sample submission can be found [here](https://www.kaggle.com/competitions/astroclimb/data?select=sample_submission.csv).
 
 
 ## Instructions for Participants
 1. Participants should register for ICNLP-AACL [here](https://2026.aaclnet.org/calls/workshops/).
 2. Participants should join the competition on Kaggle [here](https://www.kaggle.com/competitions/astroclimb/overview), where they can find the latest version of the dataset, and score their submissions.
-3. Participants should format their papers using the ACL LaTeX template on Github [here](https://github.com/acl-org/acl-style-files/tree/master?tab=readme-ov-file), and submit them to OpenReview [here](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2026/Workshop/WASP).
+3. Participants should format their papers using the ACL LaTeX template on Github [here](https://github.com/acl-org/acl-style-files/tree/master?tab=readme-ov-file), and submit them to OpenReview [here](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2026/Workshop/WASP).  
 
 
 ## Timeline 
-(subject to changes)
+(subject to change)  
+
 | Timeline                          | Date                |
 |-----------------------------------|---------------------|
 | 1st CfP + Registration starts     | TBD                 |
