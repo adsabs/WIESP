@@ -238,32 +238,72 @@
 
 <h3 id="motivation">Motivation</h3>
 <p>Scientists rely on figures to share their discoveries, but this makes the information contained in the figures hard to parse, archive, and search. Recent multimodal neural-network models promise to extract this information, but have not yet been widely tested and adopted by the astronomy community.<br />
-In partnership with <a href="https://www.astroexplorer.org/">astroexplorer.org</a>, we propose a novel dataset and an associated task as a benchmark to evaluate a model’s multimodal capabilities.  The task is to partially reconstruct the citation graph of astronomy papers from their figures and captions.</p>
+In partnership with <a href="https://www.astroexplorer.org/">astroexplorer.org</a>, we propose a novel dataset and an associated task as a benchmark to evaluate a model’s multimodal capabilities.  The task is to partially reconstruct the citation graph of astronomy papers solely from their figures and captions.</p>
+
+<p>The dataset consists of over 100K figure+caption from the <a href="https://www.astroexplorer.org/">astroexplorer.org</a> from recent open access astronomy papers.</p>
 
 <p><img src="AstroCLIMB_001.png" alt="AstroCLIMB image: these figures come from the same astronomy paper. Courtesy of astroexplorer.org" /></p>
 
 <h3 id="task-description">Task Description</h3>
-<p>The goal of the task is single-class classification.<br />
-The inputs are pairs of figures, a figure and a caption, or a pair of captions.<br />
-The possible classes are:</p>
+<p>The goal of the task is multi-class, single-label classification.
+The inputs are pairs of objects. It could be two figures, a figure and a caption, or two captions.
+The possible outputs are:</p>
 <ul>
-  <li><code class="language-plaintext highlighter-rouge">"same paper"</code></li>
-  <li><code class="language-plaintext highlighter-rouge">"different paper but related"</code> (cited/citing)</li>
-  <li><code class="language-plaintext highlighter-rouge">"unrelated"</code></li>
-  <li><code class="language-plaintext highlighter-rouge">"same figure"</code> (only for figure+caption pairs)</li>
+  <li><code class="language-plaintext highlighter-rouge">same paper</code> if the two objects originated from the same scientific paper (they have the same DOI).</li>
+  <li><code class="language-plaintext highlighter-rouge">related papers</code> if the two objects originated from related papers (one object’s DOI cites the DOIs of the second object).</li>
+  <li><code class="language-plaintext highlighter-rouge">same figure</code> if the two objects are actually from the same scientific figure (only for figure+caption pairs).</li>
+  <li><code class="language-plaintext highlighter-rouge">unrelated papers</code> if the two objects originated from unrelated papers (none of the previous cases).</li>
 </ul>
 
+<p>Input pairs only have one label and the relations between objects is symmetrical.</p>
+
 <h3 id="dataset">Dataset</h3>
-<p>The dataset consists of over 100K figure+caption pairs from the <a href="https://www.astroexplorer.org/">astroexplorer.org</a> from recent open access astronomy papers. More details to come.</p>
+<p>For this task, there are two versions of the same dataset:</p>
+<ul>
+  <li>The full dataset on Huggingface <a href="https://huggingface.co/datasets/adsabs/AstroCLIMB">here</a>. This version consists of over 100K rows containing a figure, its caption, and relevant metadata such as source DOI, authors, related DOIs and more, which describe a citation graph of astronomy papers with an adjacency list. This version of the dataset does not list out pairs, as there are too many.</li>
+  <li>A partial evaluation dataset on Kaggle <a href="https://www.kaggle.com/competitions/astroclimb/overview">here</a>. This version lists out 10K pairs in each the train and test set. Many more pairs can be generated from the full dataset from the adjacency list described in the full dataset above.</li>
+</ul>
+
+<h4 id="huggingface-dataset">Huggingface Dataset</h4>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Dataset({
+    features: ['image', 'UUID', 'Image ID', 'Paper DOI', 'Paper Title', 'Image Caption', 'Image Authors', 'References DOIs', 'Citing DOIs'],
+    num_rows: 94233
+})
+</code></pre></div></div>
+<p>(test set  to be released in November 2026)</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">images</code> are stored as PIL PNG objects.</li>
+  <li><code class="language-plaintext highlighter-rouge">Image Caption</code> are English language text.</li>
+  <li><code class="language-plaintext highlighter-rouge">UUID</code>, <code class="language-plaintext highlighter-rouge">Image ID</code>, <code class="language-plaintext highlighter-rouge">Paper DOI</code>, <code class="language-plaintext highlighter-rouge">Paper Title</code> are metadata.</li>
+</ul>
+
+<p>A more complete descriptions of the features can be found <a href="https://ui.adsabs.harvard.edu/WIESP/2026/shared_task_labels">here</a>.</p>
+
+<h4 id="kaggle-dataset">Kaggle Dataset</h4>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>id,same_figure,same_paper,related_papers,unrelated_papers,obj_1,obj_2
+...
+122,0,1,0,0,Distribution of stars in Fornax–Horol[...], n+avHx8atWrU5/tOfPn7/rrr[...]
+123,0,0,1,0,Distribution of the RVs for TOI-2046b[...], iVBORw0KGgoAAAANSUhEUgAA[...]
+...
+</code></pre></div></div>
 
 <h3 id="evaluation">Evaluation</h3>
-<p>Models will be evaluated on <a href="https://www.kaggle.com/">Kaggle.com</a>. More details to come.</p>
+<p>The challenge is being evaluated on Kaggle <a href="https://www.kaggle.com/competitions/astroclimb/overview">here</a>.<br />
+Models will be evaluated using macro-F1 score over the 4 target classes.
+Submissions should be formatted in a <code class="language-plaintext highlighter-rouge">.csv</code> file as follows:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>id,same_figure,same_paper,related_papers,unrelated_papers
+0,0,1,0,0
+1,1,0,0,0
+2,0,1,0,0
+...
+</code></pre></div></div>
+<p>A full sample submission can be found <a href="https://www.kaggle.com/competitions/astroclimb/data?select=sample_submission.csv">here</a></p>
 
 <h2 id="instructions-for-participants">Instructions for Participants</h2>
 <ol>
-  <li>Participants should register for ICNLP-AACL [here] (TBD).</li>
-  <li>Participants should join the competition on Kaggle [here] (TBD), where they can find the latest version of the dataset, and score their submissions.</li>
-  <li>Participants should format their papers using the ACL LaTeX template on Github <a href="https://github.com/acl-org/acl-style-files/tree/master?tab=readme-ov-file">here</a>, and submit them to OpenReview [here] (TBD).</li>
+  <li>Participants should register for ICNLP-AACL <a href="https://2026.aaclnet.org/calls/workshops/">here</a>.</li>
+  <li>Participants should join the competition on Kaggle <a href="https://www.kaggle.com/competitions/astroclimb/overview">here</a>, where they can find the latest version of the dataset, and score their submissions.</li>
+  <li>Participants should format their papers using the ACL LaTeX template on Github <a href="https://github.com/acl-org/acl-style-files/tree/master?tab=readme-ov-file">here</a>, and submit them to OpenReview <a href="https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2026/Workshop/WASP">here</a>.</li>
 </ol>
 
 <h2 id="timeline">Timeline</h2>
