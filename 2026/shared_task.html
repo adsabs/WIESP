@@ -257,7 +257,9 @@ The possible outputs are:</p>
 
 <p>Input pairs only have one label and the relations between objects is symmetrical.</p>
 
-<h3 id="dataset">Dataset</h3>
+<p>This dataset is imagined by the authors to be more of a benchmark for multimodal models, rather than a meaningful task in itself.  As such, participants are not necessarily  expected to fully train large models solely for AstroCLIMB. Basic statistics or incorporation into a larger multimodal training process seem more appropriate.</p>
+
+<h3 id="datasets">Datasets</h3>
 <p>For this task, there are two versions of the same dataset:</p>
 <ul>
   <li>The full dataset on Huggingface <a href="https://huggingface.co/datasets/adsabs/AstroCLIMB">here</a>. This version consists of over 100K rows containing a figure, its caption, and relevant metadata such as source DOI, authors, related DOIs and more, which describe a citation graph of astronomy papers with an adjacency list. This version of the dataset does not list out pairs, as there are too many.</li>
@@ -286,6 +288,14 @@ The possible outputs are:</p>
 123,0,0,1,0,Distribution of the RVs for TOI-2046b[...], iVBORw0KGgoAAAANSUhEUgAA[...]
 ...
 </code></pre></div></div>
+<p>Both the training and the test set are built from the full dataset and consist 10K pairs of objects along with their binary classification.</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">obj_1</code>, <code class="language-plaintext highlighter-rouge">obj_2</code> are the input features. Some of these are English language character strings, others are images encoded as strings and need to be converted to PIL images. The code to detect and convert to images is available as a notebook <a href="https://www.kaggle.com/code/felixgrezes/loading-encoded-images">here</a></li>
+  <li><code class="language-plaintext highlighter-rouge">same_figure</code>, <code class="language-plaintext highlighter-rouge">same_paper</code>, <code class="language-plaintext highlighter-rouge">related_papers</code>, <code class="language-plaintext highlighter-rouge">unrelated_papers</code> are the target classes.</li>
+  <li><code class="language-plaintext highlighter-rouge">id</code></li>
+</ul>
+
+<p>A more complete descriptions of the features can be found on Kaggle <a href="https://www.kaggle.com/competitions/astroclimb/data">here</a>.</p>
 
 <h3 id="evaluation">Evaluation</h3>
 <p>The challenge is being evaluated on Kaggle <a href="https://www.kaggle.com/competitions/astroclimb/overview">here</a>.<br />
