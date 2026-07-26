@@ -28,7 +28,9 @@ The possible outputs are:
 
 Input pairs only have one label and the relations between objects is symmetrical.  
 
-### Dataset
+This dataset is imagined by the authors to be more of a benchmark for multimodal models, rather than a meaningful task in itself.  As such, participants are not necessarily  expected to fully train large models solely for AstroCLIMB. Basic statistics or incorporation into a larger multimodal training process seem more appropriate.  
+
+### Datasets
 For this task, there are two versions of the same dataset:
 - The full dataset on Huggingface [here](https://huggingface.co/datasets/adsabs/AstroCLIMB). This version consists of over 100K rows containing a figure, its caption, and relevant metadata such as source DOI, authors, related DOIs and more, which describe a citation graph of astronomy papers with an adjacency list. This version of the dataset does not list out pairs, as there are too many. 
 - A partial evaluation dataset on Kaggle [here](https://www.kaggle.com/competitions/astroclimb/overview). This version lists out 10K pairs in each the train and test set. Many more pairs can be generated from the full dataset from the adjacency list described in the full dataset above.
@@ -55,6 +57,13 @@ id,same_figure,same_paper,related_papers,unrelated_papers,obj_1,obj_2
 123,0,0,1,0,Distribution of the RVs for TOI-2046b[...], iVBORw0KGgoAAAANSUhEUgAA[...]
 ...
 ```
+Both the training and the test set are built from the full dataset and consist 10K pairs of objects along with their binary classification.  
+- `obj_1`, `obj_2` are the input features. Some of these are English language character strings, others are images encoded as strings and need to be converted to PIL images. The code to detect and convert to images is available as a notebook [here](https://www.kaggle.com/code/felixgrezes/loading-encoded-images)
+- `same_figure`, `same_paper`, `related_papers`, `unrelated_papers` are the target classes.
+- `id` 
+
+A more complete descriptions of the features can be found on Kaggle [here](https://www.kaggle.com/competitions/astroclimb/data).
+
 
 ### Evaluation
 The challenge is being evaluated on Kaggle [here](https://www.kaggle.com/competitions/astroclimb/overview).  
