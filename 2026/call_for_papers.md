@@ -35,13 +35,13 @@ We especially welcome participation from academic and research institutions, gov
 
 ## Shared Task
 
-In addition to papers, WASP will also host a shared task; details will be provided soon. We will publish a separate call for papers on the shared task. Shared task authors will be invited to write their system descriptions, which will then undergo light peer review.
+In addition to papers, WASP will also host the AstroCLIMB shared task. Shared task authors will be invited to write their system descriptions, which will then undergo light peer review.
 
 <!---
 UPDATE w/ registration link for shared task
 --->
 
-The shared task papers and system descriptions will be published with the Fourth WASP proceedings in the ACL Anthology.
+The shared task papers will be published with the Fourth WASP proceedings in the ACL Anthology.
 
 ## Paper Submission Information 
 
@@ -64,11 +64,12 @@ All accepted papers will be published in the WASP 2026 proceedings and indexed i
 ## Important Dates
 - First Call for Papers: June 29, 2026
 - Second Call for Papers: July 13, 2026
-- Registration deadline for shared task: [TBA]
+- AstroCLIMB Shared Task Registration Start + Data Release: July 27, 2026 
+- AstroCLIMB Shared Task Registration deadline: September 13, 2026
 - Third Call for Papers: August 8, 2026 
 - Paper submission deadline (WASP): September 14, 2026
-- System Run and Output Submission (Shared Task): [TBA]
-- System Paper Submission (Shared Task): [TBA]
+- System Run and Output Submission (AstroCLIMB Shared Task): September 13, 2026
+- System Paper Submission (AstroCLIMB Shared Task): September 14, 2026
 - Notification of paper acceptance (WASP + Shared Task): October 1, 2026
 - Camera-ready submission deadline (WASP + Shared Task): October 12, 2026
 - Workshop: November 9-10, 2026
