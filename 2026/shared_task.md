@@ -60,7 +60,7 @@ id,same_figure,same_paper,related_papers,unrelated_papers,obj_1,obj_2
 Both the training and the test set are built from the full dataset and consist 10K pairs of objects along with their binary classification.  
 - `obj_1`, `obj_2` are the input features. Some of these are English language character strings, others are images encoded as strings and need to be converted to PIL images. The code to detect and convert to images is available as a notebook [here](https://www.kaggle.com/code/felixgrezes/loading-encoded-images)
 - `same_figure`, `same_paper`, `related_papers`, `unrelated_papers` are the target classes.
-- `id` 
+- `id` identifies the pair. This is needed for your `submission.csv` when using the evaluation pairs in `test.csv`.
 
 A more complete descriptions of the features can be found on Kaggle [here](https://www.kaggle.com/competitions/astroclimb/data).
 
