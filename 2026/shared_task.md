@@ -90,16 +90,15 @@ A full sample submission can be found [here](https://www.kaggle.com/competitions
 
 | Timeline                          | Date                |
 |-----------------------------------|---------------------|
-| 1st CfP + Registration starts     | TBD                 |
-| Train and Validation Data Release | TBD                 |
-| Test Set Release                  | TBD                 |
-| Registration Ends                 | TBD                 |
-| System Run and Output Submission  | TBD                 |
-| System Paper Submisison           | ~September 14, 2026 |
-| Result Announcement               | ~October 1, 2026    |
-| Notification                      | TBD                 |
-| Camera Ready Submission           | ~October 12, 2026   |
-| Workshop                          | November 9-10, 2026 |
+| 1st CfP + Registration starts     | July 27             |
+| Train and Scoring Test set Release| July 27             |
+| Registration Ends                 | September 12        |
+| System Run and Output Submission  | September 13        |
+| System Paper Submisison           | September 14        |
+| Result Announcement               | October 1           |
+| Camera Ready Submission           | October 12          |
+| Full Data Release                 | November 9-10       |
+| Workshop                          | November 9-10       |
 
 *All deadlines are 11.59 pm UTC-12h ("Anywhere on Earth").*
 
