@@ -285,11 +285,11 @@
 <p>With over 100K rows in the full dataset (train+test), there are over 5B possible pairs of objects. The version of the dataset on Kaggle contains a small, balanced sample of those pairs.<br />
 <code class="language-plaintext highlighter-rouge">train.csv</code> contain 10K rows with 1K sample for each combination possible of <code class="language-plaintext highlighter-rouge">image+image</code>, <code class="language-plaintext highlighter-rouge">image+caption</code>, <code class="language-plaintext highlighter-rouge">caption+caption</code> input features with <code class="language-plaintext highlighter-rouge">same_figure</code>, <code class="language-plaintext highlighter-rouge">same_paper</code>, <code class="language-plaintext highlighter-rouge">related_paper</code>output labels.</p>
 
-<pre><code class="language-csv">id,same_figure,same_paper,related_papers,unrelated_papers,obj_1,obj_2
-122,0,1,0,0,Distribution of stars in Fornax–Horol[...], n+avHx8atWrU5/tOfPn7/rrr[...]
-123,0,0,1,0,Distribution of the RVs for TOI-2046b[...], iVBORw0KGgoAAAANSUhEUgAA[...]
-[...]
-</code></pre>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">id</span><span class="p">,</span><span class="n">same_figure</span><span class="p">,</span><span class="n">same_paper</span><span class="p">,</span><span class="n">related_papers</span><span class="p">,</span><span class="n">unrelated_papers</span><span class="p">,</span><span class="n">obj_1</span><span class="p">,</span><span class="n">obj_2</span>
+<span class="mi">122</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="n">Distribution</span> <span class="n">of</span> <span class="n">stars</span> <span class="ow">in</span> <span class="n">Fornax</span><span class="err">–</span><span class="n">Horol</span><span class="p">[...],</span> <span class="n">n</span><span class="o">+</span><span class="n">avHx8atWrU5</span><span class="o">/</span><span class="n">tOfPn7</span><span class="o">/</span><span class="n">rrr</span><span class="p">[...]</span>
+<span class="mi">123</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="n">Distribution</span> <span class="n">of</span> <span class="n">the</span> <span class="n">RVs</span> <span class="k">for</span> <span class="n">TOI</span><span class="o">-</span><span class="mi">2046</span><span class="n">b</span><span class="p">[...],</span> <span class="n">iVBORw0KGgoAAAANSUhEUgAA</span><span class="p">[...]</span>
+<span class="p">[...]</span>
+</code></pre></div></div>
 
 <p>When <code class="language-plaintext highlighter-rouge">obj_1</code> or <code class="language-plaintext highlighter-rouge">obj_2</code> are images, they are encoded as strings. To properly load them as PIL images, follow the instructions <a href="https://www.kaggle.com/code/felixgrezes/loading-encoded-astroclimb-images">here</a>.</p>
 
