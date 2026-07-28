@@ -33,15 +33,20 @@ We welcome long and short papers on information extraction, summarisation, retri
 
 ## Important dates
 
+## Important Dates
+- First Call for Papers: June 29, 2026
+- Second Call for Papers: July 13, 2026
+- AstroCLIMB Shared Task Registration Start + Data Release: July 27, 2026 
+- AstroCLIMB Shared Task Registration deadline: September 13, 2026
+- Third Call for Papers: August 8, 2026 
 - Paper submission deadline (WASP): September 14, 2026
-- Registration deadline for shared task: [TBA]
-- System Run and Output Submission (Shared Task): [TBA]
-- System Paper Submission (Shared Task): [TBA]
-- Notification of acceptance (WASP + Shared Task): October 1, 2026
-- Camera-ready deadline (WASP+ Shared Task): October 12, 2026
+- System Run and Output Submission (AstroCLIMB Shared Task): September 13, 2026
+- System Paper Submission (AstroCLIMB Shared Task): September 14, 2026
+- Notification of paper acceptance (WASP + Shared Task): October 1, 2026
+- Camera-ready submission deadline (WASP + Shared Task): October 12, 2026
 - Workshop: November 9-10, 2026
 
-*All deadlines are 11.59 pm UTC-12h ("Anywhere on Earth").*
+*All submission deadlines are 11.59 pm UTC -12 h ("Anywhere on Earth")*
 
 ## Keynote talks
 
