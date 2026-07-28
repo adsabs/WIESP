@@ -47,7 +47,6 @@ Dataset({
 - `Image Caption` are English language text.
 - `UUID`, `Image ID`, `Paper DOI`, `Paper Title` are metadata.
 
-A more complete descriptions of the features can be found [here](https://ui.adsabs.harvard.edu/WIESP/2026/shared_task_labels).
 
 #### Kaggle Dataset
 ```
@@ -62,7 +61,7 @@ Both the training and the test set are built from the full dataset and consist 1
 - `same_figure`, `same_paper`, `related_papers`, `unrelated_papers` are the target classes.
 - `id` identifies the pair. This is needed for your `submission.csv` when using the evaluation pairs in `test.csv`.
 
-A more complete descriptions of the features can be found on Kaggle [here](https://www.kaggle.com/competitions/astroclimb/data).
+A more complete descriptions of the features can be found [here](https://ui.adsabs.harvard.edu/WIESP/2026/shared_task_labels).
 
 
 ### Evaluation
