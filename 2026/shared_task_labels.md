@@ -58,6 +58,7 @@ From the `References DOIs` and `Citing DOIs` columns we can build the version of
 ### [Kaggle Dataset](https://www.kaggle.com/competitions/astroclimb/overview)
 With over 100K rows in the full dataset (train+test), there are over 5B possible pairs of objects. The version of the dataset on Kaggle contains a small, balanced sample of those pairs.  
 `train.csv` contain 10K rows with 1K sample for each combination possible of `image+image`, `image+caption`, `caption+caption` input features with `same_figure`, `same_paper`, `related_paper`output labels.   
+
 ```csv
 id,same_figure,same_paper,related_papers,unrelated_papers,obj_1,obj_2
 122,0,1,0,0,Distribution of stars in Fornax–Horol[...], n+avHx8atWrU5/tOfPn7/rrr[...]
