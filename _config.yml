@@ -44,12 +44,15 @@ plugins:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: https://x.com/wiesp_nlp
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: https://github.com/adsabs/WIESP
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: https://x.com/wiesp_nlp
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: https://github.com/adsabs/WIESP
+    - label: "LinkTree"
+      icon: "fab fa-fw fa-brands fa-linktree"
+      url: https://linktr.ee/scixcommunity
 
 atom_feed:
   hide: true
