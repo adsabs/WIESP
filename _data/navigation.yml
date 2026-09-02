@@ -23,7 +23,7 @@ sidebar2026:
 #      url: /2026/schedule
   - title: "Shared Task"
     children:
-      - title: "AstroCLIMB: Astronomy Citation Linking from Illustrations: a Multimodal BenchmarkPermalink"
+      - title: "AstroCLIMB: Astronomy Citation Linking from Illustrations: a Multimodal Benchmark"
         url: /2026/shared_task
 #  - title: "Program Committee"
 #    url: /2026/ProgramCommittee
