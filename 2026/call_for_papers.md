@@ -47,7 +47,7 @@ The shared task papers will be published with the Fourth WASP proceedings in the
 
 Submission will be via OpenReview. Submissions should follow the host venue formatting guidelines and template files. Submissions (Long and Short Papers) will be subject to a double-blind peer-review process. We follow the same policies as AACL 2026 regarding anonymity, preprints, and double submissions.
 
-Submission Link: [OpenReview](https://openreview.net/group?id=)
+Submission Link: [OpenReview](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2026/Workshop/WASP)
 
 ## Submission Types
 
