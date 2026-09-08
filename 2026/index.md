@@ -31,6 +31,8 @@ The Fourth Workshop on Artificial Intelligence for Scientific Publications will 
 
 We welcome long and short papers on information extraction, summarisation, retrieval, evaluation, and the responsible use of LLMs across the scientific publishing pipeline. Full details and submission instructions are in the [call for papers](call_for_papers).
 
+Participants should format their papers using the ACL LaTeX template on Github [here](https://github.com/acl-org/acl-style-files/tree/master?tab=readme-ov-file), and submit them to OpenReview [here](https://openreview.net/group?id=aclweb.org/AACL-IJCNLP/2026/Workshop/WASP)
+
 ## Important Dates
 - First Call for Papers: June 29, 2026
 - Second Call for Papers: July 13, 2026
