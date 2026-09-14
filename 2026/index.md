@@ -15,7 +15,7 @@ excerpt: "A workshop series associated with the International Joint Conference o
 
 ## The 4th [WASP](https://ui.adsabs.harvard.edu/WIESP/): Workshop on Artificial Intelligence for Scientific Publications
 
-**[IJCNLP-AACL 2026](https://2026.aaclnet.org/)  ·  November 9-10, 2026  · Online**
+**[IJCNLP-AACL 2026](https://2026.aaclnet.org/)  ·  November 9-10, 2026  · Online** - register [here](https://2026.aaclnet.org/registration/)  
 
 NEW SUBMISSION DEADLINE: ~~September 14, 2026~~ September 21, 2026 
 
