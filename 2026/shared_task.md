@@ -92,12 +92,15 @@ A full sample submission can be found [here](https://www.kaggle.com/competitions
 | 1st CfP + Registration starts     | July 27             |
 | Train and Scoring Test set Release| July 27             |
 | Registration Ends                 | September 12        |
-| System Run and Output Submission  | September 13        |
-| System Paper Submisison           | September 14        |
-| Result Announcement               | October 1           |
+| System Run and Output Submission  | ~~September 13~~  September 20        |
+| System Paper Submisison           | ~~September 14~~  September 21        |
+| Result Announcement               | ~~October 1~~  October 5           |
 | Camera Ready Submission           | October 12          |
 | Full Data Release                 | November 9-10       |
 | Workshop                          | November 9-10       |
+
+
+
 
 *All deadlines are 11.59 pm UTC-12h ("Anywhere on Earth").*
 
