@@ -15,13 +15,15 @@ excerpt: "A workshop series associated with the International Joint Conference o
 
 ## The 3rd [WASP](https://ui.adsabs.harvard.edu/WIESP/) @ IJCNLP-AACL 2025
 
-The Third Workshop on Artificial Intelligence for Scientific Publications will be held in hybrid mode (online and at Mumbai, India) at the [IJCNLP-AACL 2025](https://www.afnlp.org/conferences/ijcnlp2025/) on December 23, 2025, and it will feature:
+The Third Workshop on Artificial Intelligence for Scientific Publications was held in hybrid mode (online and at Mumbai, India) at the [IJCNLP-AACL 2025](https://www.afnlp.org/conferences/ijcnlp2025/) on December 23, 2025, and featured:
 
 - Keynote talk(s)
 - Paper Presentations
 - Shared task presentations
 - A virtual poster presentation and social event
 - A proposed panel discussion on *LLMs for “Trustworthy and Grounded” Scientific Discovery*
+
+Full published proceedings: https://aclanthology.org/volumes/2025.wasp-main/
 
 ## Keynote Talks
 
