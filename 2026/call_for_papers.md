@@ -78,6 +78,18 @@ All accepted papers will be published in the WASP 2026 proceedings and indexed i
 
 *All submission deadlines are 11.59 pm UTC -12 h ("Anywhere on Earth")*
 
+## Use of Generative AI in Reviewing
+
+WASP 2026 follows the [ACL Policy on Publication Ethics](https://www.aclweb.org/adminwiki/index.php/ACL_Policy_on_Publication_Ethics#Reviewing) and the [ACL Rolling Review guidelines on generative AI](https://aclrollingreview.org/reviewerguidelines#q-can-i-use-generative-ai). By accepting a review assignment, reviewers agree to the following:
+
+Write the review yourself. You must read the full paper and develop the assessment and arguments of your review on your own. Generative AI may not be used to produce the review or its first draft.
+Limited assistance is acceptable. You may use AI tools to rephrase or polish your own writing, for example if English is not your first language. Tools that help verify proofs are also acceptable.
+Protect confidentiality. Do not upload the submission, or any part of it, to a generative AI tool that does not guarantee privacy. This protects the authors' confidentiality, intellectual property, and any personal data in the paper.
+Your review is confidential too. For the same reason, do not paste your review into a non-privacy-preserving AI tool, even just to improve its language.
+Report hidden prompts. Some submissions may contain hidden instructions meant to manipulate AI-assisted reviewing. If you notice anything like this, please report it to the organizers.
+
+Reviews that appear to be AI-generated, or that are otherwise of unacceptable quality, will be flagged to the organizers. We value your judgment and expertise far more than polished language.
+
 ## Contact
 
 For enquiries, contact Atilla Kaan Alkan at [atilla.alkan@cfa.harvard.edu](mailto:atilla.alkan@cfa.harvard.edu).
