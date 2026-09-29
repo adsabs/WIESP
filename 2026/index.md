@@ -19,6 +19,8 @@ excerpt: "A workshop series associated with the International Joint Conference o
 
 NEW SUBMISSION DEADLINE: ~~September 14, 2026~~ September 21, 2026 
 
+EARLY-BIRD REGISTRATION for workshop papers will be extended; no need to register before your acceptance decision. See [Registration](registration) for details.
+
 
 How can machines read, extract, and structure the knowledge held in the scientific literature? WASP brings the NLP and AI community together around that question, from scientific named-entity recognition and citation mining to summarisation, reproducibility analysis, and the responsible use of large language models in scholarly publishing.
 
