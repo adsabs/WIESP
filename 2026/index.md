@@ -17,9 +17,9 @@ excerpt: "A workshop series associated with the International Joint Conference o
 
 **[IJCNLP-AACL 2026](https://2026.aaclnet.org/)  ·  November 9-10, 2026  · Online** - register [here](https://2026.aaclnet.org/registration/)  
 
-NEW SUBMISSION DEADLINE: ~~September 14, 2026~~ September 21, 2026 
+**NEW SUBMISSION DEADLINE:** ~~September 14, 2026~~ September 21, 2026 
 
-EARLY-BIRD REGISTRATION for workshop papers will be extended; no need to register before your acceptance decision. See [Registration](registration) for details.
+**EARLY-BIRD REGISTRATION DEADLINE:** October 7, 2026 (AoE).
 
 
 How can machines read, extract, and structure the knowledge held in the scientific literature? WASP brings the NLP and AI community together around that question, from scientific named-entity recognition and citation mining to summarisation, reproducibility analysis, and the responsible use of large language models in scholarly publishing.
@@ -47,9 +47,9 @@ Participants should format their papers using the ACL LaTeX template on Github [
 - Paper submission deadline (WASP): ~~September 14, 2026~~ September 21, 2026
 - System Run and Output Submission (AstroCLIMB Shared Task): ~~September 13, 2026~~ September 20, 2026
 - System Paper Submission (AstroCLIMB Shared Task): ~~September 14, 2026~~ September 21, 2026
-- Notification of paper acceptance (WASP + Shared Task): ~~October 1, 2026~~ October 5, 2026
+- Notification of paper acceptance (WASP + Shared Task): ~~October 1, 2026~~ October 7, 2026
 - Camera-ready submission deadline (WASP + Shared Task): October 12, 2026
-- Workshop: November 9-10, 2026
+- Workshop: November 10, 2026
 
 *All submission deadlines are 11.59 pm UTC -12 h ("Anywhere on Earth")*
 

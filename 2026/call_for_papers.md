@@ -72,9 +72,9 @@ All accepted papers will be published in the WASP 2026 proceedings and indexed i
 - Paper submission deadline (WASP): ~~September 14, 2026~~ September 21, 2026
 - System Run and Output Submission (AstroCLIMB Shared Task): ~~September 13, 2026~~ September 20, 2026
 - System Paper Submission (AstroCLIMB Shared Task): ~~September 14, 2026~~ September 21, 2026
-- Notification of paper acceptance (WASP + Shared Task): ~~October 1, 2026~~ October 5, 2026
+- Notification of paper acceptance (WASP + Shared Task): ~~October 1, 2026~~ October 7, 2026
 - Camera-ready submission deadline (WASP + Shared Task): October 12, 2026
-- Workshop: November 9-10, 2026
+- Workshop: November 10, 2026
 
 *All submission deadlines are 11.59 pm UTC -12 h ("Anywhere on Earth")*
 
