@@ -24,7 +24,7 @@ All deadlines are 23:59 Anywhere on Earth (AoE).
 |---|---|
 | Submission deadline | ~~September 14, 2026~~ September 21, 2026 |
 | Review period | September 24 – October 4, 2026 |
-| Acceptance notification | October 5, 2026 |
+| Acceptance notification | ~~October 5, 2026~~ October 7, 2026 |
 | Early-bird registration (workshop papers) | Extended; new date to be announced |
 | Workshop | November 9–10, 2026 (fully online) |
 
