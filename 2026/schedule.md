@@ -7,6 +7,6 @@ sidebar:
   nav: "sidebar2026"
 ---
 
-November 9-10, 2026 — Online  
+November 10, 2026 — Online  
 
 **Zoom Link:** TBD
