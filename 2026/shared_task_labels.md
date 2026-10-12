@@ -50,7 +50,7 @@ Going through each of these:
 - `'UUID': '10.3847.1538-4357.ac983d_apjac983df5_8'` serves as a unique identifier for the row.  
 - `'Paper DOI': '10.3847/1538-4357/ac983d'` is the [Digital Object Identifier (DOI)](https://www.doi.org/) of the paper from which the figure was extracted.   
 - `'Image ID': 'apjac983df5'` is an identifier to distinguish from other figures in the paper.  
-- `Paper Title` and `Image Authors` provide potentially useful metada.  
+- `Paper Title` and `Image Authors` provide potentially useful metadata.  
 
 From the `References DOIs` and `Citing DOIs` columns we can build the version of the dataset used on Kaggle
 
