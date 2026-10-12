@@ -20,8 +20,8 @@ Dataset({
 
 Taking a look at the first row, we see the following:
 ```python
-train_dataset[0] == 
-{image': <PIL.PngImagePlugin.PngImageFile image mode=RGB size=1000x1066>,
+train_dataset[0] == {
+'image': <PIL.PngImagePlugin.PngImageFile image mode=RGB size=1000x1066>,
 'UUID': '10.3847.1538-4357.ac983d_apjac983df5_8',
 'Image ID': 'apjac983df5',
 'Paper DOI': '10.3847/1538-4357/ac983d',
