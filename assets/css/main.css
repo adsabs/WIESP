@@ -738,7 +738,7 @@ body {
   margin: 0;
   padding: 0;
   color: #3d4144;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5;
 }
 body.overflow--hidden {
@@ -754,7 +754,7 @@ h5,
 h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -1067,7 +1067,7 @@ button,
 select,
 textarea {
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 
 label {
@@ -1359,7 +1359,7 @@ table {
   display: block;
   margin-bottom: 1em;
   width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.75em;
   border-collapse: collapse;
   overflow-x: auto;
@@ -1421,7 +1421,7 @@ th {
   display: inline-block;
   margin-bottom: 0.25em;
   padding: 0.5em 1em;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.75em;
   font-weight: bold;
   text-align: center;
@@ -1640,7 +1640,7 @@ th {
   margin: 2em 0 !important; /* override*/
   padding: 1em;
   color: #3d4144;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial; /* override*/
   background-color: #f2f3f3;
@@ -1700,7 +1700,7 @@ blockquote.notice, blockquote.markdown-alert {
   margin: 2em 0 !important; /* override*/
   padding: 1em;
   color: #3d4144;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial; /* override*/
   background-color: #e2e4e5;
@@ -1760,7 +1760,7 @@ blockquote.notice--primary, blockquote.markdown-alert-important {
   margin: 2em 0 !important; /* override*/
   padding: 1em;
   color: #3d4144;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial; /* override*/
   background-color: #d8ebf1;
@@ -1820,7 +1820,7 @@ blockquote.notice--info, blockquote.markdown-alert-note {
   margin: 2em 0 !important; /* override*/
   padding: 1em;
   color: #3d4144;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial; /* override*/
   background-color: #f7e5cd;
@@ -1880,7 +1880,7 @@ blockquote.notice--warning, blockquote.markdown-alert-warning {
   margin: 2em 0 !important; /* override*/
   padding: 1em;
   color: #3d4144;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial; /* override*/
   background-color: #d9edd9;
@@ -1940,7 +1940,7 @@ blockquote.notice--success, blockquote.markdown-alert-tip {
   margin: 2em 0 !important; /* override*/
   padding: 1em;
   color: #3d4144;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.75em !important;
   text-indent: initial; /* override*/
   background-color: #fcdfde;
@@ -2017,7 +2017,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 .masthead__inner-wrap::after {
   clear: both;
@@ -2026,7 +2026,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
 }
 @media (min-width: 80em) {
   .masthead__inner-wrap {
-    max-width: 1280px;
+    max-width: 1600px;
   }
 }
 .masthead__inner-wrap nav {
@@ -2096,7 +2096,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   margin: 0 auto;
   max-width: 100%;
   padding-inline: 1em;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   -webkit-animation: intro 0.3s both;
   animation: intro 0.3s both;
   -webkit-animation-delay: 0.3s;
@@ -2155,7 +2155,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 .pagination li {
   display: block;
@@ -2166,7 +2166,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   display: block;
   margin-bottom: 0.25em;
   padding: 0.5em 1em;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-weight: bold;
   line-height: 1.5;
@@ -2204,7 +2204,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   padding: 1em 2em;
   float: inline-start;
   width: 50%;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 1em;
   font-weight: bold;
   text-align: center;
@@ -2521,7 +2521,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
 .nav__title {
   margin: 0;
   padding: 0.5rem 0.75rem;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 1em;
   font-weight: bold;
 }
@@ -2530,7 +2530,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.75em;
   font-weight: bold;
   text-transform: uppercase;
@@ -2541,7 +2541,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
      Table of contents navigation
      ========================================================================== */
 .toc {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   color: #7a8288;
   background-color: #fff;
   border: 1px solid #f2f3f3;
@@ -2654,7 +2654,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
 }
 
 .page__footer-copyright {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.6875em;
 }
 
@@ -2667,7 +2667,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
   display: inline-block;
   padding-top: 5px;
   padding-bottom: 5px;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.75em;
   text-transform: uppercase;
 }
@@ -2727,7 +2727,7 @@ blockquote.notice--danger, blockquote.markdown-alert-caution {
 }
 @media (min-width: 80em) {
   .search-content__inner-wrap {
-    max-width: 1280px;
+    max-width: 1600px;
   }
 }
 .search-content__form {
@@ -3194,7 +3194,7 @@ body:hover .visually-hidden button {
   position: fixed;
   z-index: 20;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   white-space: nowrap;
 }
 
@@ -3733,7 +3733,7 @@ pre:hover .clipboard-copy-button {
 }
 @media (min-width: 80em) {
   #main {
-    max-width: 1280px;
+    max-width: 1600px;
   }
 }
 
@@ -3797,7 +3797,7 @@ body {
 }
 
 .page__lead {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 1.25em;
 }
 
@@ -3851,12 +3851,12 @@ body {
 }
 .page__content dt {
   margin-top: 1em;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-weight: bold;
 }
 .page__content dd {
   margin-inline-start: 1em;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.75em;
 }
 .page__content .small {
@@ -3998,7 +3998,7 @@ body {
 .page__meta, .comment__date {
   margin-top: 2em;
   color: #646769;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.75em;
 }
 .page__meta p, .comment__date p {
@@ -4300,7 +4300,7 @@ body {
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -4685,11 +4685,11 @@ body {
 .sidebar h5,
 .sidebar h6 {
   margin-bottom: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 }
 .sidebar p,
 .sidebar li {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.75em;
   line-height: 1.5;
 }
@@ -4807,7 +4807,7 @@ body {
 }
 
 .sidebar .author__name {
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-size: 1em;
 }
 
@@ -4825,7 +4825,7 @@ body {
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   z-index: 20;
   cursor: pointer;
 }
@@ -5182,6 +5182,9 @@ body {
     display: none !important;
     height: 1px !important;
   }
+}
+.page__title {
+  line-height: 1.25;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -15,7 +15,7 @@
 <meta charset="utf-8">
 
 
-<!-- begin _includes/seo.html --><title>Keynote Talk  WASP @ IJCNLP-AACL 2026</title>
+<!-- begin _includes/seo.html --><title>Keynote Talks  WASP @ IJCNLP-AACL 2026</title>
 <meta name="description" content="Workshop on Aritifical intelligence for Scientific Publications">
 
 
@@ -23,7 +23,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="WASP">
-<meta property="og:title" content="Keynote Talk  WASP @ IJCNLP-AACL 2026">
+<meta property="og:title" content="Keynote Talks  WASP @ IJCNLP-AACL 2026">
 <meta property="og:url" content="https://ui.adsabs.harvard.edu//WIESP/2026/keynote/">
 
 
@@ -74,13 +74,16 @@
 
     <!-- start custom head snippets -->
 
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
+<!-- Site font (set in assets/css/main.scss) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,600;0,700;1,400&display=swap">
 
 <!-- end custom head snippets -->
 
   </head>
 
-  <body class="layout--single" dir="ltr">
+  <body class="layout--single wide" dir="ltr">
     
 <nav class="skip-links" aria-label="Skip links">
   <ul>
@@ -196,6 +199,30 @@
       
         <li>
           
+            <a href="/WIESP/2026/accepted_submissions"><span class="nav__sub-title">Accepted Papers</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <span class="nav__sub-title">Workshop</span>
+          
+
+          
+          <ul>
+            
+              <li><a href="/WIESP/2026/schedule">Programme</a></li>
+            
+              <li><a href="/WIESP/2026/keynote">Keynote Talks</a></li>
+            
+          </ul>
+          
+        </li>
+      
+        <li>
+          
             <span class="nav__sub-title">Shared Task</span>
           
 
@@ -205,6 +232,14 @@
               <li><a href="/WIESP/2026/shared_task">AstroCLIMB: Astronomy Citation Linking from Illustrations: a Multimodal Benchmark</a></li>
             
           </ul>
+          
+        </li>
+      
+        <li>
+          
+            <a href="/WIESP/2026/committees"><span class="nav__sub-title">Committees</span></a>
+          
+
           
         </li>
       
@@ -220,7 +255,7 @@
 
 
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Keynote Talk  WASP @ IJCNLP-AACL 2026">
+    <meta itemprop="headline" content="Keynote Talks  WASP @ IJCNLP-AACL 2026">
     
     
     
@@ -229,7 +264,7 @@
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="https://ui.adsabs.harvard.edu//WIESP/2026/keynote/" itemprop="url">Keynote Talk <br /> WASP @ IJCNLP-AACL 2026
+            <a href="https://ui.adsabs.harvard.edu//WIESP/2026/keynote/" itemprop="url">Keynote Talks <br /> WASP @ IJCNLP-AACL 2026
 </a>
           </h1>
           
@@ -241,7 +276,94 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p>WASP 2026 will have several keynote speakers. The confirmed speakers include: TBD.</p>
+        <style>
+  :root {
+    --w26-ink: #1f2933;
+    --w26-muted: #5f6b7a;
+    --w26-line: #e3e8ee;
+    --w26-surface: #f7f9fb;
+    --w26-accent: #1f6f8b;
+    --w26-accent-soft: #e6f1f5;
+  }
+
+  .w26-lead { font-size: 1.05em; color: var(--w26-ink); }
+
+  /* Accepted papers: numbered across each track, in the style of a proceedings TOC */
+  .w26-count-reset { counter-reset: w26-paper; }
+  .w26-paper-list { list-style: none; margin: 0 0 2em; padding: 0; border-top: 1px solid var(--w26-line); }
+  .w26-paper-list li { counter-increment: w26-paper; position: relative; margin: 0; padding: .9em 0 .9em 2.6em; border-bottom: 1px solid var(--w26-line); }
+  .w26-paper-list li::before { content: counter(w26-paper); position: absolute; left: 0; top: .95em; width: 1.7em; text-align: right; font-size: .85em; color: var(--w26-muted); font-variant-numeric: tabular-nums; }
+  .w26-paper-list--plain li { counter-increment: none; padding-left: 0; }
+  .w26-paper-list--plain li::before { content: none; }
+  .w26-paper-label { display: block; margin-bottom: .2em; font-size: .7em; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--w26-accent); }
+  .w26-paper-title { display: block; font-size: .95em; font-weight: 600; line-height: 1.4; color: var(--w26-ink); }
+  .w26-paper-authors { display: block; margin-top: .2em; font-size: .85em; font-style: italic; color: var(--w26-muted); }
+  .w26-abstract { margin-top: .35em; }
+  .w26-abstract summary { display: inline-block; cursor: pointer; font-size: .75em; color: var(--w26-muted); list-style: none; }
+  .w26-abstract summary::-webkit-details-marker { display: none; }
+  .w26-abstract summary::after { content: " +"; }
+  .w26-abstract[open] summary::after { content: " \2212"; }
+  .w26-abstract summary:hover { color: var(--w26-accent); }
+  .w26-abstract p { margin: .5em 0 .2em; padding-left: .9em; border-left: 2px solid var(--w26-line); font-size: .82em; line-height: 1.6; color: #3d4752; overflow-wrap: anywhere; }
+
+  /* Keynote cards */
+  .w26-keynote { display: flex; gap: 1.5em; margin: 0 0 2em; padding: 1.4em; background: var(--w26-surface); border: 1px solid var(--w26-line); border-radius: 10px; }
+  .w26-keynote__photo { flex: 0 0 150px; }
+  .w26-keynote__photo img { display: block; width: 150px; height: 200px; object-fit: cover; object-position: top; border-radius: 8px; }
+  .w26-keynote__body { flex: 1; min-width: 0; }
+  .w26-keynote__name { margin: 0 !important; padding: 0 !important; border: 0 !important; font-size: 1.25em; }
+  .w26-keynote__inst { margin: .1em 0 .9em; color: var(--w26-muted); font-size: .9em; }
+  .w26-keynote__talk { margin: 0 0 .8em; padding: .7em .9em; background: var(--w26-accent-soft); border-radius: 6px; font-weight: 600; color: var(--w26-accent); }
+  .w26-keynote__talk small { display: block; font-weight: 600; font-size: .7em; letter-spacing: .05em; text-transform: uppercase; color: var(--w26-muted); }
+  .w26-keynote__label { margin: 1em 0 .3em; font-size: .75em; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--w26-muted); }
+  .w26-keynote__body p { font-size: .9em; line-height: 1.6; }
+
+  /* Under construction banner */
+  .w26-construction { margin: 1.5em 0; padding: 1.5em; text-align: center; background: var(--w26-surface); border: 2px dashed var(--w26-line); border-radius: 10px; }
+  .w26-construction strong { display: block; font-size: 1.2em; margin-bottom: .3em; color: var(--w26-ink); }
+  .w26-construction p { margin: 0; color: var(--w26-muted); }
+
+  @media (max-width: 600px) {
+    .w26-keynote { flex-direction: column; align-items: center; padding: 1.1em; }
+    .w26-keynote__photo { flex-basis: auto; }
+    .w26-keynote__body { width: 100%; }
+  }
+</style>
+
+
+<p class="w26-lead">WASP 2026 is delighted to welcome the following keynote speakers.</p>
+
+
+<article class="w26-keynote">
+  <div class="w26-keynote__photo">
+    <img src="/WIESP/assets/2026/keynotes/jessy-li.jpg" alt="Portrait of Jessy Li" loading="lazy" width="150" height="200">
+  </div>
+  <div class="w26-keynote__body">
+    <h2 class="w26-keynote__name" id="jessy-li"><a href="https://jessyli.com/">Jessy Li</a></h2>
+    <p class="w26-keynote__inst">The University of Texas at Austin</p>
+    <p class="w26-keynote__talk"><small>Talk</small>Salience and Inquiry in Scientific Literature</p>
+    <p class="w26-keynote__label">Abstract</p>
+    <p>In this talk, we view the processing of scientific literature as an (implicitly) interactive discourse process: the reader is constantly abstracting out the most salient information, while staying inquisitive about the content. I will discuss the role of questions, first in deriving information salience from research documents. Using summarization as a behavioral probe, we reveal that across different lengths of summaries, the questions that models tend to answer remain intriguingly consistent. Next, we show how questions play important roles in connecting different pieces of a scientific document via generative discourse models, and extend existing frameworks to multimodal settings, modeling the connections across passages and figures. Finally, I will end the talk with brief discussions on AI review pilots at recent large conferences.</p>
+    <p class="w26-keynote__label">Bio</p>
+    <p>Jessy Li is an associate professor in the Linguistics Department and (by courtesy) the Computer Science Department at the University of Texas at Austin. She received her Ph.D. from the Department of Computer and Information Science at the University of Pennsylvania in 2017. Her research interests are in computational linguistics and natural language processing, specifically discourse and pragmatics, generation and evaluation, and language &amp; code. She is a recipient of an NSF CAREER Award, ACL and EMNLP Outstanding Paper Awards, an ACM SIGSOFT Distinguished Paper Award, among others. Jessy is an AI research lead at the NSF-Simons CosmicAI Institute. She is also the Secretary of NAACL, and a Program Chair of the EMNLP 2026 conference.</p>
+  </div>
+</article>
+
+<article class="w26-keynote">
+  <div class="w26-keynote__photo">
+    <img src="/WIESP/assets/2026/keynotes/pavlos-protopapas.jpg" alt="Portrait of Pavlos Protopapas" loading="lazy" width="150" height="200">
+  </div>
+  <div class="w26-keynote__body">
+    <h2 class="w26-keynote__name" id="pavlos-protopapas"><a href="https://seas.harvard.edu/person/pavlos-protopapas">Pavlos Protopapas</a></h2>
+    <p class="w26-keynote__inst">Harvard University</p>
+    <p class="w26-keynote__talk"><small>Talk</small>From General-Purpose LLMs to Grounded Tools for Scientific Discovery</p>
+    <p class="w26-keynote__label">Abstract</p>
+    <p>Large language models offer new ways to search, interpret, and synthesize scientific literature. Yet their responses can reflect biases in their training data, uneven coverage of research, and claims that are difficult to verify. How can we make these models useful while retaining control over the evidence and reasoning behind their outputs? Drawing on two recent research projects, I will discuss building applications on top of NASA&#39;s Astrophysics Data System (ADS) that connect language models to scholarly sources and guide their use through explicit workflows. The talk will explore how retrieval, tool use, and verification can help make outputs more transparent and assessable, while examining the limitations that remain. The central question is how to design AI tools that support scientific judgment and allow researchers to inspect and challenge their results.</p>
+    <p class="w26-keynote__label">Bio</p>
+    <p>Pavlos Protopapas is the Scientific Program Director for the master&#39;s programs in data science and computational science engineering at the Harvard John A. Paulson School of Engineering and Applied Sciences. As an educator, he currently teaches the CS109 course series for basic and advanced data science and a course in Machine Learning Operations at Harvard University. He previously taught the capstone courses for the master&#39;s programs, and also a course in deep reinforcement learning. His courses are also available through the Harvard Extension School and on HarvardX. In addition he has participated in data science schools around the world in Chile, Colombia, India, and Rwanda. Pavlos has a PhD in theoretical physics from the University of Pennsylvania and his research interests are at the intersection of astronomy, machine learning, and statistics.</p>
+  </div>
+</article>
+
 
         
       </section>

@@ -4,9 +4,6 @@
 <loc>https://ui.adsabs.harvard.edu//WIESP/2023/LabelDefinitions</loc>
 </url>
 <url>
-<loc>https://ui.adsabs.harvard.edu//WIESP/2026/ProgramCommittee</loc>
-</url>
-<url>
 <loc>https://ui.adsabs.harvard.edu//WIESP/2023/ProgramCommittee</loc>
 </url>
 <url>
@@ -34,10 +31,13 @@
 <loc>https://ui.adsabs.harvard.edu//WIESP/2025/call_for_papers</loc>
 </url>
 <url>
-<loc>https://ui.adsabs.harvard.edu//WIESP/2022/</loc>
+<loc>https://ui.adsabs.harvard.edu//WIESP/2026/committees/</loc>
 </url>
 <url>
 <loc>https://ui.adsabs.harvard.edu//WIESP/2026/</loc>
+</url>
+<url>
+<loc>https://ui.adsabs.harvard.edu//WIESP/2022/</loc>
 </url>
 <url>
 <loc>https://ui.adsabs.harvard.edu//WIESP/2023/</loc>
@@ -64,10 +64,10 @@
 <loc>https://ui.adsabs.harvard.edu//WIESP/2026/registration</loc>
 </url>
 <url>
-<loc>https://ui.adsabs.harvard.edu//WIESP/2022/Schedule</loc>
+<loc>https://ui.adsabs.harvard.edu//WIESP/2026/schedule</loc>
 </url>
 <url>
-<loc>https://ui.adsabs.harvard.edu//WIESP/2026/schedule</loc>
+<loc>https://ui.adsabs.harvard.edu//WIESP/2022/Schedule</loc>
 </url>
 <url>
 <loc>https://ui.adsabs.harvard.edu//WIESP/2023/schedule</loc>
@@ -95,6 +95,6 @@
 </url>
 <url>
 <loc>https://ui.adsabs.harvard.edu//WIESP/2023/book.pdf</loc>
-<lastmod>2026-10-12T20:56:00+00:00</lastmod>
+<lastmod>2026-10-20T20:05:09+00:00</lastmod>
 </url>
 </urlset>
