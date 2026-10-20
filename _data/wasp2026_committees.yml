@@ -1,0 +1,54 @@
+organizing:
+  - name: Atilla Kaan Alkan
+    url: https://ui.adsabs.harvard.edu/about/team/team/aalkan.html
+    affiliation: Center for Astrophysics | Harvard & Smithsonian, USA
+  - name: Alberto Accomazzi
+    url: https://ui.adsabs.harvard.edu/about/team/team/aaccomazzi.html
+    affiliation: Center for Astrophysics | Harvard & Smithsonian, USA
+  - name: Tirthankar Ghosal
+    url: https://www.ornl.gov/staff-profile/tirthankar-ghosal
+    affiliation: Oak Ridge National Laboratory, USA
+  - name: Felix Grezes
+    url: https://ui.adsabs.harvard.edu/about/team/team/fgrezes.html
+    affiliation: Center for Astrophysics | Harvard & Smithsonian, USA
+  - name: Kelly Lockhart
+    url: https://ui.adsabs.harvard.edu/about/team/team/klockhart.html
+    affiliation: Center for Astrophysics | Harvard & Smithsonian, USA
+
+# Sorted by last name.
+program:
+  - { name: Alberto Accomazzi, affiliation: "Center for Astrophysics | Harvard & Smithsonian" }
+  - { name: Daniel E. Acuna, affiliation: "University of Colorado Boulder" }
+  - { name: Sharmin Afrose, affiliation: "Oak Ridge National Laboratory" }
+  - { name: Ibrahim Al Azher, affiliation: "Northern Illinois University" }
+  - { name: Atilla Kaan Alkan, affiliation: "Center for Astrophysics | Harvard & Smithsonian" }
+  - { name: Thomas S. Allen, affiliation: "Center for Astrophysics | Harvard & Smithsonian" }
+  - { name: Arne Binder, affiliation: "German Research Center for AI" }
+  - { name: Joyita Chakraborty, affiliation: "National Institute of Technology Durgapur" }
+  - { name: Bhargab Choudhury, affiliation: "Gauhati University" }
+  - { name: Sanjay Das, affiliation: "Oak Ridge National Laboratory" }
+  - { name: Ran Elgedawy, affiliation: "University of Tennessee, Knoxville" }
+  - { name: Elyon Eyimife, affiliation: "Stevens Institute of Technology" }
+  - { name: Sergey Feldman, affiliation: "Allen Institute for Artificial Intelligence" }
+  - { name: Antoine Gauquier, affiliation: "École Normale Supérieure, Paris" }
+  - { name: Tirthankar Ghosal, affiliation: "Oak Ridge National Laboratory" }
+  - { name: Felix Grezes, affiliation: "Center for Astrophysics | Harvard & Smithsonian" }
+  - { name: Tosho Hirasawa, affiliation: "LayerX" }
+  - { name: Sandeep Kumar, affiliation: "Mohamed bin Zayed University of Artificial Intelligence" }
+  - { name: Mengyang Liu, affiliation: "Shanghai Jiao Tong University" }
+  - { name: Kelly Lockhart, affiliation: "Center for Astrophysics | Harvard & Smithsonian" }
+  - { name: Biswadip Mandal, affiliation: "Amazon" }
+  - { name: Rahul Nagurtha, affiliation: "Google" }
+  - { name: Yagmur Ozturk, affiliation: "Université Grenoble Alpes" }
+  - { name: Sujit Pal, affiliation: "Elsevier" }
+  - { name: Swati Rajwal, affiliation: "Emory University" }
+  - { name: Harsh Sakhrani, affiliation: "University of Southern California" }
+  - { name: Tim Schopf, affiliation: "National Institute of Informatics" }
+  - { name: Ethan Seefried, affiliation: "Oak Ridge National Laboratory" }
+  - { name: Neil R. Smalheiser, affiliation: "University of Illinois at Chicago" }
+  - { name: Wojtek Sylwestrzak, affiliation: "University of Warsaw" }
+  - { name: Pawin Taechoyotin, affiliation: "University of Colorado Boulder" }
+  - { name: Sharmila Upadhyaya, affiliation: "GESIS – Leibniz Institute" }
+  - { name: Sridevi Wagle, affiliation: "Pacific Northwest National Laboratory" }
+  - { name: Taro Watanabe, affiliation: "Nara Institute of Science and Technology" }
+  - { name: Shuntaro Yada, affiliation: "Tsukuba University; Tokyo Institute of Technology" }

@@ -1,0 +1,28 @@
+---
+layout: single
+title: Committees <br> WASP @ IJCNLP-AACL 2026
+permalink: /2026/committees/
+sidebar:
+  nav: "sidebar2026"
+toc: true
+toc_label: "On this page"
+---
+{%- assign c = site.data.wasp2026_committees -%}
+
+<h2 id="organizing-committee">Organizing Committee</h2>
+
+<ul>
+  {%- for m in c.organizing %}
+  <li><a href="{{ m.url }}"><strong>{{ m.name }}</strong></a>, {{ m.affiliation | escape }}</li>
+  {%- endfor %}
+</ul>
+
+<h2 id="program-committee">Programme Committee</h2>
+
+<p>We thank our reviewers for their time and careful feedback.</p>
+
+<ul>
+  {%- for m in c.program %}
+  <li><strong>{{ m.name }}</strong>, {{ m.affiliation | escape }}</li>
+  {%- endfor %}
+</ul>

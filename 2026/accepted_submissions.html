@@ -1,0 +1,49 @@
+---
+layout: single
+title: Accepted Papers <br> WASP @ IJCNLP-AACL 2026
+permalink: /2026/accepted_submissions/
+sidebar:
+  nav: "sidebar2026"
+toc: true
+toc_label: "On this page"
+---
+{% include wasp2026-styles.html %}
+{%- assign papers = site.data.wasp2026_papers -%}
+{%- assign overview = papers | where: "track", "overview" -%}
+{%- assign main = papers | where: "track", "main" -%}
+{%- assign shared = papers | where: "track", "shared_task" -%}
+
+<p>Proceedings: coming soon in the ACL Anthology.</p>
+
+<ul class="w26-paper-list w26-paper-list--plain">
+  {%- for p in overview %}{% include wasp2026-paper.html paper=p label="Workshop overview" %}{% endfor %}
+</ul>
+
+<h2 id="main-track" class="w26-count-reset">Main Workshop Track</h2>
+
+<h3 id="long-papers">Long Papers</h3>
+<ul class="w26-paper-list">
+  {%- assign list = main | where: "type", "Long" -%}
+  {%- for p in list %}{% include wasp2026-paper.html paper=p %}{% endfor %}
+</ul>
+
+<h3 id="short-papers">Short Papers</h3>
+<ul class="w26-paper-list">
+  {%- assign list = main | where: "type", "Short" -%}
+  {%- for p in list %}{% include wasp2026-paper.html paper=p %}{% endfor %}
+</ul>
+
+<h2 id="shared-task" class="w26-count-reset">AstroCLIMB Shared Task</h2>
+
+<p>Papers from the <a href="{{ '/2026/shared_task' | relative_url }}">AstroCLIMB shared task</a>.</p>
+
+<ul class="w26-paper-list w26-paper-list--plain">
+  {%- assign list = shared | where: "type", "Overview" -%}
+  {%- for p in list %}{% include wasp2026-paper.html paper=p label="Shared task overview" %}{% endfor %}
+</ul>
+
+<h3 id="system-papers">System Papers</h3>
+<ul class="w26-paper-list">
+  {%- assign list = shared | where: "type", "System" -%}
+  {%- for p in list %}{% include wasp2026-paper.html paper=p %}{% endfor %}
+</ul>

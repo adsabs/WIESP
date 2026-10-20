@@ -15,20 +15,20 @@ sidebar2026:
     url: /2026/call_for_papers
   - title: "Registration"
     url: /2026/registration
-#  - title: "Accepted Submissions"
-#    url: /2026/accepted_submissions
-#  - title: "Workshop"
-#    children:
-#    - title: "Keynote"
-#      url: /2026/keynote
-#    - title: "Schedule"
-#      url: /2026/schedule
+  - title: "Accepted Papers"
+    url: /2026/accepted_submissions
+  - title: "Workshop"
+    children:
+    - title: "Programme"
+      url: /2026/schedule
+    - title: "Keynote Talks"
+      url: /2026/keynote
   - title: "Shared Task"
     children:
       - title: "AstroCLIMB: Astronomy Citation Linking from Illustrations: a Multimodal Benchmark"
         url: /2026/shared_task
-#  - title: "Program Committee"
-#    url: /2026/ProgramCommittee
+  - title: "Committees"
+    url: /2026/committees
 
 sidebar2025:
   - title: "WASP 2025"

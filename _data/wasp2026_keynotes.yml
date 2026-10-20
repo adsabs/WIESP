@@ -1,0 +1,50 @@
+- name: Jessy Li
+  url: https://jessyli.com/
+  institution: The University of Texas at Austin
+  photo: /assets/2026/keynotes/jessy-li.jpg
+  title: "Salience and Inquiry in Scientific Literature"
+  abstract: >-
+    In this talk, we view the processing of scientific literature as an (implicitly) interactive discourse
+    process: the reader is constantly abstracting out the most salient information, while staying inquisitive
+    about the content. I will discuss the role of questions, first in deriving information salience from
+    research documents. Using summarization as a behavioral probe, we reveal that across different lengths of
+    summaries, the questions that models tend to answer remain intriguingly consistent. Next, we show how
+    questions play important roles in connecting different pieces of a scientific document via generative
+    discourse models, and extend existing frameworks to multimodal settings, modeling the connections across
+    passages and figures. Finally, I will end the talk with brief discussions on AI review pilots at recent
+    large conferences.
+  bio: >-
+    Jessy Li is an associate professor in the Linguistics Department and (by courtesy) the Computer Science
+    Department at the University of Texas at Austin. She received her Ph.D. from the Department of Computer and
+    Information Science at the University of Pennsylvania in 2017. Her research interests are in computational
+    linguistics and natural language processing, specifically discourse and pragmatics, generation and
+    evaluation, and language & code. She is a recipient of an NSF CAREER Award, ACL and EMNLP Outstanding
+    Paper Awards, an ACM SIGSOFT Distinguished Paper Award, among others. Jessy is an AI research lead at the
+    NSF-Simons CosmicAI Institute. She is also the Secretary of NAACL, and a Program Chair of the EMNLP 2026
+    conference.
+
+- name: Pavlos Protopapas
+  url: https://seas.harvard.edu/person/pavlos-protopapas
+  institution: Harvard University
+  photo: /assets/2026/keynotes/pavlos-protopapas.jpg
+  title: "From General-Purpose LLMs to Grounded Tools for Scientific Discovery"
+  abstract: >-
+    Large language models offer new ways to search, interpret, and synthesize scientific literature. Yet their
+    responses can reflect biases in their training data, uneven coverage of research, and claims that are
+    difficult to verify. How can we make these models useful while retaining control over the evidence and
+    reasoning behind their outputs? Drawing on two recent research projects, I will discuss building
+    applications on top of NASA's Astrophysics Data System (ADS) that connect language models to scholarly
+    sources and guide their use through explicit workflows. The talk will explore how retrieval, tool use, and
+    verification can help make outputs more transparent and assessable, while examining the limitations that
+    remain. The central question is how to design AI tools that support scientific judgment and allow
+    researchers to inspect and challenge their results.
+  bio: >-
+    Pavlos Protopapas is the Scientific Program Director for the master's programs in data science and
+    computational science engineering at the Harvard John A. Paulson School of Engineering and Applied
+    Sciences. As an educator, he currently teaches the CS109 course series for basic and advanced data science
+    and a course in Machine Learning Operations at Harvard University. He previously taught the capstone
+    courses for the master's programs, and also a course in deep reinforcement learning. His courses are also
+    available through the Harvard Extension School and on HarvardX. In addition he has participated in data
+    science schools around the world in Chile, Colombia, India, and Rwanda. Pavlos has a PhD in theoretical
+    physics from the University of Pennsylvania and his research interests are at the intersection of
+    astronomy, machine learning, and statistics.
