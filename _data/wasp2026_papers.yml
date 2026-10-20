@@ -1,13 +1,13 @@
 # Accepted papers for WASP 2026, exported from OpenReview.
 # track: overview | main | shared_task
 # type:  Overview | Long | Short | System
-# Fill in `authors` once the camera-ready versions are in; it is hidden while empty.
+# Authors and titles from the final accepted-papers list; `authors` is hidden if left empty.
 
 - id: 44
   track: overview
   type: Overview
   title: "Overview of the Fourth Workshop on Artificial Intelligence for Scientific Publications (WASP 2026)"
-  authors: ""
+  authors: "Atilla Kaan Alkan, Felix Grezes, Kelly Lockhart, Alberto Accomazzi, Tirthankar Ghosal"
   abstract: >-
     The Workshop on Artificial Intelligence for Scientific Publications (WASP) brings together research on
     methods that read, organize, connect, and evaluate the scientific literature. Its fourth edition was held
@@ -29,7 +29,7 @@
   track: main
   type: Long
   title: "ACL-Verbatim: hallucination-free question answering for research"
-  authors: ""
+  authors: "Gabor Recski, Szilveszter Tóth, Nadia Verdha, István Boros, Ádám Kovács"
   abstract: >-
     Researchers need efficient and reliable methods for collecting high-quality information from trusted
     sources, but modern tools for AI-assisted research still suffer from the tendency of Large Language Models
@@ -47,7 +47,7 @@
   track: main
   type: Long
   title: "Can Generative AI Automate Data Extraction for Meta-Analysis? A Case Study on Intercropping Research"
-  authors: ""
+  authors: "Zehao Lu, Xingguo Xiong, Thijs L. van der Plas, Wopke van der Werf, Ioannis N. Athanasiadis"
   abstract: >-
     Meta-analysis is the synthesis of information from multiple sources to arrive at an overarching
     conclusion. There is a large need for meta-analysis in agricultural research to synthesize what is known
@@ -69,7 +69,7 @@
   track: main
   type: Long
   title: "Local Citation Recommendation Without Graph Signals"
-  authors: ""
+  authors: "Benjamin Basseri, Pavlos Protopapas, Kemeng Zhang, Alberto Accomazzi, Anna Kelbert"
   abstract: >-
     Resolving correct citations can be a time-consuming task for research writers. We address local citation
     recommendation (LCR), where the goal is to retrieve appropriate references for a given sentence. Web tools
@@ -86,7 +86,7 @@
   track: main
   type: Long
   title: "Bridging the Data Bottleneck: A Multi-Modal Generative Extraction Pipeline for Legacy Scientific Literature"
-  authors: ""
+  authors: "Gaurav Kumar, Anasse Bari, David J. Nagel"
   abstract: >-
     The majority of historical experimental data across the empirical sciences remains locked in unstructured
     legacy formats, which slows data-driven discovery. We introduce an automated multi-modal pipeline that
@@ -106,7 +106,7 @@
   track: main
   type: Long
   title: "Fusing Sentence-Level and Document-Level Representations for Keyphrase Extraction"
-  authors: ""
+  authors: "Marko Pranjic, Kristijan Armeni, Senja Pollak"
   abstract: >-
     Supervised sequence-labeling approaches to keyphrase extraction operate at token level, but whether a
     phrase is relevant may depend on context beyond its sentence. Processing an entire document at token
@@ -125,7 +125,7 @@
   track: main
   type: Long
   title: "Beyond Fluency: A Framework for Analyzing Epistemic and Argumentative Shifts in AI-Assisted Scientific Text Reformulation"
-  authors: ""
+  authors: "Laura Centonze"
   abstract: >-
     Although generative AI increasingly reformulates scientific texts, evaluations based on fluency,
     readability, and semantic similarity may overlook changes in the epistemic and argumentative properties of
@@ -145,7 +145,7 @@
   track: main
   type: Long
   title: "TRACS: Telescope Reference and Astronomy Categorization dataset and Shared task"
-  authors: ""
+  authors: "Felix Grezes, Ethan Seefried, Kelly Lockhart, Alberto Accomazzi, Tirthankar Ghosal, Anjali Pandiri, Jennifer Lynn Bartlett"
   abstract: >-
     To assess the scientific impact of observational facilities, astronomers analyze publications which have
     made use of the data by the facility. This requires bibliographies annotating and linking data products
@@ -166,7 +166,7 @@
   track: main
   type: Long
   title: "Towards Verifiable Answers: Reinforcement Learning with a Verifier Reduces Hallucinated References in Literature-Based Question Answering"
-  authors: ""
+  authors: "Rushank Goyal"
   abstract: >-
     Experts and laypeople alike increasingly encounter the scientific literature by posing questions to large
     language models (LLMs) rather than through database searches, making a model's cited sources the reader's
@@ -187,7 +187,7 @@
   track: main
   type: Long
   title: "Scientific Table Generation: Structured Information Extraction from Scientific Literature"
-  authors: ""
+  authors: "Necva Bölücü, Huichen Yang, Roelien C. Timmer, Stephen Wan, Brian Jin, Changhyun Lee, Andreas Duenser, Jessica Irons"
   abstract: >-
     We introduce Scientific Table Generation (STG), the task of extracting information from scientific
     documents to populate a table. We argue that STG can serve as a unifying task for structured knowledge
@@ -205,7 +205,7 @@
   track: main
   type: Long
   title: "Recovering Method Parameters from Protocol Prose: Task Definition, Audited Extraction, and the Comparability It Licenses"
-  authors: ""
+  authors: "Fabio Rovai"
   abstract: >-
     Repositories usually report metadata quality as completeness, the share of fields filled. We measure
     instead whether two deposited analyses record enough to be compared. Over all 167,331 pairs of gas
@@ -229,7 +229,7 @@
   track: main
   type: Short
   title: "From Astronomical Circulars to Auditable Follow-up Records: Schema-Constrained LLM Extraction with Human Verification"
-  authors: ""
+  authors: "Fabian Schüssler, Atilla Kaan Alkan, Bernardo Cornejo, Sofia Bisero, Ilja Jaroschewski, R. Weizmann Kiendrebeogo, Maxime Cellier, Johan Cinosi, Antoine Ciric, Alexandre Saint-Paul"
   abstract: >-
     GCN Circulars distribute crucial information on astronomical observations of transient phenomena, but
     their flexible prose mixes observations, limits, metadata, contacts, and interpretation. We present an
@@ -247,7 +247,7 @@
   track: main
   type: Short
   title: "CARDS: Citation-Aware Research Diffusion Summarization"
-  authors: ""
+  authors: "Autumn Toney, Katherine N Quinn, Steph Batalis"
   abstract: >-
     Tracing how knowledge diffuses through scientific networks reveals how research builds on prior findings,
     but doing so at scale remains challenging. We present an LLM-based approach, Citation-Aware Research
@@ -263,7 +263,7 @@
   track: main
   type: Short
   title: "Accelerating Literature Data Extraction using AI at the IPAC Archives"
-  authors: ""
+  authors: "Nicholas Susemiehl, Ricky Nilsson"
   abstract: >-
     The repositories of the NASA Extragalactic Database (NED) and NASA Exoplanet Archive (NEA) provide the
     scientific community with regularly-updated records of published data on observed astronomical objects.
@@ -282,7 +282,7 @@
   track: main
   type: Short
   title: "Extracting Published Discussions of 13,616 Galaxies with Language Models"
-  authors: ""
+  authors: "Nolan Koblischke, Jo Bovy"
   abstract: >-
     Astronomers often have difficulty determining whether an object, such as a star or galaxy of interest, has
     been discussed in the literature. Existing tools enable object identification and linking in papers but do
@@ -299,7 +299,7 @@
   track: main
   type: Short
   title: "Star Light, Star Bright: Can Multimodal Models Parse an Astronomy Visual Question Answering Dataset Right?"
-  authors: ""
+  authors: "J. P. Naiman"
   abstract: >-
     Figures are essential for scientific communication, and the field of Visual Question Answering (VQA) aims
     to test the figure understanding capabilities of large multimodal models (LMMs). Here, we investigate the
@@ -321,7 +321,7 @@
   track: shared_task
   type: Overview
   title: "AstroCLIMB: Astronomy Citation Linking from Illustrations - a Multimodal Benchmark and Overview of the WASP 2026 Shared Task"
-  authors: ""
+  authors: "Felix Grezes, Atilla Kaan Alkan, Kelly Lockhart, Alberto Accomazzi, Ethan Seefried, Tirthankar Ghosal"
   abstract: >-
     Scientists rely on figures to share their discoveries, but this makes the information contained in the
     figures difficult to parse, archive, and search. Multimodal neural-network models, designed to handle
@@ -339,7 +339,7 @@
   track: shared_task
   type: System
   title: "Auditable Multi-View Hosted Multimodal Judging for AstroCLIMB"
-  authors: ""
+  authors: "Kewen Zhu, Junyuan Tan"
   abstract: >-
     We study AstroCLIMB, a four-way relationship-classification task over pairs of astronomy figure/caption
     endpoints. Starting from a leakage-audited lexical and low-level image-statistics baseline (M7), we
@@ -354,7 +354,7 @@
   track: shared_task
   type: System
   title: "HCMUS_Beyonders at AstroCLIMB: Same Paper or Citing Paper? Linking Astronomy Figures with OCR, Citation Graphs, and LLMs"
-  authors: ""
+  authors: "Phu Quy Nguyen Lam, My-Linh Bang, Dao Sy Duy Minh, Trung-Kiet Huynh, Phu-Hoa Pham, Tran Chi Nguyen"
   abstract: >-
     AstroCLIMB asks whether two objects taken from astronomy papers, each a figure or a caption, show the same
     figure, come from the same paper, come from papers linked by a citation, or are unrelated. We describe the
@@ -375,7 +375,7 @@
   track: shared_task
   type: System
   title: "GRAIL: Compact Multimodal Similarities for Astronomy Citation Linking"
-  authors: ""
+  authors: "Egor Fedosov"
   abstract: >-
     We present GRAIL, a system for classifying relations between astronomy figures and captions in the
     AstroCLIMB shared task. GRAIL combines frozen CLIP and SciNCL representations with optical character
@@ -392,7 +392,7 @@
   track: shared_task
   type: System
   title: "Parameter-Efficient Adaptation of Qwen3-VL for Astronomy Citation Linking at AstroCLIMB 2026"
-  authors: ""
+  authors: "Syed Mohaiminul Hoque"
   abstract: >-
     We describe a submission to the AstroCLIMB shared task at WASP 2026. The task requires classifying a pair
     of astronomy figures and/or captions as the same figure, from the same paper, from citation-related
@@ -408,7 +408,7 @@
   track: shared_task
   type: System
   title: "Modality-Conditioned Ensembles and Zero-Shot Cross-Encoder Reranking for Relation Classification Between Astronomy-Paper Objects"
-  authors: ""
+  authors: "Tonmoy Sarker Sourav, M. Tahsan Zahid, Most. Atkia Farzana"
   abstract: >-
     The WASP 2026 (AstroCLIMB) task requires classifying the relation between a pair of objects drawn from
     astronomy papers (same_figure, same_paper, related_papers, or unrelated_papers), where each pair combines
@@ -437,7 +437,7 @@
   track: shared_task
   type: System
   title: "Public Scientific-Figure Adaptation for AstroCLIMB with a 4B Vision–Language Model"
-  authors: ""
+  authors: "Irving Ernesto Quezada Ramírez"
   abstract: >-
     We adapt Qwen3.5-4B to the AstroCLIMB task, which asks whether two scientific figures or captions come from
     the same figure, the same paper, citation-linked papers, or unrelated papers. For caption–image pairs, we
@@ -454,7 +454,7 @@
   track: shared_task
   type: System
   title: "PSGS@2026: From Figures to Citation Graphs: QLoRA Based Multimodal Linking for AstroCLIMB"
-  authors: ""
+  authors: "Prajwal Ghimire, Shiv Ram Saud, Aashish Mahato, Sundeep Dawadi, Sunil Regmi, Manoj Shakya"
   abstract: >-
     We describe our system for the AstroCLIMB shared task (WASP 2026), which reconstructs the citation graph of
     astronomy papers from scientific figures and captions alone. The task requires identifying the
@@ -471,7 +471,7 @@
   track: shared_task
   type: System
   title: "Beyond Visual Similarity: Parameter-Efficient Vision–Language Models for Scientific Citation Linking on AstroCLIMB"
-  authors: ""
+  authors: "K S Ramalakshmi, Shubham Sharma, Ashmani Kumar, Ankush Chopra"
   abstract: >-
     This paper describes our submission to the AstroCLIMB shared task, which evaluates whether multimodal
     models can identify citation relationships among astronomy papers from pairs of figures and captions. We
@@ -488,7 +488,7 @@
   track: shared_task
   type: System
   title: "Multimodal Feature Integration for Pairwise Relationship Classification in Astronomy Literatures"
-  authors: ""
+  authors: "Preksha Pareek, Rutal Mahajan, Raj Mahesh Mane, Ananya Kalia, Aashna Shetty"
   abstract: >-
     In scientific articles, figures often convey experiments and observations, as well as physical intuition,
     to the readers. Yet, surface metadata alone can be insufficient to unpack how two scientific objects relate
@@ -507,7 +507,7 @@
   track: shared_task
   type: System
   title: "Modality-Specific and Relation-Aware Modeling for Scientific Figure Linking"
-  authors: ""
+  authors: "Bodhisatta Maiti, Debshree Chowdhury"
   abstract: >-
     We present a modality-specific system for the AstroCLIMB shared task, which predicts relations among
     astronomical figures and captions. Caption–caption, image–image, and image–caption pairs use different
