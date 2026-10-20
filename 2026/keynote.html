@@ -1,0 +1,30 @@
+---
+layout: single
+classes: wide
+title: Keynote Talks <br> WASP @ IJCNLP-AACL 2026
+permalink: /2026/keynote/
+sidebar:
+  nav: "sidebar2026"
+---
+{% include wasp2026-styles.html %}
+
+<p class="w26-lead">WASP 2026 is delighted to welcome the following keynote speakers.</p>
+
+{% for k in site.data.wasp2026_keynotes %}
+<article class="w26-keynote">
+  <div class="w26-keynote__photo">
+    <img src="{{ k.photo | relative_url }}" alt="Portrait of {{ k.name }}" loading="lazy" width="150" height="200">
+  </div>
+  <div class="w26-keynote__body">
+    <h2 class="w26-keynote__name" id="{{ k.name | slugify }}">
+      {%- if k.url and k.url != "" %}<a href="{{ k.url }}">{{ k.name }}</a>{% else %}{{ k.name }}{% endif -%}
+    </h2>
+    <p class="w26-keynote__inst">{{ k.institution }}</p>
+    <p class="w26-keynote__talk"><small>Talk</small>{{ k.title | escape }}</p>
+    <p class="w26-keynote__label">Abstract</p>
+    <p>{{ k.abstract | escape }}</p>
+    <p class="w26-keynote__label">Bio</p>
+    <p>{{ k.bio | escape }}</p>
+  </div>
+</article>
+{% endfor %}

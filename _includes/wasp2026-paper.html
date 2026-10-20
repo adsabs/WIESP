@@ -1,0 +1,10 @@
+{%- assign p = include.paper -%}
+<li id="paper-{{ p.id }}">
+  {%- if include.label %}<span class="w26-paper-label">{{ include.label }}</span>{% endif %}
+  <span class="w26-paper-title">{{ p.title | escape }}</span>
+  {%- if p.authors and p.authors != "" %}<span class="w26-paper-authors">{{ p.authors | escape }}</span>{% endif %}
+  <details class="w26-abstract">
+    <summary>Abstract</summary>
+    <p>{{ p.abstract | escape }}</p>
+  </details>
+</li>
