@@ -23,6 +23,8 @@ sidebar2026:
       url: /2026/schedule
     - title: "Keynote Talks"
       url: /2026/keynote
+    - title: "Panel Session"
+      url: /2026/panel
   - title: "Shared Task"
     children:
       - title: "AstroCLIMB: Astronomy Citation Linking from Illustrations: a Multimodal Benchmark"

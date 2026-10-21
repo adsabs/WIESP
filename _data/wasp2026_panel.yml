@@ -1,0 +1,27 @@
+title: "Easier to Write than to Verify? Generative AI and the Crisis in Scholarly Publishing"
+
+description:
+  - >-
+    Generative models are now part of every stage of scholarly publishing. Authors use them to draft text,
+    analyze data and produce figures; reviewers use them, often without disclosure, to summarize and assess
+    manuscripts; and publishers and indexing services use them to screen submissions and extract knowledge
+    from the literature. The result is a system under strain. Submission volumes are growing faster than the
+    pool of willing referees, AI-assisted paper mills are producing work that is hard to detect, and the cost
+    of producing a plausible paper has dropped much faster than the cost of checking one.
+  - >-
+    This panel brings together researchers and learned societies to discuss how the scholarly record can
+    remain trustworthy under these conditions. Topics include the use of AI in peer review and how it should
+    be disclosed and evaluated; methods for detecting fabricated or low-quality submissions, and their limits;
+    whether papers should become more machine-verifiable, with claims explicitly linked to the data and code
+    behind them; and the effect of AI-mediated discovery on what gets read and cited. We will also consider how
+    current publishing models, designed for human readers, can adapt to a literature increasingly read by
+    machines. The goal is not to settle these questions but to identify where research from the NLP and AI
+    community can make the most difference.
+
+# Add panelists here; the page shows "to be announced" while the list is empty.
+# Example:
+#   - name: Jane Doe
+#     url: https://example.org
+#     institution: Example University
+#     photo: /assets/2026/panel/jane-doe.jpg   # optional
+panelists: []
