@@ -1,0 +1,35 @@
+---
+layout: single
+classes: wide
+title: Panel Session <br> WASP @ IJCNLP-AACL 2026
+permalink: /2026/panel/
+sidebar:
+  nav: "sidebar2026"
+---
+{% include wasp2026-styles.html %}
+{%- assign panel = site.data.wasp2026_panel -%}
+
+<p class="w26-keynote__talk w26-panel__title"><small>Panel</small>{{ panel.title | escape }}</p>
+
+{% for para in panel.description %}
+<p>{{ para | escape }}</p>
+{% endfor %}
+
+<h2 id="panelists">Panelists</h2>
+
+{%- if panel.panelists and panel.panelists.size > 0 %}
+<ul class="w26-panelists">
+  {%- for m in panel.panelists %}
+  <li>
+    {%- if m.photo %}<img src="{{ m.photo | relative_url }}" alt="Portrait of {{ m.name }}" loading="lazy">{% endif %}
+    <span>
+      {%- if m.url and m.url != "" %}<a href="{{ m.url }}"><strong>{{ m.name }}</strong></a>{% else %}<strong>{{ m.name }}</strong>{% endif -%}
+      {%- if m.institution %}<br>{{ m.institution | escape }}{% endif %}
+    </span>
+  </li>
+  {%- endfor %}
+</ul>
+{%- else %}
+<p><em>Panelists will be announced soon.</em></p>
+{%- endif %}
+
