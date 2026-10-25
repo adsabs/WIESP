@@ -1,0 +1,13 @@
+{%- comment -%}
+  Key facts for one edition, from _data/editions.yml. Usage: {% include event-info.html year=2027 %}
+{%- endcomment -%}
+{%- assign e = site.data.editions | where: "year", include.year | first -%}
+<dl class="event-info">
+  <div><dt>Edition</dt><dd>{{ e.ordinal }}</dd></div>
+  <div><dt>Conference</dt><dd><a href="{{ e.conference_url }}">{{ e.conference }}</a></dd></div>
+  <div><dt>Location</dt><dd>{{ e.where }}</dd></div>
+  <div><dt>{{ e.date_label | default: "Date" }}</dt><dd>{{ e.date }}</dd></div>
+  {%- if e.proceedings and e.proceedings != "" %}
+  <div><dt>Proceedings</dt><dd><a href="{{ e.proceedings }}">ACL Anthology</a></dd></div>
+  {%- endif %}
+</dl>

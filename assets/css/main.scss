@@ -16,3 +16,146 @@ $sans-serif: "Exo", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Ne
 
 // Exo sits tight on multi-line titles ("Accepted Papers <br> WASP @ ..."); give them a bit more room.
 .page__title { line-height: 1.25; }
+
+/* ---------------------------------------------------------------- Masthead dropdown (_includes/masthead.html) */
+
+// The theme clips the top menu; let the dropdown hang below it (the greedy-nav script still moves overflow to the mobile menu).
+.greedy-nav .visible-links { overflow: visible; }
+
+.masthead__dropdown-toggle {
+  margin: 0 1rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: $masthead-link-color;
+  cursor: pointer;
+
+  &::after {
+    content: "";
+    display: inline-block;
+    margin-left: .4em;
+    vertical-align: .2em;
+    border: .3em solid transparent;
+    border-top-color: currentColor;
+    border-bottom: 0;
+  }
+  &:hover { color: $masthead-link-color-hover; }
+}
+
+.masthead__menu-item--dropdown {
+  position: relative;
+
+  .masthead__dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: .5rem;
+    z-index: 30;
+    min-width: 11em;
+    margin: .6em 0 0;
+    padding: .3em 0;
+    list-style: none;
+    background: $background-color;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    box-shadow: 0 2px 4px 0 rgba(#000, .16), 0 2px 10px 0 rgba(#000, .12);
+
+    li { margin: 0; }
+    a {
+      margin: 0;
+      padding: .45em 1.1em;
+      font-size: $type-size-5;
+      white-space: nowrap;
+      &::before { display: none; }
+      &:hover { background: $navicon-link-color-hover; }
+    }
+  }
+
+  &.is-open .masthead__dropdown { display: block; }
+  &.is-open .masthead__dropdown-toggle::after { transform: rotate(180deg); }
+}
+
+@media (hover: hover) {
+  .visible-links .masthead__menu-item--dropdown:hover .masthead__dropdown { display: block; }
+  // An invisible bridge so the menu doesn't close while the pointer crosses the gap.
+  .visible-links .masthead__dropdown::before { content: ""; position: absolute; left: 0; right: 0; top: -.7em; height: .7em; }
+}
+
+// Inside the mobile hamburger menu, show the submenu inline under its label.
+.greedy-nav .hidden-links .masthead__menu-item--dropdown {
+  .masthead__dropdown-toggle {
+    margin: 0;
+    padding: 10px 20px 4px;
+    font-size: $type-size-6;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: $muted-text-color;
+    cursor: default;
+    &::after { display: none; }
+  }
+  .masthead__dropdown {
+    display: block;
+    position: static;
+    margin: 0;
+    padding: 0 0 4px;
+    border: 0;
+    box-shadow: none;
+    a { padding-left: 32px; }
+  }
+}
+
+/* ---------------------------------------------------------------- Editions list (_includes/editions.html) */
+
+.editions { list-style: none; margin: 0 0 2em; padding: 0; border-top: 1px solid $border-color; }
+h2 + .editions { border-top: 0; }
+.editions .editions__item {
+  display: flex;
+  gap: 1.5em;
+  align-items: baseline;
+  margin: 0;
+  padding: .9em 0;
+  border-bottom: 1px solid $border-color;
+}
+.editions .editions__year {
+  flex: 0 0 3.2em;
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 1;
+  a { color: $text-color; text-decoration: none; }
+}
+.editions .editions__body { flex: 1; min-width: 0; }
+// Two-class selectors so these win over the theme's `.page__content p` spacing.
+.editions .editions__name { margin: 0; font-weight: 600; line-height: 1.35; a { text-decoration: none; } }
+.editions .editions__meta { margin: .1em 0 .25em; font-size: $type-size-6; color: $muted-text-color; }
+.editions .editions__links { margin: 0; font-size: $type-size-6; a { margin-right: 1.2em; } }
+.editions .editions__pending { color: $muted-text-color; font-style: italic; }
+
+@media (max-width: 600px) {
+  .editions .editions__item { gap: 1em; }
+  .editions .editions__year { flex-basis: 2.6em; font-size: 1.25em; }
+}
+
+/* ---------------------------------------------------------------- Key facts under each year's header (_includes/event-info.html) */
+
+.event-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em 3em;
+  margin: 0 0 2em;
+  padding: 1.1em 0;
+  border-top: 1px solid $border-color;
+  border-bottom: 1px solid $border-color;
+
+  > div { min-width: 0; }
+  dt {
+    margin: 0 0 .25em;
+    font-size: $type-size-7;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: $muted-text-color;
+  }
+  dd { margin: 0; font-weight: 600; line-height: 1.3; }
+  a { text-decoration: none; }
+}

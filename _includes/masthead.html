@@ -1,0 +1,79 @@
+{% comment %}
+  Override of the theme's masthead (minimal-mistakes 4.28.0) adding one level of dropdown menus:
+  a main-nav entry with `children` (see _data/navigation.yml) renders as a button with a submenu.
+{% endcomment %}
+{% assign locale = include.locale | default: site.locale %}
+{% capture logo_path %}{{ site.logo }}{% endcapture %}
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        {% unless logo_path == empty %}
+          <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
+        {% endunless %}
+        <a class="site-title" href="{{ '/' | relative_url }}">
+          {{ site.masthead_title | default: site.title | escape_once | strip }}
+          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle | escape_once | strip }}</span>{% endif %}
+        </a>
+        <ul class="visible-links">
+          {%- for link in site.data.navigation.main -%}
+            {%- if link.children -%}
+            <li class="masthead__menu-item masthead__menu-item--dropdown">
+              <button type="button" class="masthead__dropdown-toggle" aria-haspopup="true" aria-expanded="false">{{ link.title }}</button>
+              <ul class="masthead__dropdown">
+                {%- for child in link.children %}
+                <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+                {%- endfor %}
+              </ul>
+            </li>
+            {%- else -%}
+            <li class="masthead__menu-item">
+              <a
+                href="{{ link.url | relative_url }}"
+                {% if link.description %} title="{{ link.description }}"{% endif %}
+                {% if link.target %} target="{{ link.target }}"{% endif %}
+              >{{ link.title }}</a>
+            </li>
+            {%- endif -%}
+          {%- endfor -%}
+        </ul>
+        {% if site.search == true %}
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[locale].search_label | default: "Toggle search" }}</span>
+          <i class="fas fa-search"></i>
+        </button>
+        {% endif %}
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[locale].menu_label | default: "Toggle menu" }}</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Open/close dropdown menus on click (hover also opens them on desktop, via CSS).
+  document.addEventListener('click', function (e) {
+    var toggle = e.target.closest('.masthead__dropdown-toggle');
+    document.querySelectorAll('.masthead__menu-item--dropdown.is-open').forEach(function (li) {
+      if (!toggle || li !== toggle.parentElement) {
+        li.classList.remove('is-open');
+        li.querySelector('.masthead__dropdown-toggle').setAttribute('aria-expanded', 'false');
+      }
+    });
+    if (toggle) {
+      var open = toggle.parentElement.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    document.querySelectorAll('.masthead__menu-item--dropdown.is-open').forEach(function (li) {
+      li.classList.remove('is-open');
+      li.querySelector('.masthead__dropdown-toggle').setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
