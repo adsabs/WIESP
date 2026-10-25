@@ -18,15 +18,8 @@ The surge in scientific paper publications has greatly contributed to scientific
 The 2022 and 2023 editions of the workshop were named the Workshop on Information Extraction from Scientific Publications (WIESP). The name of the workshop was changed to the Workshop for Artificial intelligence for Scientific Publications (WASP) in 2025, in recognition of the growing role of artificial intelligence in these fields. 
 
 
-## WASP & WIESP Proceedings
+## Editions & Proceedings
 
-WASP/WIESP is an [ACL](https://www.aclweb.org/portal/) event. Papers accepted in WASP/WIESP are published in [ACL Anthology](https://aclanthology.org): 
-* The [First WIESP Proceedings](2022) can be found [here](https://aclanthology.org/events/wiesp-2022/). 
-* The [Second WIESP Proceedings](2023) can be found [here](https://aclanthology.org/events/wiesp-2023/). 
-* The [Third WASP Proceedings](2025) can be found [here](https://aclanthology.org/volumes/2025.wasp-main/). 
+WASP/WIESP is an [ACL](https://www.aclweb.org/portal/) event: accepted papers are published in the [ACL Anthology](https://aclanthology.org).
 
-## Editions
-- [Fourth WASP @ IJCNLP-AACL 2026](2026)
-- [Third WASP @ IJCNLP-AACL 2025](2025)
-- [Second WIESP @ IJCNLP-AACL 2023](2023)
-- [First WIESP @ AACL-IJCNLP 2022](2022)
+{% include editions.html %}

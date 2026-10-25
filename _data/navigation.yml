@@ -1,12 +1,20 @@
 main:
+  - title: "WASP 2027"
+    url: /2027
   - title: "WASP 2026"
     url: /2026
-  - title: "WASP 2025"
-    url: /2025
-  - title: "WIESP 2023"
-    url: /2023
-  - title: "WIESP 2022"
-    url: /2022
+  - title: "Previous Editions"
+    children:
+      - title: "WASP 2025"
+        url: /2025
+      - title: "WIESP 2023"
+        url: /2023
+      - title: "WIESP 2022"
+        url: /2022
+
+sidebar2027:
+  - title: "WASP 2027"
+    url: /2027
 
 sidebar2026:
   - title: "WASP 2026"

@@ -13,7 +13,7 @@ header:
 excerpt: "A workshop series associated with the International Joint Conference on Natural Language Processing & Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL)."
 ---
 
-## WIESP @ AACL-IJCNLP 2022 
+{% include event-info.html year=2022 %}
 
 The first Workshop on Information Extraction from Scientific Publications was held at the [AACL-IJCNLP 2022](https://www.aacl2022.org/) ([archive link](https://web.archive.org/web/20230711194107/https://www.aacl2022.org/)) and it featured:
 

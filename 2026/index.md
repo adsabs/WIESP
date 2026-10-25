@@ -13,9 +13,9 @@ header:
 excerpt: "A workshop series associated with the International Joint Conference on Natural Language Processing & Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL)."
 ---
 
-## The 4th [WASP](https://ui.adsabs.harvard.edu/WIESP/): Workshop on Artificial Intelligence for Scientific Publications
+{% include event-info.html year=2026 %}
 
-**[IJCNLP-AACL 2026](https://2026.aaclnet.org/)  ·  November 9-10, 2026  · Online** - register [here](https://2026.aaclnet.org/registration/)  
+**Registration:** handled by the conference, [register here](https://2026.aaclnet.org/registration/).
 
 **NEW SUBMISSION DEADLINE:** ~~September 14, 2026~~ September 21, 2026 
 

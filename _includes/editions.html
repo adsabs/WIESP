@@ -1,0 +1,24 @@
+{%- comment -%}
+  List of workshop editions from _data/editions.yml.
+  Optional: exclude=2027 to leave out one year (e.g. the current edition's own page).
+{%- endcomment -%}
+<ul class="editions">
+  {%- for e in site.data.editions %}
+  {%- if include.exclude and e.year == include.exclude %}{% continue %}{% endif %}
+  <li class="editions__item">
+    <span class="editions__year"><a href="{{ e.url | relative_url }}">{{ e.year }}</a></span>
+    <div class="editions__body">
+      <p class="editions__name"><a href="{{ e.url | relative_url }}">{{ e.name }} @ {{ e.conference }}</a></p>
+      <p class="editions__meta">{{ e.where }} · {{ e.when }}</p>
+      <p class="editions__links">
+        <a href="{{ e.url | relative_url }}">Workshop website</a>
+        {%- if e.proceedings and e.proceedings != "" %}
+        <a href="{{ e.proceedings }}">Proceedings (ACL Anthology)</a>
+        {%- else %}
+        <span class="editions__pending">Proceedings forthcoming</span>
+        {%- endif %}
+      </p>
+    </div>
+  </li>
+  {%- endfor %}
+</ul>

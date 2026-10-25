@@ -1,0 +1,60 @@
+# All editions of the workshop, newest first.
+# Rendered by _includes/editions.html (list of editions) and _includes/event-info.html (key-facts strip on each year's page).
+# date: workshop date if known, otherwise the conference dates (date_label says which).
+# proceedings: ACL Anthology link once published; leave empty to show "forthcoming".
+
+- year: 2027
+  name: Fifth WASP
+  ordinal: 5th edition
+  conference: NAACL 2027
+  conference_url: https://2027.naacl.org/
+  where: San Francisco, USA
+  when: June 2027
+  date: June 1–5, 2027
+  date_label: Conference dates
+  url: /2027
+  proceedings: ""
+
+- year: 2026
+  name: Fourth WASP
+  ordinal: 4th edition
+  conference: IJCNLP-AACL 2026
+  conference_url: https://2026.aaclnet.org/
+  where: Online
+  when: November 2026
+  date: November 10, 2026
+  url: /2026
+  proceedings: ""
+
+- year: 2025
+  name: Third WASP
+  ordinal: 3rd edition
+  conference: IJCNLP-AACL 2025
+  conference_url: https://www.afnlp.org/conferences/ijcnlp2025/
+  where: Mumbai, India & online
+  when: December 2025
+  date: December 23, 2025
+  url: /2025
+  proceedings: https://aclanthology.org/volumes/2025.wasp-main/
+
+- year: 2023
+  name: Second WIESP
+  ordinal: 2nd edition
+  conference: IJCNLP-AACL 2023
+  conference_url: https://web.archive.org/web/20251211140531/http://www.ijcnlp-aacl2023.org/
+  where: Bali, Indonesia & online
+  when: November 2023
+  date: November 1, 2023
+  url: /2023
+  proceedings: https://aclanthology.org/volumes/2023.wiesp-1/
+
+- year: 2022
+  name: First WIESP
+  ordinal: 1st edition
+  conference: AACL-IJCNLP 2022
+  conference_url: https://web.archive.org/web/20230711194107/https://www.aacl2022.org/
+  where: Online
+  when: November 2022
+  date: November 2022
+  url: /2022
+  proceedings: https://aclanthology.org/volumes/2022.wiesp-1/

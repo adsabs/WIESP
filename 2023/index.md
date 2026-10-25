@@ -13,7 +13,7 @@ header:
 excerpt: "A workshop series associated with the International Joint Conference on Natural Language Processing & Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL)."
 ---
 
-## The 2nd [WIESP](https://ui.adsabs.harvard.edu/WIESP/) @ IJCNLP-AACL 2023 
+{% include event-info.html year=2023 %}
 
 The 2nd Workshop on Information Extraction from Scientific Publications was held in hybrid mode (online and at Bali, Indonesia) at the [IJCNLP-AACL 2023](http://www.ijcnlp-aacl2023.org/) ([archive link](https://web.archive.org/web/20251211140531/http://www.ijcnlp-aacl2023.org/)) on November 1, 2023 and featured:
 

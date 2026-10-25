@@ -13,7 +13,7 @@ header:
 excerpt: "A workshop series associated with the International Joint Conference on Natural Language Processing & Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL)."
 ---
 
-## The 3rd [WASP](https://ui.adsabs.harvard.edu/WIESP/) @ IJCNLP-AACL 2025
+{% include event-info.html year=2025 %}
 
 The Third Workshop on Artificial Intelligence for Scientific Publications was held in hybrid mode (online and at Mumbai, India) at the [IJCNLP-AACL 2025](https://www.afnlp.org/conferences/ijcnlp2025/) on December 23, 2025, and featured:
 
