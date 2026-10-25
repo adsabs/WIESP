@@ -5187,4 +5187,212 @@ body {
   line-height: 1.25;
 }
 
+/* ---------------------------------------------------------------- Masthead dropdown (_includes/masthead.html) */
+.greedy-nav .visible-links {
+  overflow: visible;
+}
+
+.masthead__dropdown-toggle {
+  margin: 0 1rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  color: #6f777d;
+  cursor: pointer;
+}
+.masthead__dropdown-toggle::after {
+  content: "";
+  display: inline-block;
+  margin-left: 0.4em;
+  vertical-align: 0.2em;
+  border: 0.3em solid transparent;
+  border-top-color: currentColor;
+  border-bottom: 0;
+}
+.masthead__dropdown-toggle:hover {
+  color: #53595e;
+}
+
+.masthead__menu-item--dropdown {
+  position: relative;
+}
+.masthead__menu-item--dropdown .masthead__dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0.5rem;
+  z-index: 30;
+  min-width: 11em;
+  margin: 0.6em 0 0;
+  padding: 0.3em 0;
+  list-style: none;
+  background: #fff;
+  border: 1px solid #f2f3f3;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.masthead__menu-item--dropdown .masthead__dropdown li {
+  margin: 0;
+}
+.masthead__menu-item--dropdown .masthead__dropdown a {
+  margin: 0;
+  padding: 0.45em 1.1em;
+  font-size: 1em;
+  white-space: nowrap;
+}
+.masthead__menu-item--dropdown .masthead__dropdown a::before {
+  display: none;
+}
+.masthead__menu-item--dropdown .masthead__dropdown a:hover {
+  background: #dbdddf;
+}
+.masthead__menu-item--dropdown.is-open .masthead__dropdown {
+  display: block;
+}
+.masthead__menu-item--dropdown.is-open .masthead__dropdown-toggle::after {
+  transform: rotate(180deg);
+}
+
+@media (hover: hover) {
+  .visible-links .masthead__menu-item--dropdown:hover .masthead__dropdown {
+    display: block;
+  }
+  .visible-links .masthead__dropdown::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -0.7em;
+    height: 0.7em;
+  }
+}
+.greedy-nav .hidden-links .masthead__menu-item--dropdown .masthead__dropdown-toggle {
+  margin: 0;
+  padding: 10px 20px 4px;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #646769;
+  cursor: default;
+}
+.greedy-nav .hidden-links .masthead__menu-item--dropdown .masthead__dropdown-toggle::after {
+  display: none;
+}
+.greedy-nav .hidden-links .masthead__menu-item--dropdown .masthead__dropdown {
+  display: block;
+  position: static;
+  margin: 0;
+  padding: 0 0 4px;
+  border: 0;
+  box-shadow: none;
+}
+.greedy-nav .hidden-links .masthead__menu-item--dropdown .masthead__dropdown a {
+  padding-left: 32px;
+}
+
+/* ---------------------------------------------------------------- Editions list (_includes/editions.html) */
+.editions {
+  list-style: none;
+  margin: 0 0 2em;
+  padding: 0;
+  border-top: 1px solid #f2f3f3;
+}
+
+h2 + .editions {
+  border-top: 0;
+}
+
+.editions .editions__item {
+  display: flex;
+  gap: 1.5em;
+  align-items: baseline;
+  margin: 0;
+  padding: 0.9em 0;
+  border-bottom: 1px solid #f2f3f3;
+}
+
+.editions .editions__year {
+  flex: 0 0 3.2em;
+  font-size: 1.5em;
+  font-weight: 700;
+  line-height: 1;
+}
+.editions .editions__year a {
+  color: #3d4144;
+  text-decoration: none;
+}
+
+.editions .editions__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.editions .editions__name {
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.35;
+}
+.editions .editions__name a {
+  text-decoration: none;
+}
+
+.editions .editions__meta {
+  margin: 0.1em 0 0.25em;
+  font-size: 0.75em;
+  color: #646769;
+}
+
+.editions .editions__links {
+  margin: 0;
+  font-size: 0.75em;
+}
+.editions .editions__links a {
+  margin-right: 1.2em;
+}
+
+.editions .editions__pending {
+  color: #646769;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .editions .editions__item {
+    gap: 1em;
+  }
+  .editions .editions__year {
+    flex-basis: 2.6em;
+    font-size: 1.25em;
+  }
+}
+/* ---------------------------------------------------------------- Key facts under each year's header (_includes/event-info.html) */
+.event-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em 3em;
+  margin: 0 0 2em;
+  padding: 1.1em 0;
+  border-top: 1px solid #f2f3f3;
+  border-bottom: 1px solid #f2f3f3;
+}
+.event-info > div {
+  min-width: 0;
+}
+.event-info dt {
+  margin: 0 0 0.25em;
+  font-size: 0.6875em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #646769;
+}
+.event-info dd {
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.event-info a {
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -99,6 +99,7 @@
     
 
 
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -110,28 +111,23 @@
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a
+                href="/WIESP/2027"
+                
+                
+              >WASP 2027</a>
+            </li><li class="masthead__menu-item">
+              <a
                 href="/WIESP/2026"
                 
                 
               >WASP 2026</a>
-            </li><li class="masthead__menu-item">
-              <a
-                href="/WIESP/2025"
-                
-                
-              >WASP 2025</a>
-            </li><li class="masthead__menu-item">
-              <a
-                href="/WIESP/2023"
-                
-                
-              >WIESP 2023</a>
-            </li><li class="masthead__menu-item">
-              <a
-                href="/WIESP/2022"
-                
-                
-              >WIESP 2022</a>
+            </li><li class="masthead__menu-item masthead__menu-item--dropdown">
+              <button type="button" class="masthead__dropdown-toggle" aria-haspopup="true" aria-expanded="false">Previous Editions</button>
+              <ul class="masthead__dropdown">
+                <li><a href="/WIESP/2025">WASP 2025</a></li>
+                <li><a href="/WIESP/2023">WIESP 2023</a></li>
+                <li><a href="/WIESP/2022">WIESP 2022</a></li>
+              </ul>
             </li></ul>
         
         <button class="greedy-nav__toggle hidden" type="button">
@@ -143,6 +139,30 @@
     </div>
   </div>
 </div>
+
+<script>
+  // Open/close dropdown menus on click (hover also opens them on desktop, via CSS).
+  document.addEventListener('click', function (e) {
+    var toggle = e.target.closest('.masthead__dropdown-toggle');
+    document.querySelectorAll('.masthead__menu-item--dropdown.is-open').forEach(function (li) {
+      if (!toggle || li !== toggle.parentElement) {
+        li.classList.remove('is-open');
+        li.querySelector('.masthead__dropdown-toggle').setAttribute('aria-expanded', 'false');
+      }
+    });
+    if (toggle) {
+      var open = toggle.parentElement.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    document.querySelectorAll('.masthead__menu-item--dropdown.is-open').forEach(function (li) {
+      li.classList.remove('is-open');
+      li.querySelector('.masthead__dropdown-toggle').setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
 
 
     <div class="initial-content">
@@ -308,9 +328,14 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <h2 id="the-4th-wasp-workshop-on-artificial-intelligence-for-scientific-publications">The 4th <a href="https://ui.adsabs.harvard.edu/WIESP/">WASP</a>: Workshop on Artificial Intelligence for Scientific Publications</h2>
+        <dl class="event-info">
+  <div><dt>Edition</dt><dd>4th edition</dd></div>
+  <div><dt>Conference</dt><dd><a href="https://2026.aaclnet.org/">IJCNLP-AACL 2026</a></dd></div>
+  <div><dt>Location</dt><dd>Online</dd></div>
+  <div><dt>Date</dt><dd>November 10, 2026</dd></div>
+</dl>
 
-<p><strong><a href="https://2026.aaclnet.org/">IJCNLP-AACL 2026</a>  ·  November 9-10, 2026  · Online</strong> - register <a href="https://2026.aaclnet.org/registration/">here</a></p>
+<p><strong>Registration:</strong> handled by the conference, <a href="https://2026.aaclnet.org/registration/">register here</a>.</p>
 
 <p><strong>NEW SUBMISSION DEADLINE:</strong> <del>September 14, 2026</del> September 21, 2026</p>
 
