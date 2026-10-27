@@ -1,8 +1,8 @@
 ---
 layout: single
-title: WASP 2026
 permalink: /2026/
-title: "Workshop for Artificial Intelligence for Scientific Publications (WASP) 2026"
+title: "Workshop on Artificial Intelligence for Scientific Publications (WASP) 2026"
+excerpt: "The fourth edition of WASP, co-located with IJCNLP-AACL 2026."
 sidebar:
   nav: "sidebar2026"
 header:
@@ -10,12 +10,16 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/messy-journals.jpg
   caption: "Photo credit: [Unsplash](https://unsplash.com)"
-excerpt: "A workshop series associated with the International Joint Conference on Natural Language Processing & Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL)."
+  actions:
+    - label: '<i class="fas fa-map-marker-alt"></i>Online · IJCNLP-AACL 2026'
+      url: https://2026.aaclnet.org/
+    - label: '<i class="far fa-calendar-alt"></i>November 10, 2026'
+      url: /2026/schedule
+    - label: '<i class="fas fa-file-alt"></i>Accepted Papers'
+      url: /2026/accepted_submissions
+    - label: '<i class="fas fa-user-check"></i>Register'
+      url: https://2026.aaclnet.org/registration/
 ---
-
-{% include event-info.html year=2026 %}
-
-**Registration:** handled by the conference, [register here](https://2026.aaclnet.org/registration/).
 
 **NEW SUBMISSION DEADLINE:** ~~September 14, 2026~~ September 21, 2026 
 
