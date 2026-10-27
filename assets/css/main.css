@@ -5395,4 +5395,64 @@ h2 + .editions {
   text-decoration: none;
 }
 
+/* ---------------------------------------------------------------- Pill buttons in the header image (header.actions) */
+.page__hero--overlay .btn--light-outline {
+  margin: 0.4em 0.5em 0 0;
+  padding: 0.45em 1em;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.25);
+  font-size: 0.75em;
+  font-weight: 600;
+  color: #fff;
+}
+.page__hero--overlay .btn--light-outline i {
+  margin-right: 0.4em;
+}
+.page__hero--overlay .btn--light-outline:hover {
+  background: #fff;
+  color: #212529;
+}
+
+/* ---------------------------------------------------------------- Latest news list (_data/wasp2027_news.yml) */
+.news {
+  list-style: none;
+  margin: 0 0 2em;
+  padding: 0;
+  border-top: 1px solid #f2f3f3;
+}
+
+h2 + .news {
+  border-top: 0;
+}
+
+.news .news__item {
+  display: flex;
+  gap: 1.5em;
+  margin: 0;
+  padding: 0.7em 0;
+  border-bottom: 1px solid #f2f3f3;
+}
+
+.news .news__date {
+  flex: 0 0 7.5em;
+  font-size: 0.75em;
+  font-weight: 600;
+  color: #646769;
+  line-height: 1.9;
+}
+
+.news .news__text {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .news .news__item {
+    flex-direction: column;
+    gap: 0.1em;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
