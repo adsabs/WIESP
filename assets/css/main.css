@@ -5453,6 +5453,9 @@ h2 + .news {
     flex-direction: column;
     gap: 0.1em;
   }
+  .news .news__date {
+    flex-basis: auto;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
