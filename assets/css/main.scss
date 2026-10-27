@@ -182,4 +182,4 @@ h2 + .news { border-top: 0; }
 .news .news__item { display: flex; gap: 1.5em; margin: 0; padding: .7em 0; border-bottom: 1px solid $border-color; }
 .news .news__date { flex: 0 0 7.5em; font-size: $type-size-6; font-weight: 600; color: $muted-text-color; line-height: 1.9; }
 .news .news__text { flex: 1; min-width: 0; margin: 0; }
-@media (max-width: 600px) { .news .news__item { flex-direction: column; gap: .1em; } }
+@media (max-width: 600px) { .news .news__item { flex-direction: column; gap: .1em; } .news .news__date { flex-basis: auto; } }

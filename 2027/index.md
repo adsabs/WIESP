@@ -30,11 +30,7 @@ How can machines read, extract, and structure the knowledge held in the scientif
 
 ## Latest news
 
-<ul class="news">
-  {%- for n in site.data.wasp2027_news %}
-  <li class="news__item"><span class="news__date">{{ n.date }}</span><span class="news__text">{{ n.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span></li>
-  {%- endfor %}
-</ul>
+{% include news.html items=site.data.wasp2027_news %}
 
 ## Call for papers
 
@@ -53,10 +49,6 @@ WASP 2027 will also host a shared task; details will be announced soon.
 - [Tirthankar Ghosal](https://www.ornl.gov/staff-profile/tirthankar-ghosal), Oak Ridge National Laboratory, USA
 - [Felix Grezes](https://ui.adsabs.harvard.edu/about/team/team/fgrezes.html), Center for Astrophysics \| Harvard & Smithsonian, USA
 - [Kelly Lockhart](https://ui.adsabs.harvard.edu/about/team/team/klockhart.html), Center for Astrophysics \| Harvard & Smithsonian, USA
-
-## Previous editions
-
-{% include editions.html exclude=2027 %}
 
 ## Contact
 
