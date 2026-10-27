@@ -15,6 +15,12 @@ main:
 sidebar2027:
   - title: "WASP 2027"
     url: /2027
+  - title: "Call for Papers"
+    url: /2027/call_for_papers
+  - title: "Important Dates"
+    url: /2027/important_dates
+  - title: "Submission & Policies"
+    url: /2027/submission
 
 sidebar2026:
   - title: "WASP 2026"
