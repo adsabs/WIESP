@@ -1,0 +1,12 @@
+{%- comment -%}
+  News list from a data file. Usage:
+    {% include news.html items=site.data.wasp2027_news %}            (all items)
+    {% include news.html items=site.data.wasp2027_news limit=3 %}    (most recent 3)
+  Links in the news text are written as site paths (e.g. /2027/call_for_papers); the site's baseurl is added here.
+{%- endcomment -%}
+{%- assign base = site.baseurl | append: "/" -%}
+<ul class="news">
+  {%- for n in include.items limit: include.limit %}
+  <li class="news__item"><span class="news__date">{{ n.date }}</span><span class="news__text">{{ n.text | markdownify | remove: "<p>" | remove: "</p>" | strip | replace: 'href="/', 'href="__BASE__' | replace: '__BASE__', base }}</span></li>
+  {%- endfor %}
+</ul>
