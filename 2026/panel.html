@@ -29,6 +29,9 @@ sidebar:
   </li>
   {%- endfor %}
 </ul>
+{%- if panel.moderator %}
+<p>Moderated by <strong>{{ panel.moderator }}</strong>.</p>
+{%- endif %}
 {%- else %}
 <p><em>Panelists will be announced soon.</em></p>
 {%- endif %}
