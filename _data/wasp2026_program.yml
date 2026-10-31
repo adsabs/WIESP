@@ -2,7 +2,7 @@
 # Items with `paper:` take their title and authors from _data/wasp2026_papers.yml and link to the accepted papers page.
 # kind: opening | keynote | panel | long | short | shared_task | break | closing
 
-date: Monday, 10 November 2026
+date: Tuesday, November 10, 2026
 status: "The programme may be subject to small changes."
 timezone: "China Standard Time (CST, UTC+8)"
 timezone_note: >-
