@@ -1,0 +1,63 @@
+# WASP 2026 programme (version sent by the organizers on 30 October 2026).
+# Items with `paper:` take their title and authors from _data/wasp2026_papers.yml and link to the accepted papers page.
+# kind: opening | keynote | panel | long | short | shared_task | break | closing
+
+date: Monday, 10 November 2026
+status: "The programme may be subject to small changes."
+timezone: "China Standard Time (CST, UTC+8)"
+timezone_note: >-
+  All times are China Standard Time (UTC+8), the official time zone of the workshop. Each session also lists its
+  start and end times in US Eastern (ET), Central European (CET) and US Pacific (PT) time. On 10 November, CST = ET + 13h
+  = CET + 7h = PT + 16h, so ET and PT times for Sessions 1–2 fall on the evening of 9 November.
+
+sessions:
+  - title: "Session 1: Opening & Keynotes"
+    time: "09:00–11:00"
+    other: "ET 20:00–22:00 (Nov 9) · CET 02:00–04:00 · PT 17:00–19:00 (Nov 9)"
+    chair: Alberto Accomazzi
+    items:
+      - { time: "09:00–09:15", kind: opening, title: "Welcome & Workshop Overview", who: "Atilla Kaan Alkan", url: "/2026/accepted_submissions/#paper-44" }
+      - { time: "09:15–10:00", kind: keynote, title: "Salience and Inquiry in Scientific Literature", who: "Jessy Li (The University of Texas at Austin)", url: "/2026/keynote/#jessy-li" }
+      - { time: "10:00–10:45", kind: keynote, title: "From General-Purpose LLMs to Grounded Tools for Scientific Discovery", who: "Pavlos Protopapas (Harvard University)", url: "/2026/keynote/#pavlos-protopapas" }
+      - { time: "10:45–11:00", kind: break, title: "Coffee break" }
+
+  - title: "Session 2: Panel & Short Papers"
+    time: "11:00–13:00"
+    other: "ET 22:00–00:00 (Nov 9) · CET 04:00–06:00 · PT 19:00–21:00 (Nov 9)"
+    chair: Tirthankar Ghosal
+    items:
+      - { time: "11:00–12:00", kind: panel, title: "Easier to Write than to Verify? Generative AI and the Crisis in Scholarly Publishing", who: "Pavlos Protopapas (Harvard) · Ryan Coffee (SLAC) · moderated by Alberto Accomazzi", url: "/2026/panel/" }
+      - { time: "12:00–12:10", kind: short, paper: 15 }
+      - { time: "12:10–12:20", kind: short, paper: 31 }
+      - { time: "12:20–12:30", kind: short, paper: 32 }
+      - { time: "12:30–12:40", kind: shared_task, paper: 45 }
+      - { time: "12:40–13:00", kind: break, title: "Lunch & Shared-Task Poster Session", note: "moderated by the organizers; see the posters below", url: "#shared-task-posters" }
+
+  - title: "Session 3: Long Papers"
+    time: "13:00–15:00"
+    other: "ET 00:00–02:00 · CET 06:00–08:00 · PT 21:00–23:00 (Nov 9)"
+    chair: Kelly Lockhart
+    items:
+      - { time: "13:00–13:15", kind: long, paper: 34 }
+      - { time: "13:15–13:30", kind: long, paper: 12 }
+      - { time: "13:30–13:45", kind: long, paper: 16 }
+      - { time: "13:45–14:00", kind: long, paper: 27 }
+      - { time: "14:00–14:15", kind: long, paper: 40 }
+      - { time: "14:15–14:30", kind: long, paper: 39 }
+      - { time: "14:30–15:00", kind: break, title: "Break" }
+
+  - title: "Session 4: Long & Short Papers; Closing"
+    time: "15:00–16:40"
+    other: "ET 02:00–03:40 · CET 08:00–09:40 · PT 23:00–00:40 (Nov 9–10)"
+    chair: Felix Grezes & Atilla Kaan Alkan
+    items:
+      - { time: "15:00–15:15", kind: long, paper: 3 }
+      - { time: "15:15–15:30", kind: long, paper: 6 }
+      - { time: "15:30–15:45", kind: long, paper: 22 }
+      - { time: "15:45–16:00", kind: long, paper: 23 }
+      - { time: "16:00–16:10", kind: short, paper: 2 }
+      - { time: "16:10–16:20", kind: short, paper: 30 }
+      - { time: "16:20–16:40", kind: closing, title: "Closing Remarks", who: "Atilla Kaan Alkan" }
+
+# AstroCLIMB system papers presented as posters during the lunch block of Session 2.
+posters: [5, 19, 28, 33, 35, 36, 43]

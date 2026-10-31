@@ -183,3 +183,57 @@ h2 + .news { border-top: 0; }
 .news .news__date { flex: 0 0 7.5em; font-size: $type-size-6; font-weight: 600; color: $muted-text-color; line-height: 1.9; }
 .news .news__text { flex: 1; min-width: 0; margin: 0; }
 @media (max-width: 600px) { .news .news__item { flex-direction: column; gap: .1em; } .news .news__date { flex-basis: auto; } }
+
+/* ---------------------------------------------------------------- Programme (2026/schedule.html) */
+
+.program__lead { margin-bottom: .4em; }
+.program__tz, .program__status { font-size: $type-size-6; color: $muted-text-color; }
+.program__status { font-style: italic; }
+.program__session-meta { margin: -.3em 0 .8em; font-size: $type-size-6; color: $muted-text-color; strong { color: $text-color; } }
+
+.program { list-style: none; margin: 0 0 2em; padding: 0; border-top: 1px solid $border-color; }
+.program .program__item { display: flex; gap: 1.5em; margin: 0; padding: .75em 0; border-bottom: 1px solid $border-color; }
+.program .program__time { flex: 0 0 7.5em; font-size: $type-size-6; font-weight: 600; font-variant-numeric: tabular-nums; color: $muted-text-color; line-height: 1.7; }
+.program .program__body { flex: 1; min-width: 0; }
+.program .program__label { display: block; font-size: $type-size-7; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: $primary-color; }
+.program .program__title { display: block; font-weight: 600; line-height: 1.4; text-decoration: none; }
+.program .program__title { color: $text-color; }
+.program a.program__title:hover { color: $link-color; text-decoration: underline; }
+.program .program__who { display: block; margin-top: .15em; font-size: $type-size-6; color: $muted-text-color; }
+.program .program__item--keynote .program__label,
+.program .program__item--panel .program__label { color: #1f6f8b; }
+.program .program__item--break { padding: .5em 0; background: rgba($border-color, .35); }
+.program .program__item--break .program__title { font-weight: 400; font-style: italic; color: $muted-text-color; }
+@media (max-width: 600px) {
+  .program .program__item { flex-direction: column; gap: .1em; }
+  .program .program__time { flex-basis: auto; }
+}
+
+/* ---------------------------------------------------------------- Live deadline countdown in the header (_includes/countdown.html) */
+
+.countdown {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .6em 1.2em;
+  margin-top: 1em;
+  padding: .7em 1.1em;
+  border-radius: 10px;
+  background: rgba(#000, .45);
+  color: #fff;
+  &[hidden] { display: none; }
+}
+.countdown__label { font-size: $type-size-6; font-weight: 600; }
+.countdown__clock { display: inline-flex; gap: .9em; }
+.countdown__unit {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 2.6em;
+  font-size: $type-size-8;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  opacity: .85;
+  b { font-size: 1.9rem; font-weight: 700; line-height: 1.1; letter-spacing: 0; font-variant-numeric: tabular-nums; opacity: 1; }
+}
+@media (max-width: 600px) { .countdown__unit b { font-size: 1.4rem; } }

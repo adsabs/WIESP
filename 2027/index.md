@@ -17,6 +17,7 @@ header:
       url: /2027/important_dates
     - label: '<i class="fas fa-file-alt"></i>Call for Papers'
       url: /2027/call_for_papers
+  countdown: wasp2027_deadlines
 ---
 
 <style>

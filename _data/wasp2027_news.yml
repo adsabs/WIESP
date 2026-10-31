@@ -1,4 +1,4 @@
-# WASP 2027 news, newest first, shown on the WASP 2027 home page.
+# WASP 2027 news, newest first, shown on the 2027 home page and the 2027 Latest News page.
 # `text` accepts Markdown; write site links as paths from the site root, e.g. [Call for Papers](/2027/call_for_papers).
 - date: Oct 26, 2026
   text: "First call for papers released. See the [Call for Papers](/2027/call_for_papers) and [Important Dates](/2027/important_dates)."

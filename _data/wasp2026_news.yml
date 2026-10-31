@@ -1,0 +1,20 @@
+# WASP 2026 news, newest first, shown on the 2026 home page and the 2026 Latest News page.
+# `text` accepts Markdown; write site links as paths from the site root, e.g. [Programme](/2026/schedule).
+- date: Oct 30, 2026
+  text: "The [workshop programme](/2026/schedule) is online: keynotes, panel, oral presentations and the AstroCLIMB poster session on November 10."
+- date: Oct 21, 2026
+  text: "Panel announced: *Easier to Write than to Verify? Generative AI and the Crisis in Scholarly Publishing*. [Read more](/2026/panel/)."
+- date: Oct 20, 2026
+  text: "Keynote speakers announced: [Jessy Li](/2026/keynote/#jessy-li) (UT Austin) and [Pavlos Protopapas](/2026/keynote/#pavlos-protopapas) (Harvard University)."
+- date: Oct 20, 2026
+  text: "The list of [accepted papers](/2026/accepted_submissions/) is online: 15 main-track papers and 10 AstroCLIMB system papers."
+- date: Oct 7, 2026
+  text: "Acceptance notifications sent. The early-bird registration deadline for workshop papers is October 7, 2026 (AoE); see [Registration](/2026/registration)."
+- date: Sep 29, 2026
+  text: "Early-bird registration for workshop papers will be extended, so authors can register after their acceptance decision. See [Registration](/2026/registration)."
+- date: Sep 11, 2026
+  text: "Paper submission deadline extended to **September 21, 2026** (AoE)."
+- date: Jul 27, 2026
+  text: "The [AstroCLIMB shared task](/2026/shared_task) is open: registration and data release."
+- date: Jun 29, 2026
+  text: "First [call for papers](/2026/call_for_papers) released."
