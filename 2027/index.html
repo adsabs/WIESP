@@ -178,6 +178,7 @@
 
 
 
+
 <div class="page__hero--overlay"
   style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/WIESP/assets/2027/san-francisco.jpg');"
 >
@@ -208,6 +209,47 @@
         
         </p>
       
+      <div class="countdown" hidden
+     data-deadlines='[{"label": "Paper submission deadline", "date": "2027-02-05"},{"label": "Notification of acceptance", "date": "2027-03-26"},{"label": "Camera-ready deadline", "date": "2027-04-16"}]'>
+  <span class="countdown__label"></span>
+  <span class="countdown__clock" aria-live="off">
+    <span class="countdown__unit"><b data-u="d">0</b>days</span>
+    <span class="countdown__unit"><b data-u="h">00</b>hrs</span>
+    <span class="countdown__unit"><b data-u="m">00</b>min</span>
+    <span class="countdown__unit"><b data-u="s">00</b>sec</span>
+  </span>
+</div>
+<script>
+(function () {
+  var box = document.currentScript.previousElementSibling;
+  var list = JSON.parse(box.getAttribute('data-deadlines')).map(function (d) {
+    var p = d.date.split('-').map(Number);
+    // 23:59:59 at UTC-12 on the deadline day = 11:59:59 UTC the next day.
+    return { label: d.label, date: d.date, end: Date.UTC(p[0], p[1] - 1, p[2] + 1, 11, 59, 59) };
+  });
+  var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  var el = function (u) { return box.querySelector('[data-u="' + u + '"]'); };
+  var pad = function (n) { return (n < 10 ? '0' : '') + n; };
+  var timer;
+  function tick() {
+    var now = Date.now();
+    var next = list.filter(function (d) { return d.end > now; })[0];
+    if (!next) { box.hidden = true; clearInterval(timer); return; }
+    var p = next.date.split('-').map(Number);
+    box.querySelector('.countdown__label').textContent =
+      next.label + ': ' + months[p[1] - 1] + ' ' + p[2] + ', ' + p[0] + ' (AoE)';
+    var t = Math.floor((next.end - now) / 1000);
+    el('d').textContent = Math.floor(t / 86400);
+    el('h').textContent = pad(Math.floor(t % 86400 / 3600));
+    el('m').textContent = pad(Math.floor(t % 3600 / 60));
+    el('s').textContent = pad(t % 60);
+    box.hidden = false;
+  }
+  tick();
+  timer = setInterval(tick, 1000);
+})();
+</script>
+
     </div>
   
   
@@ -247,6 +289,14 @@
         <li>
           
             <a href="/WIESP/2027"><span class="nav__sub-title">WASP 2027</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="/WIESP/2027/news"><span class="nav__sub-title">Latest News</span></a>
           
 
           

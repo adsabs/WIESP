@@ -5457,5 +5457,164 @@ h2 + .news {
     flex-basis: auto;
   }
 }
+/* ---------------------------------------------------------------- Programme (2026/schedule.html) */
+.program__lead {
+  margin-bottom: 0.4em;
+}
+
+.program__tz, .program__status {
+  font-size: 0.75em;
+  color: #646769;
+}
+
+.program__status {
+  font-style: italic;
+}
+
+.program__session-meta {
+  margin: -0.3em 0 0.8em;
+  font-size: 0.75em;
+  color: #646769;
+}
+.program__session-meta strong {
+  color: #3d4144;
+}
+
+.program {
+  list-style: none;
+  margin: 0 0 2em;
+  padding: 0;
+  border-top: 1px solid #f2f3f3;
+}
+
+.program .program__item {
+  display: flex;
+  gap: 1.5em;
+  margin: 0;
+  padding: 0.75em 0;
+  border-bottom: 1px solid #f2f3f3;
+}
+
+.program .program__time {
+  flex: 0 0 7.5em;
+  font-size: 0.75em;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: #646769;
+  line-height: 1.7;
+}
+
+.program .program__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.program .program__label {
+  display: block;
+  font-size: 0.6875em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #6f777d;
+}
+
+.program .program__title {
+  display: block;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.program .program__title {
+  color: #3d4144;
+}
+
+.program a.program__title:hover {
+  color: #2f7d95;
+  text-decoration: underline;
+}
+
+.program .program__who {
+  display: block;
+  margin-top: 0.15em;
+  font-size: 0.75em;
+  color: #646769;
+}
+
+.program .program__item--keynote .program__label,
+.program .program__item--panel .program__label {
+  color: #1f6f8b;
+}
+
+.program .program__item--break {
+  padding: 0.5em 0;
+  background: rgba(242, 243, 243, 0.35);
+}
+
+.program .program__item--break .program__title {
+  font-weight: 400;
+  font-style: italic;
+  color: #646769;
+}
+
+@media (max-width: 600px) {
+  .program .program__item {
+    flex-direction: column;
+    gap: 0.1em;
+  }
+  .program .program__time {
+    flex-basis: auto;
+  }
+}
+/* ---------------------------------------------------------------- Live deadline countdown in the header (_includes/countdown.html) */
+.countdown {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6em 1.2em;
+  margin-top: 1em;
+  padding: 0.7em 1.1em;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.45);
+  color: #fff;
+}
+.countdown[hidden] {
+  display: none;
+}
+
+.countdown__label {
+  font-size: 0.75em;
+  font-weight: 600;
+}
+
+.countdown__clock {
+  display: inline-flex;
+  gap: 0.9em;
+}
+
+.countdown__unit {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 2.6em;
+  font-size: 0.625em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+.countdown__unit b {
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0;
+  font-variant-numeric: tabular-nums;
+  opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .countdown__unit b {
+    font-size: 1.4rem;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

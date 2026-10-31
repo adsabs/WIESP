@@ -203,6 +203,14 @@
       
         <li>
           
+            <a href="/WIESP/2026/news"><span class="nav__sub-title">Latest News</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
             <a href="/WIESP/2026/call_for_papers"><span class="nav__sub-title">Call for Papers</span></a>
           
 
@@ -298,76 +306,259 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <style>
-  :root {
-    --w26-ink: #1f2933;
-    --w26-muted: #5f6b7a;
-    --w26-line: #e3e8ee;
-    --w26-surface: #f7f9fb;
-    --w26-accent: #1f6f8b;
-    --w26-accent-soft: #e6f1f5;
-  }
+          <aside class="sidebar__right ">
+            <nav class="toc" aria-label="Table of contents">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Sessions</h4></header>
+              <ul class="toc__menu"><li><a href="#session-1-opening-keynotes">Session 1: Opening & Keynotes</a></li><li><a href="#session-2-panel-short-papers">Session 2: Panel & Short Papers</a></li><li><a href="#session-3-long-papers">Session 3: Long Papers</a></li><li><a href="#session-4-long-short-papers-closing">Session 4: Long & Short Papers; Closing</a></li><li><a href="#shared-task-posters">Shared-Task Poster Session (AstroCLIMB)</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p class="program__lead"><strong>Monday, 10 November 2026 · Online</strong> · Zoom link: TBA</p>
+<p class="program__tz">All times are China Standard Time (UTC+8), the official time zone of the workshop. Each session also lists its start and end times in US Eastern (ET), Central European (CET) and US Pacific (PT) time. On 10 November, CST = ET + 13h = CET + 7h = PT + 16h, so ET and PT times for Sessions 1–2 fall on the evening of 9 November.</p>
+<p class="program__status">The programme may be subject to small changes.</p>
 
-  .w26-lead { font-size: 1.05em; color: var(--w26-ink); }
 
-  /* Accepted papers: numbered across each track, in the style of a proceedings TOC */
-  .w26-count-reset { counter-reset: w26-paper; }
-  .w26-paper-list { list-style: none; margin: 0 0 2em; padding: 0; border-top: 1px solid var(--w26-line); }
-  .w26-paper-list li { counter-increment: w26-paper; position: relative; margin: 0; padding: .9em 0 .9em 2.6em; border-bottom: 1px solid var(--w26-line); }
-  .w26-paper-list li::before { content: counter(w26-paper); position: absolute; left: 0; top: .95em; width: 1.7em; text-align: right; font-size: .85em; color: var(--w26-muted); font-variant-numeric: tabular-nums; }
-  .w26-paper-list--plain li { counter-increment: none; padding-left: 0; }
-  .w26-paper-list--plain li::before { content: none; }
-  .w26-paper-label { display: block; margin-bottom: .2em; font-size: .7em; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--w26-accent); }
-  .w26-paper-title { display: block; font-size: .95em; font-weight: 600; line-height: 1.4; color: var(--w26-ink); }
-  .w26-paper-authors { display: block; margin-top: .2em; font-size: .85em; font-style: italic; color: var(--w26-muted); }
-  .w26-abstract { margin-top: .35em; }
-  .w26-abstract summary { display: inline-block; cursor: pointer; font-size: .75em; color: var(--w26-muted); list-style: none; }
-  .w26-abstract summary::-webkit-details-marker { display: none; }
-  .w26-abstract summary::after { content: " +"; }
-  .w26-abstract[open] summary::after { content: " \2212"; }
-  .w26-abstract summary:hover { color: var(--w26-accent); }
-  .w26-abstract p { margin: .5em 0 .2em; padding-left: .9em; border-left: 2px solid var(--w26-line); font-size: .82em; line-height: 1.6; color: #3d4752; overflow-wrap: anywhere; }
+<h2 id="session-1-opening-keynotes">Session 1: Opening & Keynotes</h2>
+<p class="program__session-meta">
+  <strong>09:00–11:00 CST</strong> · ET 20:00–22:00 (Nov 9) · CET 02:00–04:00 · PT 17:00–19:00 (Nov 9)<br>
+  Chair: Alberto Accomazzi
+</p>
+<ul class="program">
+  <li class="program__item program__item--opening">
+    <span class="program__time">09:00–09:15</span>
+    <div class="program__body"><span class="program__label">Opening</span><a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-44">Welcome &amp; Workshop Overview</a><span class="program__who">Atilla Kaan Alkan</span>
+    </div>
+  </li>
+  <li class="program__item program__item--keynote">
+    <span class="program__time">09:15–10:00</span>
+    <div class="program__body"><span class="program__label">Keynote</span><a class="program__title" href="/WIESP/2026/keynote/#jessy-li">Salience and Inquiry in Scientific Literature</a><span class="program__who">Jessy Li (The University of Texas at Austin)</span>
+    </div>
+  </li>
+  <li class="program__item program__item--keynote">
+    <span class="program__time">10:00–10:45</span>
+    <div class="program__body"><span class="program__label">Keynote</span><a class="program__title" href="/WIESP/2026/keynote/#pavlos-protopapas">From General-Purpose LLMs to Grounded Tools for Scientific Discovery</a><span class="program__who">Pavlos Protopapas (Harvard University)</span>
+    </div>
+  </li>
+  <li class="program__item program__item--break">
+    <span class="program__time">10:45–11:00</span>
+    <div class="program__body">
+      <span class="program__title">Coffee break</span>
+    </div>
+  </li>
+</ul>
 
-  /* Keynote cards */
-  .w26-keynote { display: flex; gap: 1.5em; margin: 0 0 2em; padding: 1.4em; background: var(--w26-surface); border: 1px solid var(--w26-line); border-radius: 10px; }
-  .w26-keynote__photo { flex: 0 0 150px; }
-  .w26-keynote__photo img { display: block; width: 150px; height: 200px; object-fit: cover; object-position: top; border-radius: 8px; }
-  .w26-keynote__body { flex: 1; min-width: 0; }
-  .w26-keynote__name { margin: 0 !important; padding: 0 !important; border: 0 !important; font-size: 1.25em; }
-  .w26-keynote__inst { margin: .1em 0 .9em; color: var(--w26-muted); font-size: .9em; }
-  .w26-keynote__talk { margin: 0 0 .8em; padding: .7em .9em; background: var(--w26-accent-soft); border-radius: 6px; font-weight: 600; color: var(--w26-accent); }
-  .w26-keynote__talk small { display: block; font-weight: 600; font-size: .7em; letter-spacing: .05em; text-transform: uppercase; color: var(--w26-muted); }
-  .w26-keynote__label { margin: 1em 0 .3em; font-size: .75em; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--w26-muted); }
-  .w26-keynote__body p { font-size: .9em; line-height: 1.6; }
+<h2 id="session-2-panel-short-papers">Session 2: Panel & Short Papers</h2>
+<p class="program__session-meta">
+  <strong>11:00–13:00 CST</strong> · ET 22:00–00:00 (Nov 9) · CET 04:00–06:00 · PT 19:00–21:00 (Nov 9)<br>
+  Chair: Tirthankar Ghosal
+</p>
+<ul class="program">
+  <li class="program__item program__item--panel">
+    <span class="program__time">11:00–12:00</span>
+    <div class="program__body"><span class="program__label">Panel</span><a class="program__title" href="/WIESP/2026/panel/">Easier to Write than to Verify? Generative AI and the Crisis in Scholarly Publishing</a><span class="program__who">Pavlos Protopapas (Harvard) · Ryan Coffee (SLAC) · moderated by Alberto Accomazzi</span>
+    </div>
+  </li>
+  <li class="program__item program__item--short">
+    <span class="program__time">12:00–12:10</span>
+    <div class="program__body"><span class="program__label">Short paper</span>
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-15">CARDS: Citation-Aware Research Diffusion Summarization</a>
+      <span class="program__who">Autumn Toney, Katherine N Quinn, Steph Batalis</span>
+    </div>
+  </li>
+  <li class="program__item program__item--short">
+    <span class="program__time">12:10–12:20</span>
+    <div class="program__body"><span class="program__label">Short paper</span>
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-31">Extracting Published Discussions of 13,616 Galaxies with Language Models</a>
+      <span class="program__who">Nolan Koblischke, Jo Bovy</span>
+    </div>
+  </li>
+  <li class="program__item program__item--short">
+    <span class="program__time">12:20–12:30</span>
+    <div class="program__body"><span class="program__label">Short paper</span>
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-32">Star Light, Star Bright: Can Multimodal Models Parse an Astronomy Visual Question Answering Dataset Right?</a>
+      <span class="program__who">J. P. Naiman</span>
+    </div>
+  </li>
+  <li class="program__item program__item--shared_task">
+    <span class="program__time">12:30–12:40</span>
+    <div class="program__body"><span class="program__label">Shared task overview</span>
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-45">AstroCLIMB: Astronomy Citation Linking from Illustrations - a Multimodal Benchmark and Overview of the WASP 2026 Shared Task</a>
+      <span class="program__who">Felix Grezes, Atilla Kaan Alkan, Kelly Lockhart, Alberto Accomazzi, Ethan Seefried, Tirthankar Ghosal</span>
+    </div>
+  </li>
+  <li class="program__item program__item--break">
+    <span class="program__time">12:40–13:00</span>
+    <div class="program__body"><a class="program__title" href="#shared-task-posters">Lunch &amp; Shared-Task Poster Session</a><span class="program__who">moderated by the organizers; see the posters below</span>
+    </div>
+  </li>
+</ul>
 
-  /* Panel */
-  .w26-panel__title { font-size: 1.15em; margin: 0 0 1.5em; }
-  .w26-panelists { display: flex; flex-wrap: wrap; gap: 1.2em 2em; list-style: none; margin: 0 0 1.5em; padding: 0; }
-  .w26-panelists li { display: flex; align-items: center; gap: .8em; margin: 0; }
-  .w26-panelists img { width: 64px; height: 64px; object-fit: cover; object-position: top; border-radius: 50%; }
+<h2 id="session-3-long-papers">Session 3: Long Papers</h2>
+<p class="program__session-meta">
+  <strong>13:00–15:00 CST</strong> · ET 00:00–02:00 · CET 06:00–08:00 · PT 21:00–23:00 (Nov 9)<br>
+  Chair: Kelly Lockhart
+</p>
+<ul class="program">
+  <li class="program__item program__item--long">
+    <span class="program__time">13:00–13:15</span>
+    <div class="program__body"><span class="program__label">Long paper</span>
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-34">Towards Verifiable Answers: Reinforcement Learning with a Verifier Reduces Hallucinated References in Literature-Based Question Answering</a>
+      <span class="program__who">Rushank Goyal</span>
+    </div>
+  </li>
+  <li class="program__item program__item--long">
+    <span class="program__time">13:15–13:30</span>
+    <div class="program__body"><span class="program__label">Long paper</span>
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-12">Local Citation Recommendation Without Graph Signals</a>
+      <span class="program__who">Benjamin Basseri, Pavlos Protopapas, Kemeng Zhang, Alberto Accomazzi, Anna Kelbert</span>
+    </div>
+  </li>
+  <li class="program__item program__item--long">
+    <span class="program__time">13:30–13:45</span>
+    <div class="program__body"><span class="program__label">Long paper</span>
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-16">Bridging the Data Bottleneck: A Multi-Modal Generative Extraction Pipeline for Legacy Scientific Literature</a>
+      <span class="program__who">Gaurav Kumar, Anasse Bari, David J. Nagel</span>
+    </div>
+  </li>
+  <li class="program__item program__item--long">
+    <span class="program__time">13:45–14:00</span>
+    <div class="program__body"><span class="program__label">Long paper</span>
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-27">TRACS: Telescope Reference and Astronomy Categorization dataset and Shared task</a>
+      <span class="program__who">Felix Grezes, Ethan Seefried, Kelly Lockhart, Alberto Accomazzi, Tirthankar Ghosal, Anjali Pandiri, Jennifer Lynn Bartlett</span>
+    </div>
+  </li>
+  <li class="program__item program__item--long">
+    <span class="program__time">14:00–14:15</span>
+    <div class="program__body"><span class="program__label">Long paper</span>
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-40">Recovering Method Parameters from Protocol Prose: Task Definition, Audited Extraction, and the Comparability It Licenses</a>
+      <span class="program__who">Fabio Rovai</span>
+    </div>
+  </li>
+  <li class="program__item program__item--long">
+    <span class="program__time">14:15–14:30</span>
+    <div class="program__body"><span class="program__label">Long paper</span>
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-39">Scientific Table Generation: Structured Information Extraction from Scientific Literature</a>
+      <span class="program__who">Necva Bölücü, Huichen Yang, Roelien C. Timmer, Stephen Wan, Brian Jin, Changhyun Lee, Andreas Duenser, Jessica Irons</span>
+    </div>
+  </li>
+  <li class="program__item program__item--break">
+    <span class="program__time">14:30–15:00</span>
+    <div class="program__body">
+      <span class="program__title">Break</span>
+    </div>
+  </li>
+</ul>
 
-  /* Under construction banner */
-  .w26-construction { margin: 1.5em 0; padding: 1.5em; text-align: center; background: var(--w26-surface); border: 2px dashed var(--w26-line); border-radius: 10px; }
-  .w26-construction strong { display: block; font-size: 1.2em; margin-bottom: .3em; color: var(--w26-ink); }
-  .w26-construction p { margin: 0; color: var(--w26-muted); }
+<h2 id="session-4-long-short-papers-closing">Session 4: Long & Short Papers; Closing</h2>
+<p class="program__session-meta">
+  <strong>15:00–16:40 CST</strong> · ET 02:00–03:40 · CET 08:00–09:40 · PT 23:00–00:40 (Nov 9–10)<br>
+  Chair: Felix Grezes & Atilla Kaan Alkan
+</p>
+<ul class="program">
+  <li class="program__item program__item--long">
+    <span class="program__time">15:00–15:15</span>
+    <div class="program__body"><span class="program__label">Long paper</span>
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-3">ACL-Verbatim: hallucination-free question answering for research</a>
+      <span class="program__who">Gabor Recski, Szilveszter Tóth, Nadia Verdha, István Boros, Ádám Kovács</span>
+    </div>
+  </li>
+  <li class="program__item program__item--long">
+    <span class="program__time">15:15–15:30</span>
+    <div class="program__body"><span class="program__label">Long paper</span>
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-6">Can Generative AI Automate Data Extraction for Meta-Analysis? A Case Study on Intercropping Research</a>
+      <span class="program__who">Zehao Lu, Xingguo Xiong, Thijs L. van der Plas, Wopke van der Werf, Ioannis N. Athanasiadis</span>
+    </div>
+  </li>
+  <li class="program__item program__item--long">
+    <span class="program__time">15:30–15:45</span>
+    <div class="program__body"><span class="program__label">Long paper</span>
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-22">Fusing Sentence-Level and Document-Level Representations for Keyphrase Extraction</a>
+      <span class="program__who">Marko Pranjic, Kristijan Armeni, Senja Pollak</span>
+    </div>
+  </li>
+  <li class="program__item program__item--long">
+    <span class="program__time">15:45–16:00</span>
+    <div class="program__body"><span class="program__label">Long paper</span>
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-23">Beyond Fluency: A Framework for Analyzing Epistemic and Argumentative Shifts in AI-Assisted Scientific Text Reformulation</a>
+      <span class="program__who">Laura Centonze</span>
+    </div>
+  </li>
+  <li class="program__item program__item--short">
+    <span class="program__time">16:00–16:10</span>
+    <div class="program__body"><span class="program__label">Short paper</span>
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-2">From Astronomical Circulars to Auditable Follow-up Records: Schema-Constrained LLM Extraction with Human Verification</a>
+      <span class="program__who">Fabian Schüssler, Atilla Kaan Alkan, Bernardo Cornejo, Sofia Bisero, Ilja Jaroschewski, R. Weizmann Kiendrebeogo, Maxime Cellier, Johan Cinosi, Antoine Ciric, Alexandre Saint-Paul</span>
+    </div>
+  </li>
+  <li class="program__item program__item--short">
+    <span class="program__time">16:10–16:20</span>
+    <div class="program__body"><span class="program__label">Short paper</span>
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-30">Accelerating Literature Data Extraction using AI at the IPAC Archives</a>
+      <span class="program__who">Nicholas Susemiehl, Ricky Nilsson</span>
+    </div>
+  </li>
+  <li class="program__item program__item--closing">
+    <span class="program__time">16:20–16:40</span>
+    <div class="program__body"><span class="program__label">Closing</span>
+      <span class="program__title">Closing Remarks</span><span class="program__who">Atilla Kaan Alkan</span>
+    </div>
+  </li>
+</ul>
 
-  @media (max-width: 600px) {
-    .w26-keynote { flex-direction: column; align-items: center; padding: 1.1em; }
-    .w26-keynote__photo { flex-basis: auto; }
-    .w26-keynote__body { width: 100%; }
-  }
-</style>
 
-<p><strong>November 10, 2026 · Online</strong></p>
-
-<p><strong>Zoom Link:</strong> TBD</p>
-
-<div class="w26-construction">
-  <strong>🚧 Programme under construction</strong>
-  <p>The detailed schedule will be posted here soon. Please check back closer to the workshop.</p>
-</div>
-
-<p>In the meantime, you can browse the <a href="keynote">keynote talks</a> and the <a href="accepted_submissions">accepted papers</a>.</p>
+<h2 id="shared-task-posters">Shared-Task Poster Session (AstroCLIMB)</h2>
+<p class="program__session-meta">Presented during the lunch and poster block in Session 2 (12:40–13:00 CST).</p>
+<ul class="program">
+  <li class="program__item program__item--poster">
+    <span class="program__time">Poster</span>
+    <div class="program__body">
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-5">Auditable Multi-View Hosted Multimodal Judging for AstroCLIMB</a>
+      <span class="program__who">Kewen Zhu, Junyuan Tan</span>
+    </div>
+  </li>
+  <li class="program__item program__item--poster">
+    <span class="program__time">Poster</span>
+    <div class="program__body">
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-19">Parameter-Efficient Adaptation of Qwen3-VL for Astronomy Citation Linking at AstroCLIMB 2026</a>
+      <span class="program__who">Syed Mohaiminul Hoque</span>
+    </div>
+  </li>
+  <li class="program__item program__item--poster">
+    <span class="program__time">Poster</span>
+    <div class="program__body">
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-28">Public Scientific-Figure Adaptation for AstroCLIMB with a 4B Vision–Language Model</a>
+      <span class="program__who">Irving Ernesto Quezada Ramírez</span>
+    </div>
+  </li>
+  <li class="program__item program__item--poster">
+    <span class="program__time">Poster</span>
+    <div class="program__body">
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-33">PSGS@2026: From Figures to Citation Graphs: QLoRA Based Multimodal Linking for AstroCLIMB</a>
+      <span class="program__who">Prajwal Ghimire, Shiv Ram Saud, Aashish Mahato, Sundeep Dawadi, Sunil Regmi, Manoj Shakya</span>
+    </div>
+  </li>
+  <li class="program__item program__item--poster">
+    <span class="program__time">Poster</span>
+    <div class="program__body">
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-35">Beyond Visual Similarity: Parameter-Efficient Vision–Language Models for Scientific Citation Linking on AstroCLIMB</a>
+      <span class="program__who">K S Ramalakshmi, Shubham Sharma, Ashmani Kumar, Ankush Chopra</span>
+    </div>
+  </li>
+  <li class="program__item program__item--poster">
+    <span class="program__time">Poster</span>
+    <div class="program__body">
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-36">Multimodal Feature Integration for Pairwise Relationship Classification in Astronomy Literatures</a>
+      <span class="program__who">Preksha Pareek, Rutal Mahajan, Raj Mahesh Mane, Ananya Kalia, Aashna Shetty</span>
+    </div>
+  </li>
+  <li class="program__item program__item--poster">
+    <span class="program__time">Poster</span>
+    <div class="program__body">
+      <a class="program__title" href="/WIESP/2026/accepted_submissions/#paper-43">Modality-Specific and Relation-Aware Modeling for Scientific Figure Linking</a>
+      <span class="program__who">Bodhisatta Maiti, Debshree Chowdhury</span>
+    </div>
+  </li>
+</ul>
 
         
       </section>
