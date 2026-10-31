@@ -1,0 +1,9 @@
+# Deadlines for the countdown in the WASP 2027 header, in chronological order.
+# Each runs to 23:59 Anywhere on Earth (UTC-12) on the given date; the countdown shows the next one not yet passed
+# and hides itself after the last one. Keep in sync with 2027/important_dates.md.
+- label: Paper submission deadline
+  date: 2027-02-05
+- label: Notification of acceptance
+  date: 2027-03-26
+- label: Camera-ready deadline
+  date: 2027-04-16

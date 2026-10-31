@@ -1,0 +1,69 @@
+---
+layout: single
+title: Programme <br> WASP @ IJCNLP-AACL 2026
+permalink: /2026/schedule
+sidebar:
+  nav: "sidebar2026"
+toc: true
+toc_label: "Sessions"
+---
+{%- assign prog = site.data.wasp2026_program -%}
+{%- assign papers = site.data.wasp2026_papers -%}
+
+<p class="program__lead"><strong>{{ prog.date }} · Online</strong> · Zoom link: TBA</p>
+<p class="program__tz">{{ prog.timezone_note }}</p>
+<p class="program__status">{{ prog.status }}</p>
+
+{% for s in prog.sessions %}
+<h2 id="{{ s.title | slugify }}">{{ s.title }}</h2>
+<p class="program__session-meta">
+  <strong>{{ s.time }} CST</strong> · {{ s.other }}<br>
+  Chair: {{ s.chair }}
+</p>
+<ul class="program">
+  {%- for it in s.items %}
+  {%- assign p = nil %}{% if it.paper %}{% assign p = papers | where: "id", it.paper | first %}{% endif %}
+  {%- case it.kind %}
+    {%- when "keynote" %}{% assign label = "Keynote" %}
+    {%- when "panel" %}{% assign label = "Panel" %}
+    {%- when "long" %}{% assign label = "Long paper" %}
+    {%- when "short" %}{% assign label = "Short paper" %}
+    {%- when "shared_task" %}{% assign label = "Shared task overview" %}
+    {%- when "opening" %}{% assign label = "Opening" %}
+    {%- when "closing" %}{% assign label = "Closing" %}
+    {%- else %}{% assign label = "" %}
+  {%- endcase %}
+  <li class="program__item program__item--{{ it.kind }}">
+    <span class="program__time">{{ it.time }}</span>
+    <div class="program__body">
+      {%- if label != "" %}<span class="program__label">{{ label }}</span>{% endif %}
+      {%- if p %}
+      <a class="program__title" href="{{ '/2026/accepted_submissions/' | relative_url }}#paper-{{ p.id }}">{{ p.title | escape }}</a>
+      <span class="program__who">{{ p.authors | escape }}</span>
+      {%- elsif it.url %}
+      {%- assign c0 = it.url | slice: 0 %}<a class="program__title" href="{% if c0 == '#' %}{{ it.url }}{% else %}{{ it.url | relative_url }}{% endif %}">{{ it.title | escape }}</a>
+      {%- else %}
+      <span class="program__title">{{ it.title | escape }}</span>
+      {%- endif %}
+      {%- if it.who %}<span class="program__who">{{ it.who | escape }}</span>{% endif %}
+      {%- if it.note %}<span class="program__who">{{ it.note | escape }}</span>{% endif %}
+    </div>
+  </li>
+  {%- endfor %}
+</ul>
+{% endfor %}
+
+<h2 id="shared-task-posters">Shared-Task Poster Session (AstroCLIMB)</h2>
+<p class="program__session-meta">Presented during the lunch and poster block in Session 2 (12:40–13:00 CST).</p>
+<ul class="program">
+  {%- for id in prog.posters %}
+  {%- assign p = papers | where: "id", id | first %}
+  <li class="program__item program__item--poster">
+    <span class="program__time">Poster</span>
+    <div class="program__body">
+      <a class="program__title" href="{{ '/2026/accepted_submissions/' | relative_url }}#paper-{{ p.id }}">{{ p.title | escape }}</a>
+      <span class="program__who">{{ p.authors | escape }}</span>
+    </div>
+  </li>
+  {%- endfor %}
+</ul>

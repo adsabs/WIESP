@@ -21,12 +21,11 @@ header:
       url: https://2026.aaclnet.org/registration/
 ---
 
-**NEW SUBMISSION DEADLINE:** ~~September 14, 2026~~ September 21, 2026 
-
-**EARLY-BIRD REGISTRATION DEADLINE:** October 7, 2026 (AoE).
-
-
 How can machines read, extract, and structure the knowledge held in the scientific literature? WASP brings the NLP and AI community together around that question, from scientific named-entity recognition and citation mining to summarisation, reproducibility analysis, and the responsible use of large language models in scholarly publishing.
+
+## Latest news
+
+{% include news.html items=site.data.wasp2026_news %}
 
 The Fourth Workshop on Artificial Intelligence for Scientific Publications will be held in hybrid mode, online and at Hengqin, China, co-located with IJCNLP-AACL 2026. The program will feature:
 
