@@ -24,4 +24,11 @@ description:
 #     url: https://example.org
 #     institution: Example University
 #     photo: /assets/2026/panel/jane-doe.jpg   # optional
-panelists: []
+moderator: Alberto Accomazzi
+panelists:
+  - name: Pavlos Protopapas
+    institution: Harvard University
+  - name: Ryan Coffee
+    institution: SLAC National Accelerator Laboratory
+  - name: Tim Vines
+    institution: DataSeer (invited)
