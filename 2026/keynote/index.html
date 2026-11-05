@@ -247,6 +247,8 @@
             
               <li><a href="/WIESP/2026/panel">Panel Session</a></li>
             
+              <li><a href="/WIESP/2026/posters">Posters</a></li>
+            
           </ul>
           
         </li>
@@ -268,6 +270,14 @@
         <li>
           
             <a href="/WIESP/2026/committees"><span class="nav__sub-title">Committees</span></a>
+          
+
+          
+        </li>
+      
+        <li>
+          
+            <a href="/WIESP/2026/code_of_conduct"><span class="nav__sub-title">Code of Conduct</span></a>
           
 
           
@@ -331,9 +341,12 @@
   .w26-abstract { margin-top: .35em; }
   .w26-abstract summary { display: inline-block; cursor: pointer; font-size: .75em; color: var(--w26-muted); list-style: none; }
   .w26-abstract summary::-webkit-details-marker { display: none; }
-  .w26-abstract summary::after { content: " +"; }
-  .w26-abstract[open] summary::after { content: " \2212"; }
-  .w26-abstract summary:hover { color: var(--w26-accent); }
+  .w26-abstract__toggle::after { content: " +"; }
+  .w26-abstract[open] .w26-abstract__toggle::after { content: " \2212"; }
+  .w26-abstract__toggle:hover { color: var(--w26-accent); }
+  .w26-abstract__sep { margin: 0 .5em; }
+  .w26-poster-link { color: var(--w26-accent); text-decoration: none; }
+  .w26-poster-link:hover { text-decoration: underline; }
   .w26-abstract p { margin: .5em 0 .2em; padding-left: .9em; border-left: 2px solid var(--w26-line); font-size: .82em; line-height: 1.6; color: #3d4752; overflow-wrap: anywhere; }
 
   /* Keynote cards */
