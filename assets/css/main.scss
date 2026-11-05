@@ -237,3 +237,14 @@ h2 + .news { border-top: 0; }
   b { font-size: 1.9rem; font-weight: 700; line-height: 1.1; letter-spacing: 0; font-variant-numeric: tabular-nums; opacity: 1; }
 }
 @media (max-width: 600px) { .countdown__unit b { font-size: 1.4rem; } }
+
+/* ---------------------------------------------------------------- Shared-task posters gallery (2026/posters.html) */
+
+.posters { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 2em 1.6em; list-style: none; margin: 1.5em 0 2em; padding: 0; }
+.posters .posters__item { margin: 0; }
+.posters .posters__thumb { display: block; border: 1px solid $border-color; border-radius: 4px; overflow: hidden; background: #fff; transition: box-shadow .15s; }
+.posters .posters__thumb:hover { box-shadow: 0 4px 14px rgba(#000, .15); }
+.posters .posters__thumb img { display: block; width: 100%; height: 300px; object-fit: contain; object-position: top; }
+.posters .posters__title { margin: .7em 0 .15em; font-size: $type-size-6; font-weight: 600; line-height: 1.35; a { color: $text-color; text-decoration: none; &:hover { color: $link-color; } } }
+.posters .posters__authors { margin: 0 0 .25em; font-size: $type-size-7; color: $muted-text-color; line-height: 1.4; }
+.posters .posters__links { margin: 0; font-size: $type-size-7; }

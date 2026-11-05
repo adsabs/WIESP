@@ -34,6 +34,8 @@ The Fourth Workshop on Artificial Intelligence for Scientific Publications is he
 - Oral presentations of long and short papers
 - The AstroCLIMB shared task overview and a poster session of system papers
 
+All participants are expected to follow the ACL Anti-Harassment Policy and the IJCNLP-AACL 2026 Code of Conduct; see our [Code of Conduct](code_of_conduct) page.
+
 ## Call for papers
 
 We welcome long and short papers on information extraction, summarisation, retrieval, evaluation, and the responsible use of LLMs across the scientific publishing pipeline. Full details and submission instructions are in the [call for papers](call_for_papers).

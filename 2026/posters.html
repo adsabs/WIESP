@@ -1,0 +1,27 @@
+---
+layout: single
+classes: wide
+title: Shared-Task Posters <br> WASP @ IJCNLP-AACL 2026
+permalink: /2026/posters/
+sidebar:
+  nav: "sidebar2026"
+---
+{%- assign prog = site.data.wasp2026_program -%}
+{%- assign papers = site.data.wasp2026_papers -%}
+
+<p>Posters of the system papers submitted to the <a href="{{ '/2026/shared_task' | relative_url }}">AstroCLIMB shared task</a>,
+presented during the <a href="{{ '/2026/schedule' | relative_url }}#shared-task-posters">poster session</a> on November 10, 2026.
+Click a poster to open the full-resolution PDF.</p>
+
+<ul class="posters">
+  {%- for id in prog.poster_files %}
+  {%- assign p = papers | where: "id", id | first %}
+  {%- capture pdf %}{{ '/assets/2026/posters/poster-' | append: id | append: '.pdf' | relative_url }}{% endcapture %}
+  <li class="posters__item" id="poster-{{ id }}">
+    <a class="posters__thumb" href="{{ pdf }}"><img src="{{ '/assets/2026/posters/poster-' | append: id | append: '.jpg' | relative_url }}" alt="Poster: {{ p.title | escape }}" loading="lazy"></a>
+    <p class="posters__title"><a href="{{ pdf }}">{{ p.title | escape }}</a></p>
+    <p class="posters__authors">{{ p.authors | escape }}</p>
+    <p class="posters__links"><a href="{{ pdf }}">Poster (PDF)</a> · <a href="{{ '/2026/accepted_submissions/' | relative_url }}#paper-{{ id }}">Abstract</a></p>
+  </li>
+  {%- endfor %}
+</ul>

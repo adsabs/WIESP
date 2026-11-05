@@ -54,7 +54,7 @@ toc_label: "Sessions"
 {% endfor %}
 
 <h2 id="shared-task-posters">Shared-Task Poster Session (AstroCLIMB)</h2>
-<p class="program__session-meta">Presented during the lunch and poster block in Session 2 (12:40–13:00 CST).</p>
+<p class="program__session-meta">Presented during the lunch and poster block in Session 2 (12:40–13:00 CST). <a href="{{ '/2026/posters/' | relative_url }}">View the posters →</a></p>
 <ul class="program">
   {%- for id in prog.posters %}
   {%- assign p = papers | where: "id", id | first %}
@@ -63,6 +63,7 @@ toc_label: "Sessions"
     <div class="program__body">
       <a class="program__title" href="{{ '/2026/accepted_submissions/' | relative_url }}#paper-{{ p.id }}">{{ p.title | escape }}</a>
       <span class="program__who">{{ p.authors | escape }}</span>
+      {%- if prog.poster_files contains id %}<a class="program__who" href="{{ '/assets/2026/posters/poster-' | append: id | append: '.pdf' | relative_url }}">Poster (PDF)</a>{% endif %}
     </div>
   </li>
   {%- endfor %}

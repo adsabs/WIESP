@@ -67,6 +67,7 @@ atom_feed:
 # their entries' file path in the `include:` list.
 #
 exclude:
+  - 2026/posters/   # originals as received; the published copies are in assets/2026/posters/
   - README.md
   - .sass-cache/
   - .jekyll-cache/
