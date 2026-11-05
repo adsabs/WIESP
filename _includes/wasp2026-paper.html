@@ -3,8 +3,11 @@
   {%- if include.label %}<span class="w26-paper-label">{{ include.label }}</span>{% endif %}
   <span class="w26-paper-title">{{ p.title | escape }}</span>
   {%- if p.authors and p.authors != "" %}<span class="w26-paper-authors">{{ p.authors | escape }}</span>{% endif %}
+  {%- assign poster_ids = site.data.wasp2026_program.poster_files | default: empty %}
   <details class="w26-abstract">
-    <summary>Abstract</summary>
+    <summary><span class="w26-abstract__toggle">Abstract</span>
+      {%- if poster_ids contains p.id %}<span class="w26-abstract__sep">·</span><a class="w26-poster-link" href="{{ '/assets/2026/posters/poster-' | append: p.id | append: '.pdf' | relative_url }}" target="_blank" rel="noopener">Poster (PDF)</a>{% endif -%}
+    </summary>
     <p>{{ p.abstract | escape }}</p>
   </details>
 </li>

@@ -60,4 +60,7 @@ sessions:
       - { time: "16:20–16:40", kind: closing, title: "Closing Remarks", who: "Atilla Kaan Alkan" }
 
 # AstroCLIMB system papers presented as posters during the lunch block of Session 2.
-posters: [5, 19, 28, 33, 35, 36, 43]
+posters: [5, 8, 18, 19, 20, 28, 33, 35, 36, 43]
+
+# Posters available as PDF (assets/2026/posters/poster-<id>.pdf, preview poster-<id>.jpg), shown on the Posters page.
+poster_files: [5, 8, 18, 19, 20, 33, 35, 36]

@@ -43,12 +43,16 @@ sidebar2026:
       url: /2026/keynote
     - title: "Panel Session"
       url: /2026/panel
+    - title: "Posters"
+      url: /2026/posters
   - title: "Shared Task"
     children:
       - title: "AstroCLIMB: Astronomy Citation Linking from Illustrations: a Multimodal Benchmark"
         url: /2026/shared_task
   - title: "Committees"
     url: /2026/committees
+  - title: "Code of Conduct"
+    url: /2026/code_of_conduct
 
 sidebar2025:
   - title: "WASP 2025"
