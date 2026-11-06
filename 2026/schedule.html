@@ -29,6 +29,7 @@ toc_label: "Sessions"
     {%- when "long" %}{% assign label = "Long paper" %}
     {%- when "short" %}{% assign label = "Short paper" %}
     {%- when "shared_task" %}{% assign label = "Shared task overview" %}
+    {%- when "flash" %}{% assign label = "Flash talks" %}
     {%- when "opening" %}{% assign label = "Opening" %}
     {%- when "closing" %}{% assign label = "Closing" %}
     {%- else %}{% assign label = "" %}
@@ -54,7 +55,7 @@ toc_label: "Sessions"
 {% endfor %}
 
 <h2 id="shared-task-posters">Shared-Task Poster Session (AstroCLIMB)</h2>
-<p class="program__session-meta">Presented during the lunch and poster block in Session 2 (12:40–13:00 CST). <a href="{{ '/2026/posters/' | relative_url }}">View the posters →</a></p>
+<p class="program__session-meta">Each team gives a short flash talk in Session 2 (12:20–12:35 CST); the posters are then presented during the lunch and poster session (12:35–13:35 CST). <a href="{{ '/2026/posters/' | relative_url }}">View the posters →</a></p>
 <ul class="program">
   {%- for id in prog.posters %}
   {%- assign p = papers | where: "id", id | first %}
