@@ -1,9 +1,9 @@
-# WASP 2026 programme (version sent by the organizers on 30 October 2026).
+# WASP 2026 program (version sent by the organizers on 30 October 2026).
 # Items with `paper:` take their title and authors from _data/wasp2026_papers.yml and link to the accepted papers page.
 # kind: opening | keynote | panel | long | short | shared_task | flash | break | closing
 
 date: Tuesday, November 10, 2026
-status: "The programme may be subject to small changes."
+status: "The program may be subject to small changes."
 timezone: "China Standard Time (CST, UTC+8)"
 timezone_note: >-
   All times are China Standard Time (UTC+8), the official time zone of the workshop. Each session also lists its
