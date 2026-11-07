@@ -1,9 +1,9 @@
 # WASP 2026 news, newest first, shown on the 2026 home page and the 2026 Latest News page.
-# `text` accepts Markdown; write site links as paths from the site root, e.g. [Programme](/2026/schedule).
+# `text` accepts Markdown; write site links as paths from the site root, e.g. [Program](/2026/schedule).
 - date: Nov 5, 2026
   text: "The [AstroCLIMB shared-task posters](/2026/posters/) are online."
 - date: Oct 30, 2026
-  text: "The [workshop programme](/2026/schedule) is online: keynotes, panel, oral presentations and the AstroCLIMB poster session on November 10."
+  text: "The [workshop program](/2026/schedule) is online: keynotes, panel, oral presentations and the AstroCLIMB poster session on November 10."
 - date: Oct 21, 2026
   text: "Panel announced: *Easier to Write than to Verify? Generative AI and the Crisis in Scholarly Publishing*. [Read more](/2026/panel/)."
 - date: Oct 20, 2026

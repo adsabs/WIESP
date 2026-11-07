@@ -27,7 +27,7 @@ How can machines read, extract, and structure the knowledge held in the scientif
 
 {% include news.html items=site.data.wasp2026_news %}
 
-The Fourth Workshop on Artificial Intelligence for Scientific Publications is held **fully online** on November 10, 2026, co-located with IJCNLP-AACL 2026. The [programme](schedule) features:
+The Fourth Workshop on Artificial Intelligence for Scientific Publications is held **fully online** on November 10, 2026, co-located with IJCNLP-AACL 2026. The [program](schedule) features:
 
 - Two [keynote talks](keynote), by Jessy Li and Pavlos Protopapas
 - A [panel discussion](panel) on generative AI and the crisis in scholarly publishing
