@@ -35,7 +35,13 @@ toc_label: "Sessions"
     {%- else %}{% assign label = "" %}
   {%- endcase %}
   <li class="program__item program__item--{{ it.kind }}">
-    <span class="program__time">{{ it.time }}</span>
+    <span class="program__time">{{ it.time }}
+      <span class="program__tz-alt">
+        {%- include program-tz.html time=it.time off=13 zone="ET" -%}
+        {%- include program-tz.html time=it.time off=7 zone="CET" -%}
+        {%- include program-tz.html time=it.time off=16 zone="PT" -%}
+      </span>
+    </span>
     <div class="program__body">
       {%- if label != "" %}<span class="program__label">{{ label }}</span>{% endif %}
       {%- if p %}
