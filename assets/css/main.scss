@@ -193,8 +193,12 @@ h2 + .news { border-top: 0; }
 
 .program { list-style: none; margin: 0 0 2em; padding: 0; border-top: 1px solid $border-color; }
 .program .program__item { display: flex; gap: 1.5em; margin: 0; padding: .75em 0; border-bottom: 1px solid $border-color; }
-.program .program__time { flex: 0 0 7.5em; font-size: $type-size-6; font-weight: 600; font-variant-numeric: tabular-nums; color: $muted-text-color; line-height: 1.7; }
+.program .program__time { flex: 0 0 9.5em; font-size: $type-size-6; font-weight: 600; font-variant-numeric: tabular-nums; color: $muted-text-color; line-height: 1.7; }
 .program .program__body { flex: 1; min-width: 0; }
+.program .program__tz-alt { display: block; margin-top: .15em; font-size: .78em; font-weight: 400; line-height: 1.45; color: $muted-text-color; }
+.program .program__tz-line { display: block; white-space: nowrap; }
+.program .program__tz-line abbr { display: inline-block; min-width: 2.2em; font-weight: 600; text-decoration: none; }
+.program .program__tz-day { font-size: .9em; opacity: .85; }
 .program .program__label { display: block; font-size: $type-size-7; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: $primary-color; }
 .program .program__title { display: block; font-weight: 600; line-height: 1.4; text-decoration: none; }
 .program .program__title { color: $text-color; }
@@ -207,6 +211,7 @@ h2 + .news { border-top: 0; }
 @media (max-width: 600px) {
   .program .program__item { flex-direction: column; gap: .1em; }
   .program .program__time { flex-basis: auto; }
+  .program .program__tz-alt { display: flex; flex-wrap: wrap; gap: 0 1em; }
 }
 
 /* ---------------------------------------------------------------- Live deadline countdown in the header (_includes/countdown.html) */

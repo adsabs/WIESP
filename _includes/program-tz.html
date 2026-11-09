@@ -1,0 +1,16 @@
+{%- comment -%}
+  Converts a CST (UTC+8) slot on Nov 10, e.g. "09:00–09:10", to another zone.
+  Params: time (CST range), off (hours behind CST), zone (label). Adds the day when it is Nov 9.
+{%- endcomment -%}
+{%- assign ends = include.time | split: "–" -%}
+{%- assign out = "" -%}{%- assign days = "" -%}
+{%- for t in ends -%}
+  {%- assign hm = t | strip | split: ":" -%}
+  {%- assign h = hm[0] | plus: 0 | minus: include.off -%}
+  {%- assign d = "10" -%}
+  {%- if h < 0 %}{% assign h = h | plus: 24 %}{% assign d = "9" %}{% endif -%}
+  {%- capture hh %}0{{ h }}{% endcapture %}{% assign hh = hh | slice: -2, 2 -%}
+  {%- if forloop.first %}{% assign out = hh | append: ":" | append: hm[1] %}{% assign d1 = d %}{% else %}{% assign out = out | append: "–" | append: hh | append: ":" | append: hm[1] %}{% assign d2 = d %}{% endif -%}
+{%- endfor -%}
+{%- if d1 == "9" and d2 == "9" %}{% assign days = " (Nov 9)" %}{% elsif d1 == "9" %}{% assign days = " (Nov 9–10)" %}{% endif -%}
+<span class="program__tz-line"><abbr>{{ include.zone }}</abbr> {{ out }}<span class="program__tz-day">{{ days }}</span></span>
