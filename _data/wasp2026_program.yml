@@ -64,4 +64,4 @@ sessions:
 posters: [5, 8, 18, 19, 20, 28, 33, 35, 36, 43]
 
 # Posters available as PDF (assets/2026/posters/poster-<id>.pdf, preview poster-<id>.jpg), shown on the Posters page.
-poster_files: [5, 8, 18, 19, 20, 33, 35, 36]
+poster_files: [5, 8, 18, 19, 20, 33, 35, 36, 43]
