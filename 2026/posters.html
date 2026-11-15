@@ -21,7 +21,7 @@ Click a poster to open the full-resolution PDF.</p>
     <a class="posters__thumb" href="{{ pdf }}"><img src="{{ '/assets/2026/posters/poster-' | append: id | append: '.jpg' | relative_url }}" alt="Poster: {{ p.title | escape }}" loading="lazy"></a>
     <p class="posters__title"><a href="{{ pdf }}">{{ p.title | escape }}</a></p>
     <p class="posters__authors">{{ p.authors | escape }}</p>
-    <p class="posters__links"><a href="{{ pdf }}">Poster (PDF)</a> · <a href="{{ '/2026/accepted_submissions/' | relative_url }}#paper-{{ id }}">Abstract</a></p>
+    <p class="posters__links"><a href="{{ pdf }}">Poster (PDF)</a> · {% if p.anthology %}<a href="https://aclanthology.org/{{ p.anthology }}/">Paper (ACL Anthology)</a> · {% endif %}<a href="{{ '/2026/accepted_submissions/' | relative_url }}#paper-{{ id }}">Abstract</a></p>
   </li>
   {%- endfor %}
 </ul>
