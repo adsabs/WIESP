@@ -1,7 +1,7 @@
 {%- assign p = include.paper -%}
 <li id="paper-{{ p.id }}">
   {%- if include.label %}<span class="w26-paper-label">{{ include.label }}</span>{% endif %}
-  <span class="w26-paper-title">{{ p.title | escape }}</span>
+  {%- if p.anthology %}<a class="w26-paper-title" href="https://aclanthology.org/{{ p.anthology }}/">{{ p.title | escape }}</a>{% else %}<span class="w26-paper-title">{{ p.title | escape }}</span>{% endif %}
   {%- if p.authors and p.authors != "" %}<span class="w26-paper-authors">{{ p.authors | escape }}</span>{% endif %}
   {%- assign poster_ids = site.data.wasp2026_program.poster_files | default: empty %}
   <details class="w26-abstract">

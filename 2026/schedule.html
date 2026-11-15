@@ -45,7 +45,7 @@ toc_label: "Sessions"
     <div class="program__body">
       {%- if label != "" %}<span class="program__label">{{ label }}</span>{% endif %}
       {%- if p %}
-      <a class="program__title" href="{{ '/2026/accepted_submissions/' | relative_url }}#paper-{{ p.id }}">{{ p.title | escape }}</a>
+      <a class="program__title" href="{% if p.anthology %}https://aclanthology.org/{{ p.anthology }}/{% else %}{{ '/2026/accepted_submissions/' | relative_url }}#paper-{{ p.id }}{% endif %}">{{ p.title | escape }}</a>
       <span class="program__who">{{ p.authors | escape }}</span>
       {%- elsif it.url %}
       {%- assign c0 = it.url | slice: 0 %}<a class="program__title" href="{% if c0 == '#' %}{{ it.url }}{% else %}{{ it.url | relative_url }}{% endif %}">{{ it.title | escape }}</a>
@@ -68,7 +68,7 @@ toc_label: "Sessions"
   <li class="program__item program__item--poster">
     <span class="program__time">Poster</span>
     <div class="program__body">
-      <a class="program__title" href="{{ '/2026/accepted_submissions/' | relative_url }}#paper-{{ p.id }}">{{ p.title | escape }}</a>
+      <a class="program__title" href="{% if p.anthology %}https://aclanthology.org/{{ p.anthology }}/{% else %}{{ '/2026/accepted_submissions/' | relative_url }}#paper-{{ p.id }}{% endif %}">{{ p.title | escape }}</a>
       <span class="program__who">{{ p.authors | escape }}</span>
       {%- if prog.poster_files contains id %}<a class="program__who" href="{{ '/assets/2026/posters/poster-' | append: id | append: '.pdf' | relative_url }}">Poster (PDF)</a>{% endif %}
     </div>
