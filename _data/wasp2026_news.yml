@@ -1,7 +1,7 @@
 # WASP 2026 news, newest first, shown on the 2026 home page and the 2026 Latest News page.
 # `text` accepts Markdown; write site links as paths from the site root, e.g. [Program](/2026/schedule).
 - data: Nov 9, 2026
-  text: "Proceedings are available [here](https://aclanthology.org/volumes/2026.wasp-1/)
+  text: "Proceedings are available [here](https://aclanthology.org/volumes/2026.wasp-1/)"
 - date: Nov 5, 2026
   text: "The [AstroCLIMB shared-task posters](/2026/posters/) are online."
 - date: Oct 30, 2026
